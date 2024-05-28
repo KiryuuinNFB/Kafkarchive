@@ -4,6 +4,11 @@ html, body {
     padding: 0;
 }
 
+::selection {
+    background: #d4a028;
+    color: #1f0e16;
+  }
+
 ::-webkit-scrollbar {
     width: 6px;
     -webkit-transition: 0.5s;
@@ -33,6 +38,10 @@ html, body {
     padding: 5px;
 }
 
+.logo1 {
+    margin-left: 10px;
+}
+
 .bottom {
     display: flex;
     flex-direction: row;
@@ -59,6 +68,20 @@ html, body {
 .bottomtext {
     font-family: Sarabun, Arial;
     color: #ffffff;
+    text-decoration: none;
+}
+
+.bottomtextlink {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-family: Sarabun, Arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bottomtextlink:hover {
+    font-family: Sarabun, Arial;
+    color: #d4a028;
     text-decoration: none;
 }
 
@@ -158,6 +181,16 @@ html, body {
 }
 
 .smallaboutcontent {
+    font-family: Sarabun, Arial;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.smallaboutcontentlink {
+    text-decoration: none;
+    font-family: Sarabun, Arial;
+    color: #ffffff;
     font-size: 16px;
     line-height: 1.8;
 }
