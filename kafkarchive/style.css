@@ -6,6 +6,8 @@ html, body {
 
 ::-webkit-scrollbar {
     width: 6px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
 
 ::-webkit-scrollbar-track {
@@ -15,8 +17,7 @@ html, body {
   ::-webkit-scrollbar-thumb {
     background: #260f1a;
     border-radius: 2px;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    
   }
 
   ::-webkit-scrollbar-thumb:hover {
@@ -45,6 +46,28 @@ html, body {
     padding: 5px;
     margin-left: 100px;
     margin-top: 20px;
+}
+
+.bottomstuff2 {
+    font-family: Sarabun, Arial;
+    color: #ffffff;
+    padding: 5px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.bottomtext {
+    font-family: Sarabun, Arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bottomtext2 {
+    font-family: Sarabun, Arial;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px;
 }
 
 .buttons {
