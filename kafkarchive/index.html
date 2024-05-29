@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Kafkarchive</title>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="resources/kafkamommy.png"type="image/x-icon">
@@ -14,9 +15,10 @@
     <header class="top">
         <a href="https://github.com/KiryuuinNFB/Kafkarchive"><img class="logo1" src="resources/logo2.png" height="60"></a>
         
-        <form class="search-bar">
-            <input class="search1" type="text">
-            <input class="search2" type="submit" value="Search">
+        <form class="search-bar" name="searchbar" onsubmit="return searching()">
+            
+            <input class="search1" type="text" name="searchcontent" id="searchbar1">
+            <input class="search2" type="submit" value="Search" name="searchsubmit">
         </form>
         <div class="buttons">
             <a class="top-button" href="#">Builds</a>
@@ -39,32 +41,39 @@
     <div>
         <p class="smallaboutcontent">
             <a href="https://github.com/KiryuuinNFB" target="_blank" class="smallaboutcontentlink">Kiryuuin</a>
-             | Lead developer 
+             | Lead developer, Web designer (the guy typing all of this)
         </p>
         <p class="smallaboutcontent">
             <a href="https://github.com/Ranviee0" target="_blank" class="smallaboutcontentlink">Ranvie</a>
-             | Back end
+             | Back end developer, Tech support
         </p>
         <p class="smallaboutcontent">
             <a href="https://www.youtube.com/watch?v=GtL1huin9EE" target="_blank" class="smallaboutcontentlink">Zkung</a>
-             | Mathematician  
+             | Mathematician, Hardcore HSR player
+        </p>
+        <p class="smallaboutcontent">
+            <a href="https://github.com/PHOT00736A2" target="_blank" class="smallaboutcontentlink">PHOT007</a>
+             | Mathematician, Hardcore HSR player
         </p>
     </div>
     <h2 class="smallabout">FAQ</h2>
     <div>
         <h3>Q | Why Kafka?</h3>
-        <p class="smallaboutcontent">A | Because i like Kafka. Thats all.
+        <p class="smallaboutcontent">A | Because I like Kafka. Thats all.
         </p>
         <h3>Q | There are already a lot of websites like this. Why even make Kafkarchive?</h3>
-        <p class="smallaboutcontent">A | Its for me to practice programming a Lorem ipsum dolor sit amet
+        <p class="smallaboutcontent">A | It's for me to practice programming. This is my first ever website and if it works, I am happy.
         </p>
-        <h3>Q | How can i support the development of this website?</h3>
-        <p class="smallaboutcontent">A | You can support the website by giving me a hug. No, Seriously i need it so bad. My mental health is dying 
+        <h3>Q | How can I support the development of this website?</h3>
+        <p class="smallaboutcontent">A | You can support the website not by donating but just by giving me a hug. No, Seriously i need it so bad. 
+            My mental health isn't very good at all. Halfway into designing this website i realized just how little i know about the game mechanics. 
+            And the fact that a lot of players have already made much better and more practical websites just demotivates me. When I first started designing this website
+            I didn't even know any JavaScript or HTML. What am I supposed to do now. Kafka please hug me.
         </p>
     </div>
     <div class="emptyspace">
-
     </div>
+    
     </div>
     <footer class="bottom">
         <div class="bottomstuff1">
