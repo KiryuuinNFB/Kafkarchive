@@ -87,8 +87,18 @@ html, body {
 }
 
 .bottomtext2 {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
     font-family: Sarabun, Arial;
     color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.bottomtext2:hover {
+    font-family: Sarabun, Arial;
+    color: #d4a028;
     text-decoration: none;
     font-weight: 600;
     margin: 20px;

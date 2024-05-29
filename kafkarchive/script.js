@@ -7,7 +7,7 @@ function searching() {
         alert("ඞ");
         return false;
     } else {
-        window.open("https://www.google.com/search?q="+cont, '_blank');
+        window.open("https://www.google.com/search?q="+ cont, '_blank');
         return false;
     }
 }
