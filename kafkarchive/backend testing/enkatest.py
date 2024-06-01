@@ -7,10 +7,8 @@ userid = input("Enter your UID: ")
 async def main() -> None:
     async with enka.HSRClient("en", headers={"Kiryuuin":"testing"}) as client:
         fetched = await client.fetch_showcase(userid)
-
         print("Name ",fetched.player.nickname)
         print("Level ",fetched.player.level)
-
         for character in fetched.characters:
             fetchedlist = {}
             fetchedlist.update({"Character": character.name })
@@ -24,8 +22,15 @@ async def main() -> None:
 
 
             for relic in character.relics:
+                relictype = ["Head","Hands","Body","Feet","Planar Sphere","Link Rope"]
                 mainstat = relic.main_stat
-                fetchedlist.update({relic.set_name + " " + str(relic.type) + " " + mainstat.name: mainstat.formatted_value})
+                fetchedlist.update({relictype[relic.type-1]:relic.set_name})
+                fetchedlist.update({relictype[relic.type-1] + " " + mainstat.name: mainstat.formatted_value})
+                substatnum = 0
+
+                for substats in relic.sub_stats:
+                    substatnum = substatnum + 1
+                    fetchedlist.update({substats.name + " " + relictype[relic.type-1] + " "+ str(substatnum): substats.formatted_value})
             
             print(json.dumps(fetchedlist, indent=4, sort_keys=False))
 
