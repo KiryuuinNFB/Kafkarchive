@@ -35,7 +35,7 @@ async def main() -> None:
             spdtrace = {}
 
             traceval = {}
-
+            """
             yattaapi = yatta.YattaAPI(headers={"Kiryuuin":"testing for a school project website"})
             await yattaapi.start()
             fromyatta = await yattaapi.fetch_character_detail(character.id)
@@ -55,7 +55,7 @@ async def main() -> None:
                         spdtrace.update({yattatrace.id:float(traceval[yattatrace.id])})
             
             await yattaapi.close()
-                      
+            """
             fetchedlist.update({"Character": character.name })
             for stat in character.stats:
                 fetchedlist.update({stat.name: stat.formatted_value })
@@ -114,7 +114,7 @@ async def main() -> None:
                         flat_spd.append(float(substats.formatted_value))
             
                 #working on it, im having a brain aneurysm
-            
+            """
             tracetype = ["STAT","SKILL","TALENT"]
             charatraces = {}
 
@@ -127,22 +127,22 @@ async def main() -> None:
                 if traceid.type-1 == 0:
                     charatraces.update({tracetype[traceid.type-1]: traceid.id})
 
-                    if charatraces["traceid.id"] in hptrace:
+                    if charatraces[traceid.id] in hptrace:
                         try:
                             chara_hp_trace.append(float(hptrace))
                         except KeyError:
                             raise
-                    elif charatraces["traceid.id"] in atktrace:
+                    elif charatraces[traceid.id] in atktrace:
                         try:
                             chara_atk_trace.append(float(atktrace))
                         except KeyError:
                             raise
-                    elif charatraces["traceid.id"] in deftrace:
+                    elif charatraces[traceid.id] in deftrace:
                         try:
                             chara_def_trace.append(float(deftrace))
                         except KeyError:
                             raise
-                    elif charatraces["traceid.id"] in spdtrace:
+                    elif charatraces[traceid.id] in spdtrace:
                         try:
                             chara_spd_trace.append(float(spdtrace))
                         except KeyError:
@@ -193,6 +193,6 @@ async def main() -> None:
             calculated_spd = (float(fetchedlist["SPD"])) * (1+summed_spd_percent/100) + summed_flat_spd
             print(f"Calculated SPD: {calculated_spd}")
             print(json.dumps(fetchedlist, indent=4, sort_keys=False))
-            """
+            
 
 asyncio.run(main())
