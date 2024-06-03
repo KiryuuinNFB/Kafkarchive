@@ -1,6 +1,6 @@
 import enka
 import asyncio
-import json
+#import json
 import yatta
 
 userid = input("Enter your UID: ")
@@ -35,7 +35,7 @@ async def main() -> None:
             spdtrace = {}
 
             traceval = {}
-            """
+            
             yattaapi = yatta.YattaAPI(headers={"Kiryuuin":"testing for a school project website"})
             await yattaapi.start()
             fromyatta = await yattaapi.fetch_character_detail(character.id)
@@ -55,7 +55,7 @@ async def main() -> None:
                         spdtrace.update({yattatrace.id:float(traceval[yattatrace.id])})
             
             await yattaapi.close()
-            """
+            
             fetchedlist.update({"Character": character.name })
             for stat in character.stats:
                 fetchedlist.update({stat.name: stat.formatted_value })
@@ -113,9 +113,9 @@ async def main() -> None:
                     elif substats.name == "SPD" and substats.is_percentage==False:
                         flat_spd.append(float(substats.formatted_value))
             
-                #working on it, im having a brain aneurysm
-            """
-            tracetype = ["STAT","SKILL","TALENT"]
+            
+            
+            #tracetype = ["STAT","SKILL","TALENT"]
             charatraces = {}
 
             chara_hp_trace = []
@@ -123,37 +123,23 @@ async def main() -> None:
             chara_def_trace = []
             chara_spd_trace = []
 
+            
+
             for traceid in character.traces:
                 if traceid.type-1 == 0:
-                    charatraces.update({tracetype[traceid.type-1]: traceid.id})
-
-                    if charatraces[traceid.id] in hptrace:
-                        try:
-                            chara_hp_trace.append(float(hptrace))
-                        except KeyError:
-                            raise
-                    elif charatraces[traceid.id] in atktrace:
-                        try:
-                            chara_atk_trace.append(float(atktrace))
-                        except KeyError:
-                            raise
-                    elif charatraces[traceid.id] in deftrace:
-                        try:
-                            chara_def_trace.append(float(deftrace))
-                        except KeyError:
-                            raise
+                    charatraces.update({traceid.id: traceid.id})
+                    if charatraces[traceid.id] in hptrace:                       
+                        chara_hp_trace.append((hptrace[traceid.id]))
+                    elif charatraces[traceid.id] in atktrace:                       
+                        chara_atk_trace.append((atktrace[traceid.id]))                      
+                    elif charatraces[traceid.id] in deftrace:                        
+                        chara_def_trace.append((deftrace[traceid.id]))
                     elif charatraces[traceid.id] in spdtrace:
-                        try:
-                            chara_spd_trace.append(float(spdtrace))
-                        except KeyError:
-                            raise
+                        chara_spd_trace.append((spdtrace[traceid.id]))
+                        
                     #print(json.dumps(charatraces, indent=4, sort_keys=False))
-            print(chara_hp_trace)
-            print(chara_atk_trace)
-            print(chara_def_trace)
-            print(chara_spd_trace)
             
-            """
+            
             
             summed_hp_percent = sum(hp_percent)
             summed_flat_hp = int(sum(flat_hp))
@@ -167,32 +153,35 @@ async def main() -> None:
             summed_spd_percent = sum(spd_percent)
             summed_flat_spd = float(sum(flat_spd))
 
-            
-            
+            summed_trace_hp = sum(chara_hp_trace)
+            summed_trace_atk = sum(chara_atk_trace)
+            summed_trace_def = sum(chara_def_trace)
+            summed_trace_spd = sum(chara_spd_trace)
+
             #please fetch traces data. already did
             print("==========================")
             print(character.name)
             #print(spd_percent)
 
             #BASE HP*(1+SUM HP%)+SUM FLAT HP 
-            calculated_hp = (int(fetchedlist["Base HP"])) * (1+(summed_hp_percent/100)) + summed_flat_hp
+            calculated_hp = int((int(fetchedlist["Base HP"])) * (1+(summed_hp_percent/100)+summed_trace_hp) + summed_flat_hp)
             print(f"HP: {int(fetchedlist["HP"])}")
             print(f"Calculated HP: {calculated_hp}")
             print(f"ΔHP:{(int(fetchedlist["HP"])) - calculated_hp}")
             #BASE ATK*(1+SUM ATK%)+SUM FLAT ATK
-            calculated_atk = (int(fetchedlist["Base ATK"])) * (1+(summed_atk_percent/100)) + summed_flat_atk
+            calculated_atk = int((int(fetchedlist["Base ATK"])) * (1+(summed_atk_percent/100)+summed_trace_atk) + summed_flat_atk)
             print(f"ATK: {int(fetchedlist["ATK"])}")
             print(f"Calculated ATK: {calculated_atk}")
             print(f"ΔATK:{(int(fetchedlist["ATK"])) - calculated_atk}")
             #BASE DEF*(1+SUM DEF%)+SUM FLAT DEF
-            calculated_def = (int(fetchedlist["Base DEF"])) * (1+(summed_def_percent/100)) + summed_flat_def
+            calculated_def = int((int(fetchedlist["Base DEF"])) * (1+(summed_def_percent/100)+summed_trace_def) + summed_flat_def)
             print(f"DEF: {int(fetchedlist["DEF"])}")
             print(f"Calculated DEF: {calculated_def}")
             print(f"ΔDEF:{(int(fetchedlist["DEF"])) - calculated_def}")
             #BASE SPD*(1+SUM SPD%)+SUM FLAT SPD
-            calculated_spd = (float(fetchedlist["SPD"])) * (1+summed_spd_percent/100) + summed_flat_spd
+            calculated_spd = round((float(fetchedlist["SPD"])) * (1+(summed_spd_percent/100)) + summed_flat_spd + summed_trace_spd,2)
             print(f"Calculated SPD: {calculated_spd}")
-            print(json.dumps(fetchedlist, indent=4, sort_keys=False))
+            #print(json.dumps(fetchedlist, indent=4, sort_keys=False))
             
 
 asyncio.run(main())
