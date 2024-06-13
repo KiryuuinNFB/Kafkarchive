@@ -45,27 +45,25 @@ async def fetch() -> None:
 
             important_char_info.update({"===================relic=====":"=====relic=============="})
             relictype = ["Head","Hands","Body","Feet","Planar Sphere","Link Rope"]
+            print(char.name)
             for relic in char.relics:
-                important_char_info.update({relictype[relic.type-1]:relic.set_id})
-                if relic.main_stat.is_percentage == True:
-                    important_char_info.update({relictype[relic.type-1] + " main " + relic.main_stat.name + "%":round(relic.main_stat.value, 3)})
-                else:
-                    important_char_info.update({relictype[relic.type-1] + " main " + relic.main_stat.name:round(relic.main_stat.value, 3)})
-                for substats in relic.sub_stats:
-                    if relic.main_stat.is_percentage == True:
-                        important_char_info.update({relictype[relic.type-1] + " sub " +substats.name + "%":round(substats.value, 3)})
-                    else:
-                        important_char_info.update({relictype[relic.type-1] + " sub " + substats.name:round(substats.value, 3)})
-
+                
+                print(relictype[relic.type-1]) 
+                print(relic.set_name)
+                print(relic.main_affix_id)
+                print(relic.sub_affix_list)
+                
+                #important_char_info.update({relic.id:" "})
+                #important_char_info.update({relic.set_id:" "})
             
                     
-                
-            print(json.dumps(important_char_info, indent=4, sort_keys=False))
+            return important_char_info
+            #print(json.dumps(important_char_info, indent=4, sort_keys=False))
         
-#if __name__ == '__main__':
-while retry.lower() == "y":
-    asyncio.run(fetch())
-    retry = input("again? [Y/N] :")
-    if retry.lower() == "n":
-        print("bye lol")
-        break
+if __name__ == '__main__':
+    while retry.lower() == "y":
+        asyncio.run(fetch())
+        retry = input("again? [Y/N] :")
+        if retry.lower() == "n":
+            print("bye lol")
+            break
