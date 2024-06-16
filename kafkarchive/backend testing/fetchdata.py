@@ -16,8 +16,8 @@ async def fetch() -> None:
             return print("wrong uid format lol")
         except enka.errors.GameMaintenanceError:
             return print("game is in maintenance go touch grass lol")
-        print(f"Player name : {fetched.player.nickname}")
-        print(f"Player level : {fetched.player.level}")
+        #print(f"Player name : {fetched.player.nickname}")
+        #print(f"Player level : {fetched.player.level}")
         
         for char in fetched.characters:
             important_char_info = {}
@@ -45,25 +45,25 @@ async def fetch() -> None:
 
             important_char_info.update({"===================relic=====":"=====relic=============="})
             relictype = ["Head","Hands","Body","Feet","Planar Sphere","Link Rope"]
-            print(char.name)
             for relic in char.relics:
                 
-                print(relictype[relic.type-1]) 
-                print(relic.set_name)
-                print(relic.main_affix_id)
-                print(relic.sub_affix_list)
+                #print(relictype[relic.type-1]) 
+                #print(relic.set_name)
+                #print(relic.main_affix_id)
+                #print(relic.sub_affix_list)
                 
-                #important_char_info.update({relic.id:" "})
-                #important_char_info.update({relic.set_id:" "})
-            
+                important_char_info.update({relictype[relic.type-1]:relic.set_id})
+                important_char_info.update({relictype[relic.type-1] + " type":str(relic.rarity) + str(relic.type)})
+                
+                
                     
-            return important_char_info
-            #print(json.dumps(important_char_info, indent=4, sort_keys=False))
+            #return important_char_info
+            print(json.dumps(important_char_info, indent=4, sort_keys=False))
         
-if __name__ == '__main__':
-    while retry.lower() == "y":
-        asyncio.run(fetch())
-        retry = input("again? [Y/N] :")
-        if retry.lower() == "n":
-            print("bye lol")
-            break
+#if __name__ == '__main__':
+while retry.lower() == "y":
+    asyncio.run(fetch())
+    retry = input("again? [Y/N] :")
+    if retry.lower() == "n":
+        print("bye lol")
+        break
