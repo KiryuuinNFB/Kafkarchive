@@ -1,7 +1,2 @@
-dictlol = {
-    "name":"pun",
-    "sex":"gay",
-    "height": 5
-}
-
-print(dictlol)
+for i in range(38):
+    print(i+1)

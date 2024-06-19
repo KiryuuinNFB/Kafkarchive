@@ -1,5 +1,4 @@
 from fetchdata import fetch
-import yatta
 import asyncio
 import json
 
@@ -7,9 +6,6 @@ retry = "y"
 
 async def main() -> None:
     enkafetched = await fetch()
-    #async with yatta.YattaAPI(headers=({"Kiryuuin":"rewriting the spaghetti code"})) as clienty:
-    #    yattafetched = await clienty.fetch_relic_set_detail(116)
-        #print(json.dumps(yattafetched, indent=4, sort_keys=False))
     print(json.dumps(enkafetched, indent=4, sort_keys=False))
 
 if __name__ == '__main__':
