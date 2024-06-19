@@ -15,3 +15,9 @@ if __name__ == '__main__':
         if retry.lower() == "n":
             print("bye lol")
             break
+
+"""
+the main file.
+
+will order other files to get build infos and game data, look up values using wrapper and output the calculated stats
+"""

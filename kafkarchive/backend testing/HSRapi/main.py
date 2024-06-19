@@ -1,4 +1,4 @@
-from amogus import amogus_relicmain_database
+from amogus import *
 import asyncio
 
 async def main():
@@ -11,3 +11,8 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
+"""
+this is not the main backend file. this is the main file for the wrapper. import this file to the main backend file.
+this file will get input such as character info, relic info, lc info and returns their values    
+"""

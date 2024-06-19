@@ -34,5 +34,5 @@ if __name__ == '__main__':
     asyncio.run(amogus_relicmain_database())
 
 """
-please fix all of this. even if it means having another spaghetti code. but if it runs, it runs.
+this file looks up game data
 """

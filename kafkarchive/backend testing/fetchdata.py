@@ -54,6 +54,9 @@ async def fetch() -> None:
                 
                 important_char_info.update({relictype[relic.type-1]:relic.set_id})
                 important_char_info.update({relictype[relic.type-1] + " type":str(relic.rarity) + str(relic.type)})
+                """
+                make it somehow return substats info idk how
+                """
                 
                 
                     
@@ -67,3 +70,9 @@ while retry.lower() == "y":
     if retry.lower() == "n":
         print("bye lol")
         break
+
+
+"""
+this file input is uid
+output is character info, relic info, light cone info
+"""
