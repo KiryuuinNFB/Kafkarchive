@@ -7,7 +7,7 @@ retry = "y"
 exportdict = {}
 
 async def fetch() -> None:
-    async with enka.HSRClient(headers=({"Kiryuuin":"rewriting the spaghetti code"})) as client:
+    async with enka.HSRClient(headers=({"Kiryuuin":"school project website lmao"})) as client:
         userid = input("Please enter your UID : ")
 
         try:
@@ -23,39 +23,48 @@ async def fetch() -> None:
         
         for char in fetched.characters:
             important_char_info = {}
-
-            important_char_info.update({"Char name":char.name})
-            important_char_info.update({"Char lvl":char.level})
-            important_char_info.update({"Char asc":char.ascension})
-            important_char_info.update({"Char id":char.id})
+            chardict = dict(id = char.id,
+                            name = char.name,
+                            level = char.level,
+                            ascension = char.ascension
+                            )
+            important_char_info.update({"Character": chardict})
 
             lc = char.light_cone
             if lc is not None:
-                important_char_info.update({"Light cone id":lc.id})
-                important_char_info.update({"Light cone lvl":lc.level})
-                important_char_info.update({"Light cone asc":lc.ascension})
+                lcdict = dict(id = lc.id,
+                              name = lc.name,
+                              level = lc.level,
+                              ascension = lc.ascension)
+                important_char_info.update({"Light cone": lcdict})
             else:
-                important_char_info.update({"Light cone name":"Not equipped"})
-                important_char_info.update({"Light cone lvl":0})
+                important_char_info.update({"Light cone": None})
 
-            important_char_info.update({"===================traces=====":"=====traces=============="})
             chartrace = []
             for trace in char.traces:
                 if trace.type-1 == 0:
                     chartrace.append(trace.id)
                 important_char_info.update({"Traces list": chartrace})
-
-            important_char_info.update({"===================relic=====":"=====relic=============="})
             relictype = ["Head","Hands","Body","Feet","Planar Sphere","Link Rope"]
+            dict_of_relics = {}
             for relic in char.relics:
+
                 
-                #print(relictype[relic.type-1]) 
-                #print(relic.set_name)
-                #print(relic.main_affix_id)
-                #print(relic.sub_affix_list)
+                relic_individ_dict = dict(setid = relic.set_id,
+                                 setname = relic.set_name,
+                                 level = relic.level,
+                                 type = str(relic.rarity) + str(relic.type),
+                                 rarity = str(relic.rarity),
+                                 subaffix = relic.sub_affix_list)
+                """
+                do something with sub_affix_list
+                was going to continue programming but enka api is down and im sleepy
+                """
+
+                dict_of_relics.update({relictype[relic.type-1]: relic_individ_dict})
                 
-                important_char_info.update({relictype[relic.type-1]:relic.set_id})
-                important_char_info.update({relictype[relic.type-1] + " type":str(relic.rarity) + str(relic.type)})
+                important_char_info.update({"Relics":dict_of_relics})
+                
                 """
                 make it somehow return substats info idk how
                 """
@@ -63,18 +72,6 @@ async def fetch() -> None:
             exportdict.update({char.id:important_char_info})
         return exportdict
             #print(json.dumps(important_char_info, indent=4, sort_keys=False))
-
-""" 
-if __name__ == '__main__':
-    while retry.lower() == "y":
-        asyncio.run(fetch())
-        retry = input("again? [Y/N] :")
-        if retry.lower() == "n":
-            print("bye lol")
-            break
-
-"""
-
 
 """
 this file input is uid

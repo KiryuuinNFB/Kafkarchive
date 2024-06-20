@@ -1,3 +1,1 @@
-hmm = "amogus sex"
-
-print(hmm[0:10])
+#this file is for testing lol
