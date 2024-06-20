@@ -7,15 +7,12 @@ retry = "y"
 async def main() -> None:
     enkafetched = await fetch()
     if enkafetched is not None:
-    #print(enkafetched)
+
         print(json.dumps(enkafetched, indent=4, sort_keys=False))
     else:
         print("Enka API failed to fetch data")
-    #format the data better
-    #nested dict
-
-
-
+    
+    
 if __name__ == '__main__':
     while retry.lower() == "y":
         asyncio.run(main())

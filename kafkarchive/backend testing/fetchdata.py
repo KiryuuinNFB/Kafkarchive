@@ -1,6 +1,4 @@
 import enka
-import asyncio
-import json
 
 retry = "y"
 
@@ -49,13 +47,13 @@ async def fetch() -> None:
             dict_of_relics = {}
             for relic in char.relics:
 
-                
+                #print(relic.main_affix_id)
                 relic_individ_dict = dict(setid = relic.set_id,
                                  setname = relic.set_name,
                                  level = relic.level,
                                  type = str(relic.rarity) + str(relic.type),
                                  rarity = str(relic.rarity),
-                                 subaffix = relic.sub_affix_list)
+                                 mainstat = str(relic.main_affix_id))
                 """
                 do something with sub_affix_list
                 was going to continue programming but enka api is down and im sleepy
@@ -71,7 +69,6 @@ async def fetch() -> None:
                 
             exportdict.update({char.id:important_char_info})
         return exportdict
-            #print(json.dumps(important_char_info, indent=4, sort_keys=False))
 
 """
 this file input is uid
