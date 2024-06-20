@@ -6,7 +6,12 @@ retry = "y"
 
 async def main() -> None:
     enkafetched = await fetch()
+    #print(enkafetched)
     print(json.dumps(enkafetched, indent=4, sort_keys=False))
+    #format the data better
+    #nested dict
+
+
 
 if __name__ == '__main__':
     while retry.lower() == "y":

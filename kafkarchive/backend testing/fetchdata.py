@@ -4,6 +4,8 @@ import json
 
 retry = "y"
 
+exportdict = {}
+
 async def fetch() -> None:
     async with enka.HSRClient(headers=({"Kiryuuin":"rewriting the spaghetti code"})) as client:
         userid = input("Please enter your UID : ")
@@ -58,18 +60,20 @@ async def fetch() -> None:
                 make it somehow return substats info idk how
                 """
                 
-                
-                    
-            #return important_char_info
-            print(json.dumps(important_char_info, indent=4, sort_keys=False))
-        
-#if __name__ == '__main__':
-while retry.lower() == "y":
-    asyncio.run(fetch())
-    retry = input("again? [Y/N] :")
-    if retry.lower() == "n":
-        print("bye lol")
-        break
+            exportdict.update({char.id:important_char_info})
+        return exportdict
+            #print(json.dumps(important_char_info, indent=4, sort_keys=False))
+
+""" 
+if __name__ == '__main__':
+    while retry.lower() == "y":
+        asyncio.run(fetch())
+        retry = input("again? [Y/N] :")
+        if retry.lower() == "n":
+            print("bye lol")
+            break
+
+"""
 
 
 """

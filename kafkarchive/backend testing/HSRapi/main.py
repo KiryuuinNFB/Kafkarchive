@@ -7,8 +7,6 @@ async def main():
     print(relicmain["56"][1]["base"])
     print(relicmain["56"][1]["step"])
         
-    
-
 if __name__ == '__main__':
     asyncio.run(main())
 

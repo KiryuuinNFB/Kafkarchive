@@ -1,2 +1,3 @@
-for i in range(38):
-    print(i+1)
+hmm = "amogus sex"
+
+print(hmm[0:10])
