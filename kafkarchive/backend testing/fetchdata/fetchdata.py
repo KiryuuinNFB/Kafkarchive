@@ -47,7 +47,7 @@ async def fetch() -> None:
             dict_of_relics = {}
             for relic in char.relics:
 
-                #print(relic.main_affix_id)
+                #print(relic.sub_affix_list)
                 relic_individ_dict = dict(setid = relic.set_id,
                                  setname = relic.set_name,
                                  level = relic.level,
@@ -67,7 +67,7 @@ async def fetch() -> None:
                 make it somehow return substats info idk how
                 """
                 
-            exportdict.update({char.id:important_char_info})
+            exportdict.update({str(char.id):important_char_info})
         return exportdict
 
 """

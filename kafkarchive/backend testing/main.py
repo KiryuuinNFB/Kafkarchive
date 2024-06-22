@@ -1,4 +1,5 @@
 from fetchdata import fetch
+from amogus import *
 import asyncio
 import json
 
@@ -8,7 +9,11 @@ async def main() -> None:
     enkafetched = await fetch()
     if enkafetched is not None:
 
-        print(json.dumps(enkafetched, indent=4, sort_keys=False))
+        #print(json.dumps(enkafetched, indent=4, sort_keys=False))
+        charlvl = await amogus_get_char_base_from_lvl(1005, 6)
+        print(json.dumps(charlvl, indent=4, sort_keys=False))
+        for chars in enkafetched:
+            print(chars)
     else:
         print("Enka API failed to fetch data")
     

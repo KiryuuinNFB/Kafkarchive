@@ -1,1 +1,4 @@
-#this file is for testing lol
+thing = "amogus sussus"
+
+for x,y in enumerate(thing):
+    print(x, y)

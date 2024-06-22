@@ -1,6 +1,9 @@
 from amogus import *
 import asyncio
 
+
+
+
 async def main():
     relicmain = await amogus_relicmain_database()
     #print(relicmain)
@@ -8,7 +11,7 @@ async def main():
     print(relicmain["56"][1]["step"])
         
 if __name__ == '__main__':
-    asyncio.run(main())
+    asyncio.run(main(1001))
 
 """
 this is not the main backend file. this is the main file for the wrapper. import this file to the main backend file.
