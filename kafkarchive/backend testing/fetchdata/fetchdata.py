@@ -2,7 +2,7 @@ import enka
 
 retry = "y"
 
-exportdict = {}
+
 
 async def fetch() -> None:
     async with enka.HSRClient(headers=({"Kiryuuin":"school project website lmao"})) as client:
@@ -18,7 +18,7 @@ async def fetch() -> None:
             return print("game is in maintenance go touch grass lol")
         #print(f"Player name : {fetched.player.nickname}")
         #print(f"Player level : {fetched.player.level}")
-        
+        exportdict = {}
         for char in fetched.characters:
             important_char_info = {}
             chardict = dict(id = char.id,
@@ -69,6 +69,7 @@ async def fetch() -> None:
                 
             exportdict.update({str(char.id):important_char_info})
         return exportdict
+        
 
 """
 this file input is uid

@@ -34,8 +34,31 @@ async def testing():
 async def amogus_get_char_base_from_lvl(id, asc, lvl):
     charmain = await amogus_chars_database()
     basestatsdict = charmain[str(id)]["statsArray"][asc]
+
+    atkbase = basestatsdict["AttackBase"]
+    atkadd = basestatsdict["AttackAdd"]
+
+    hpbase = basestatsdict["HPBase"]
+    hpadd = basestatsdict["HPAdd"]
+
+    defbase = basestatsdict["DefenceBase"]
+    defadd = basestatsdict["DefenceAdd"]
+
+    spdbase = basestatsdict["SpeedBase"]
+    spdadd = basestatsdict["SpeedAdd"]
+
+    baseatkcalculated = atkbase + (atkadd*(lvl-1))
+    basedefcalculated = defbase + (defadd*(lvl-1))
+    basehpcalculated = hpbase + (hpadd*(lvl-1))
+    basespdcalculated = spdbase + (spdadd*(lvl-1))
     
-    return basestatsdict
+
+    calculatedcharbase = dict(ATK = baseatkcalculated,
+                              DEF = basedefcalculated,
+                              HP = basehpcalculated,
+                              SPD = basespdcalculated)
+    
+    return calculatedcharbase
 """
 unfinished code
 currently doing math about getting base stats from lvl with ascension factored in
