@@ -31,10 +31,16 @@ async def fetch() -> None:
                 lcdict = dict(id = lc.id,
                               name = lc.name,
                               level = lc.level,
-                              ascension = lc.ascension)
+                              ascension = lc.ascension,
+                              equipped = True)
                 important_char_info.update({"Light cone": lcdict})
             else:
-                important_char_info.update({"Light cone": None})
+                lcemptydict = dict(id = 0,
+                              name = "NOT EQUIPPED",
+                              level = 0,
+                              ascension = 0,
+                              equipped = False)
+                important_char_info.update({"Light cone": lcemptydict})
 
             chartrace = []
             for trace in char.traces:
@@ -44,26 +50,32 @@ async def fetch() -> None:
             relictype = ["Head","Hands","Body","Feet","Planar Sphere","Link Rope"]
             dict_of_relics = {}
             for relic in char.relics:
+                
+                relic_sub = relic.sub_affix_list
+                dict_of_substats = {}
 
-                #print(relic.sub_affix_list)
+                for substats in relic_sub:
+                    
+                    relic_substats_dict = dict(id = substats.id,
+                                               cnt = substats.cnt,
+                                               step = substats.step)
+                    dict_of_substats.update({relic_sub.index(substats):relic_substats_dict})
+
                 relic_individ_dict = dict(setid = relic.set_id,
                                  setname = relic.set_name,
                                  level = relic.level,
                                  type = str(relic.rarity) + str(relic.type),
                                  rarity = str(relic.rarity),
                                  mainstat = relic.main_affix_id,
-                                 actualtype = str(relic.type))
+                                 actualtype = str(relic.type),
+                                 substats = dict_of_substats)
                 """
-                do something with sub_affix_list
+                what tf did i do but now it works for some reason
                 """
 
                 dict_of_relics.update({relictype[relic.type-1]: relic_individ_dict})
                 
                 important_char_info.update({"Relics":dict_of_relics})
-                
-                """
-                make it somehow return substats info idk how
-                """
                 
             exportdict.update({str(char.id):important_char_info})
         return exportdict

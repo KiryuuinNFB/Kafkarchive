@@ -10,7 +10,8 @@
             "id": 21022,
             "name": "Fermata",
             "level": 80,
-            "ascension": 6
+            "ascension": 6,
+            "equipped": true
         },
         "Traces list": [
             1005201,
@@ -29,7 +30,30 @@
                 "level": 15,
                 "type": "51",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "1",
+                "substats": {
+                    "0": {
+                        "id": 2,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "1": {
+                        "id": 6,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 9,
+                        "cnt": 3,
+                        "step": 3
+                    },
+                    "3": {
+                        "id": 11,
+                        "cnt": 1,
+                        "step": null
+                    }
+                }
             },
             "Hands": {
                 "setid": 116,
@@ -37,7 +61,30 @@
                 "level": 15,
                 "type": "52",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "2",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 3,
+                        "cnt": 3,
+                        "step": 5
+                    },
+                    "2": {
+                        "id": 4,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "3": {
+                        "id": 10,
+                        "cnt": 3,
+                        "step": 5
+                    }
+                }
             },
             "Body": {
                 "setid": 116,
@@ -45,7 +92,30 @@
                 "level": 15,
                 "type": "53",
                 "rarity": "5",
-                "mainstat": "2"
+                "mainstat": 2,
+                "actualtype": "3",
+                "substats": {
+                    "0": {
+                        "id": 4,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "1": {
+                        "id": 9,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 10,
+                        "cnt": 3,
+                        "step": 3
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 1,
+                        "step": null
+                    }
+                }
             },
             "Feet": {
                 "setid": 116,
@@ -53,7 +123,30 @@
                 "level": 15,
                 "type": "54",
                 "rarity": "5",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "4",
+                "substats": {
+                    "0": {
+                        "id": 4,
+                        "cnt": 2,
+                        "step": null
+                    },
+                    "1": {
+                        "id": 9,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "2": {
+                        "id": 10,
+                        "cnt": 3,
+                        "step": 4
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 2,
+                        "step": 2
+                    }
+                }
             },
             "Planar Sphere": {
                 "setid": 301,
@@ -61,7 +154,30 @@
                 "level": 15,
                 "type": "55",
                 "rarity": "5",
-                "mainstat": "7"
+                "mainstat": 7,
+                "actualtype": "5",
+                "substats": {
+                    "0": {
+                        "id": 2,
+                        "cnt": 3,
+                        "step": 5
+                    },
+                    "1": {
+                        "id": 7,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "2": {
+                        "id": 11,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 1,
+                        "step": 1
+                    }
+                }
             },
             "Link Rope": {
                 "setid": 301,
@@ -69,7 +185,30 @@
                 "level": 15,
                 "type": "56",
                 "rarity": "5",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "6",
+                "substats": {
+                    "0": {
+                        "id": 6,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 9,
+                        "cnt": 3,
+                        "step": 3
+                    },
+                    "2": {
+                        "id": 10,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 1,
+                        "step": 1
+                    }
+                }
             }
         }
     },
@@ -84,7 +223,8 @@
             "id": 21008,
             "name": "Eyes of the Prey",
             "level": 80,
-            "ascension": 6
+            "ascension": 6,
+            "equipped": true
         },
         "Traces list": [
             1308201,
@@ -102,7 +242,30 @@
                 "level": 15,
                 "type": "51",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "1",
+                "substats": {
+                    "0": {
+                        "id": 5,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 8,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 11,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 4,
+                        "step": 6
+                    }
+                }
             },
             "Hands": {
                 "setid": 117,
@@ -110,7 +273,30 @@
                 "level": 15,
                 "type": "52",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "2",
+                "substats": {
+                    "0": {
+                        "id": 4,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 5,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "2": {
+                        "id": 6,
+                        "cnt": 3,
+                        "step": 4
+                    },
+                    "3": {
+                        "id": 11,
+                        "cnt": 2,
+                        "step": 2
+                    }
+                }
             },
             "Body": {
                 "setid": 117,
@@ -118,7 +304,30 @@
                 "level": 15,
                 "type": "53",
                 "rarity": "5",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "3",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 3,
+                        "step": 5
+                    },
+                    "1": {
+                        "id": 2,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "2": {
+                        "id": 5,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 11,
+                        "cnt": 2,
+                        "step": 2
+                    }
+                }
             },
             "Feet": {
                 "setid": 117,
@@ -126,7 +335,30 @@
                 "level": 15,
                 "type": "54",
                 "rarity": "5",
-                "mainstat": "2"
+                "mainstat": 2,
+                "actualtype": "4",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "1": {
+                        "id": 2,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "2": {
+                        "id": 3,
+                        "cnt": 3,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 9,
+                        "cnt": 2,
+                        "step": 3
+                    }
+                }
             },
             "Planar Sphere": {
                 "setid": 314,
@@ -134,7 +366,30 @@
                 "level": 15,
                 "type": "55",
                 "rarity": "5",
-                "mainstat": "2"
+                "mainstat": 2,
+                "actualtype": "5",
+                "substats": {
+                    "0": {
+                        "id": 3,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 4,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 6,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 9,
+                        "cnt": 2,
+                        "step": null
+                    }
+                }
             },
             "Link Rope": {
                 "setid": 314,
@@ -142,7 +397,30 @@
                 "level": 15,
                 "type": "56",
                 "rarity": "5",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "6",
+                "substats": {
+                    "0": {
+                        "id": 2,
+                        "cnt": 3,
+                        "step": 3
+                    },
+                    "1": {
+                        "id": 4,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 6,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "3": {
+                        "id": 9,
+                        "cnt": 2,
+                        "step": 2
+                    }
+                }
             }
         }
     },
@@ -157,7 +435,8 @@
             "id": 23004,
             "name": "In the Name of the World",
             "level": 70,
-            "ascension": 5
+            "ascension": 5,
+            "equipped": true
         },
         "Traces list": [
             1004201,
@@ -174,7 +453,25 @@
                 "level": 0,
                 "type": "51",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "1",
+                "substats": {
+                    "0": {
+                        "id": 4,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 8,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "2": {
+                        "id": 9,
+                        "cnt": 1,
+                        "step": 2
+                    }
+                }
             },
             "Hands": {
                 "setid": 102,
@@ -182,7 +479,30 @@
                 "level": 12,
                 "type": "52",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "2",
+                "substats": {
+                    "0": {
+                        "id": 4,
+                        "cnt": 4,
+                        "step": 4
+                    },
+                    "1": {
+                        "id": 6,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 10,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "3": {
+                        "id": 11,
+                        "cnt": 1,
+                        "step": null
+                    }
+                }
             },
             "Body": {
                 "setid": 102,
@@ -190,7 +510,30 @@
                 "level": 6,
                 "type": "43",
                 "rarity": "4",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "3",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 2,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "2": {
+                        "id": 6,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 8,
+                        "cnt": 1,
+                        "step": 1
+                    }
+                }
             },
             "Feet": {
                 "setid": 111,
@@ -198,7 +541,30 @@
                 "level": 11,
                 "type": "54",
                 "rarity": "5",
-                "mainstat": "2"
+                "mainstat": 2,
+                "actualtype": "4",
+                "substats": {
+                    "0": {
+                        "id": 6,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 8,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "2": {
+                        "id": 11,
+                        "cnt": 2,
+                        "step": null
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 1,
+                        "step": null
+                    }
+                }
             },
             "Planar Sphere": {
                 "setid": 306,
@@ -206,7 +572,30 @@
                 "level": 11,
                 "type": "55",
                 "rarity": "5",
-                "mainstat": "10"
+                "mainstat": 10,
+                "actualtype": "5",
+                "substats": {
+                    "0": {
+                        "id": 5,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "1": {
+                        "id": 6,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "2": {
+                        "id": 8,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "3": {
+                        "id": 10,
+                        "cnt": 1,
+                        "step": null
+                    }
+                }
             },
             "Link Rope": {
                 "setid": 302,
@@ -214,7 +603,30 @@
                 "level": 10,
                 "type": "46",
                 "rarity": "4",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "6",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 6,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 7,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 9,
+                        "cnt": 1,
+                        "step": 2
+                    }
+                }
             }
         }
     },
@@ -222,14 +634,15 @@
         "Character": {
             "id": 1003,
             "name": "Himeko",
-            "level": 70,
-            "ascension": 5
+            "level": 73,
+            "ascension": 6
         },
         "Light cone": {
             "id": 21027,
             "name": "The Seriousness of Breakfast",
             "level": 60,
-            "ascension": 4
+            "ascension": 4,
+            "equipped": true
         },
         "Traces list": [
             1003201,
@@ -246,7 +659,30 @@
                 "level": 15,
                 "type": "51",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "1",
+                "substats": {
+                    "0": {
+                        "id": 2,
+                        "cnt": 3,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 3,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 4,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "3": {
+                        "id": 8,
+                        "cnt": 3,
+                        "step": 3
+                    }
+                }
             },
             "Hands": {
                 "setid": 115,
@@ -254,7 +690,30 @@
                 "level": 15,
                 "type": "52",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "2",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 3,
+                        "cnt": 2,
+                        "step": null
+                    },
+                    "2": {
+                        "id": 5,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "3": {
+                        "id": 8,
+                        "cnt": 4,
+                        "step": 4
+                    }
+                }
             },
             "Body": {
                 "setid": 115,
@@ -262,7 +721,30 @@
                 "level": 15,
                 "type": "53",
                 "rarity": "5",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "3",
+                "substats": {
+                    "0": {
+                        "id": 3,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 5,
+                        "cnt": 2,
+                        "step": null
+                    },
+                    "2": {
+                        "id": 6,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 3,
+                        "step": 5
+                    }
+                }
             },
             "Feet": {
                 "setid": 115,
@@ -270,7 +752,30 @@
                 "level": 15,
                 "type": "54",
                 "rarity": "5",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "4",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "1": {
+                        "id": 3,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 8,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "3": {
+                        "id": 10,
+                        "cnt": 3,
+                        "step": 4
+                    }
+                }
             },
             "Planar Sphere": {
                 "setid": 305,
@@ -278,7 +783,30 @@
                 "level": 15,
                 "type": "55",
                 "rarity": "5",
-                "mainstat": "2"
+                "mainstat": 2,
+                "actualtype": "5",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 2,
+                        "cnt": 3,
+                        "step": 4
+                    },
+                    "2": {
+                        "id": 3,
+                        "cnt": 2,
+                        "step": 4
+                    },
+                    "3": {
+                        "id": 11,
+                        "cnt": 2,
+                        "step": null
+                    }
+                }
             },
             "Link Rope": {
                 "setid": 305,
@@ -286,7 +814,30 @@
                 "level": 15,
                 "type": "56",
                 "rarity": "5",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "6",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "1": {
+                        "id": 4,
+                        "cnt": 3,
+                        "step": 4
+                    },
+                    "2": {
+                        "id": 6,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 8,
+                        "cnt": 2,
+                        "step": 1
+                    }
+                }
             }
         }
     },
@@ -301,7 +852,8 @@
             "id": 24000,
             "name": "On the Fall of an Aeon",
             "level": 60,
-            "ascension": 4
+            "ascension": 4,
+            "equipped": true
         },
         "Traces list": [
             8002201,
@@ -318,7 +870,30 @@
                 "level": 15,
                 "type": "51",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "1",
+                "substats": {
+                    "0": {
+                        "id": 4,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 5,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 9,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "3": {
+                        "id": 11,
+                        "cnt": 3,
+                        "step": 2
+                    }
+                }
             },
             "Hands": {
                 "setid": 105,
@@ -326,7 +901,30 @@
                 "level": 15,
                 "type": "52",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "2",
+                "substats": {
+                    "0": {
+                        "id": 6,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 9,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "2": {
+                        "id": 10,
+                        "cnt": 4,
+                        "step": 3
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 1,
+                        "step": null
+                    }
+                }
             },
             "Body": {
                 "setid": 105,
@@ -334,7 +932,30 @@
                 "level": 15,
                 "type": "53",
                 "rarity": "5",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "3",
+                "substats": {
+                    "0": {
+                        "id": 4,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 6,
+                        "cnt": 3,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 7,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 9,
+                        "cnt": 2,
+                        "step": 2
+                    }
+                }
             },
             "Feet": {
                 "setid": 105,
@@ -342,7 +963,30 @@
                 "level": 15,
                 "type": "54",
                 "rarity": "5",
-                "mainstat": "2"
+                "mainstat": 2,
+                "actualtype": "4",
+                "substats": {
+                    "0": {
+                        "id": 4,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 6,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 9,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 3,
+                        "step": 5
+                    }
+                }
             },
             "Planar Sphere": {
                 "setid": 311,
@@ -350,7 +994,30 @@
                 "level": 15,
                 "type": "55",
                 "rarity": "5",
-                "mainstat": "2"
+                "mainstat": 2,
+                "actualtype": "5",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 2,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "2": {
+                        "id": 6,
+                        "cnt": 1,
+                        "step": null
+                    },
+                    "3": {
+                        "id": 11,
+                        "cnt": 4,
+                        "step": 4
+                    }
+                }
             },
             "Link Rope": {
                 "setid": 311,
@@ -358,7 +1025,30 @@
                 "level": 15,
                 "type": "56",
                 "rarity": "5",
-                "mainstat": "4"
+                "mainstat": 4,
+                "actualtype": "6",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 3,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 4,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "2": {
+                        "id": 9,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 11,
+                        "cnt": 2,
+                        "step": 1
+                    }
+                }
             }
         }
     },
@@ -373,7 +1063,8 @@
             "id": 21000,
             "name": "Post-Op Conversation",
             "level": 60,
-            "ascension": 4
+            "ascension": 4,
+            "equipped": true
         },
         "Traces list": [
             1110201
@@ -385,7 +1076,30 @@
                 "level": 15,
                 "type": "51",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "1",
+                "substats": {
+                    "0": {
+                        "id": 2,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "1": {
+                        "id": 3,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "2": {
+                        "id": 4,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 5,
+                        "cnt": 3,
+                        "step": 5
+                    }
+                }
             },
             "Hands": {
                 "setid": 113,
@@ -393,7 +1107,30 @@
                 "level": 15,
                 "type": "52",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "2",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 3,
+                        "step": 3
+                    },
+                    "1": {
+                        "id": 6,
+                        "cnt": 2,
+                        "step": 4
+                    },
+                    "2": {
+                        "id": 10,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 2,
+                        "step": 4
+                    }
+                }
             },
             "Body": {
                 "setid": 103,
@@ -401,7 +1138,30 @@
                 "level": 15,
                 "type": "53",
                 "rarity": "5",
-                "mainstat": "3"
+                "mainstat": 3,
+                "actualtype": "3",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 1,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 2,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 5,
+                        "cnt": 3,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 2,
+                        "step": 3
+                    }
+                }
             },
             "Feet": {
                 "setid": 112,
@@ -409,7 +1169,30 @@
                 "level": 15,
                 "type": "54",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "4",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "1": {
+                        "id": 2,
+                        "cnt": 2,
+                        "step": 4
+                    },
+                    "2": {
+                        "id": 5,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 6,
+                        "cnt": 4,
+                        "step": 3
+                    }
+                }
             },
             "Planar Sphere": {
                 "setid": 302,
@@ -417,7 +1200,30 @@
                 "level": 15,
                 "type": "55",
                 "rarity": "5",
-                "mainstat": "1"
+                "mainstat": 1,
+                "actualtype": "5",
+                "substats": {
+                    "0": {
+                        "id": 1,
+                        "cnt": 3,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 2,
+                        "cnt": 2,
+                        "step": 2
+                    },
+                    "2": {
+                        "id": 3,
+                        "cnt": 1,
+                        "step": 2
+                    },
+                    "3": {
+                        "id": 8,
+                        "cnt": 2,
+                        "step": 3
+                    }
+                }
             },
             "Link Rope": {
                 "setid": 302,
@@ -425,7 +1231,30 @@
                 "level": 15,
                 "type": "56",
                 "rarity": "5",
-                "mainstat": "3"
+                "mainstat": 3,
+                "actualtype": "6",
+                "substats": {
+                    "0": {
+                        "id": 6,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "1": {
+                        "id": 8,
+                        "cnt": 2,
+                        "step": 1
+                    },
+                    "2": {
+                        "id": 11,
+                        "cnt": 2,
+                        "step": 3
+                    },
+                    "3": {
+                        "id": 12,
+                        "cnt": 2,
+                        "step": 3
+                    }
+                }
             }
         }
     }

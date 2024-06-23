@@ -81,48 +81,61 @@ async def amogus_get_char_base_from_lvl(id, asc, lvl):
     
     return calculatedcharbase
 
-async def amogus_get_lc_base_from_lvl(id, asc, lvl):
-    lcmain = await amogus_lc_database(id)
+async def amogus_get_lc_base_from_lvl(id, asc, lvl, equip):
+    if equip == True:
+        lcmain = await amogus_lc_database(id)
 
-    basedict = lcmain["data"]["upgrade"][asc]["skillBase"]
-    adddict = lcmain["data"]["upgrade"][asc]["skillAdd"]
+        basedict = lcmain["data"]["upgrade"][asc]["skillBase"]
+        adddict = lcmain["data"]["upgrade"][asc]["skillAdd"]
 
-    atkbase = basedict["attackBase"]
-    atkadd = adddict["attackAdd"]
+        atkbase = basedict["attackBase"]
+        atkadd = adddict["attackAdd"]
 
-    defbase = basedict["defenceBase"]
-    defadd = adddict["defenceAdd"]
+        defbase = basedict["defenceBase"]
+        defadd = adddict["defenceAdd"]
 
-    hpbase = basedict["hPBase"]
-    hpadd = adddict["hPAdd"]
+        hpbase = basedict["hPBase"]
+        hpadd = adddict["hPAdd"]
 
-    baseatkcalculated = atkbase + (atkadd*(lvl-1))
-    basedefcalculated = defbase + (defadd*(lvl-1))
-    basehpcalculated = hpbase + (hpadd*(lvl-1))
+        baseatkcalculated = atkbase + (atkadd*(lvl-1))
+        basedefcalculated = defbase + (defadd*(lvl-1))
+        basehpcalculated = hpbase + (hpadd*(lvl-1))
     
 
-    calculatedlcbase = dict(LC_HP = basehpcalculated,
-                              LC_ATK = baseatkcalculated,
-                              LC_DEF = basedefcalculated)
+        calculatedlcbase = dict(LC_HP = basehpcalculated,
+                                LC_ATK = baseatkcalculated,
+                                LC_DEF = basedefcalculated)
     
-    return calculatedlcbase
+        return calculatedlcbase
+    else:
+        emptylcbase = dict(LC_HP = 0,
+                            LC_ATK = 0,
+                            LC_DEF = 0)
+        return emptylcbase
+    
 
 async def amogus_get_relic_main_from_type(type, id, lvl):
     relicmain = await amogus_relicmain_database()
 
     relicmaindict = relicmain[str(type)][id-1]
 
-    reliccalculated = relicmaindict["base"]+(relicmaindict["step"]*lvl)
+    reliccalculated = relicmaindict["base"] + (relicmaindict["step"]*lvl)
     relicsummary = dict(TYPE = relicmaindict["type"],
                         VALUE = reliccalculated)
     
     return relicsummary
 
+async def amogus_get_relic_sub_from_subaffix(rarity, id, cnt, step):
+    relicsub = await amogus_relicsub_database()
 
-"""
-unfinished code
-currently doing math about getting base stats from lvl with ascension factored in
-"""
+    relicsubdict = relicsub[rarity][id-1]
+
+    relicsubcalculated = relicsubdict["base"]*cnt + relicsubdict["step"]*int(step or 0)
+    relicsubsummary = dict(TYPE = relicsubdict["type"],
+                           VALUE = relicsubcalculated)
+
+    return relicsubsummary
+
     
 
 if __name__ == '__main__':

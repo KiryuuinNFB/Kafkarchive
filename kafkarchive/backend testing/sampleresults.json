@@ -1,0 +1,890 @@
+{
+    "Char": "Kafka",
+    "Charstats": {
+        "CHAR_ATK": 679.1400000000001,
+        "CHAR_DEF": 485.1,
+        "CHAR_HP": 1086.624,
+        "CHAR_SPD": 100
+    },
+    "Light cone": "Fermata",
+    "Light cone stats": {
+        "LC_HP": 952.56,
+        "LC_ATK": 476.28,
+        "LC_DEF": 330.75
+    },
+    "Relics": {
+        "Head": {
+            "TYPE": "HP",
+            "VALUE": 705.5999999999999,
+            "Substats": {
+                "0": {
+                    "TYPE": "ATK",
+                    "VALUE": 40.220669
+                },
+                "1": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.09720000000000001
+                },
+                "2": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.1749600012
+                },
+                "3": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.034560002
+                }
+            }
+        },
+        "Hands": {
+            "TYPE": "ATK",
+            "VALUE": 352.79999999999995,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 42.33755000000001
+                },
+                "1": {
+                    "TYPE": "DEF",
+                    "VALUE": 61.389442
+                },
+                "2": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.034560002
+                },
+                "3": {
+                    "TYPE": "Effect Hit Rate",
+                    "VALUE": 0.12528000749999998
+                }
+            }
+        },
+        "Body": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.0820800049
+                },
+                "1": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.11664000079999999
+                },
+                "2": {
+                    "TYPE": "Effect Hit Rate",
+                    "VALUE": 0.1166400069
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.05184
+                }
+            }
+        },
+        "Feet": {
+            "TYPE": "SPD",
+            "VALUE": 25.032,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.069120004
+                },
+                "1": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.05184
+                },
+                "2": {
+                    "TYPE": "Effect Hit Rate",
+                    "VALUE": 0.1209600072
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.11664000079999999
+                }
+            }
+        },
+        "Planar Sphere": {
+            "TYPE": "Lightning DMG Boost%",
+            "VALUE": 0.388803015,
+            "Substats": {
+                "0": {
+                    "TYPE": "ATK",
+                    "VALUE": 61.389442
+                },
+                "1": {
+                    "TYPE": "SPD",
+                    "VALUE": 4.3
+                },
+                "2": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.0820800049
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.058320000399999995
+                }
+            }
+        },
+        "Link Rope": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.0918
+                },
+                "1": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.1749600012
+                },
+                "2": {
+                    "TYPE": "Effect Hit Rate",
+                    "VALUE": 0.0777600046
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.058320000399999995
+                }
+            }
+        }
+    }
+}
+{
+    "Char": "Acheron",
+    "Charstats": {
+        "CHAR_ATK": 698.544,
+        "CHAR_DEF": 436.59000000000003,
+        "CHAR_HP": 1125.4319999999998,
+        "CHAR_SPD": 101
+    },
+    "Light cone": "Eyes of the Prey",
+    "Light cone stats": {
+        "LC_HP": 952.56,
+        "LC_ATK": 476.28,
+        "LC_DEF": 330.75
+    },
+    "Relics": {
+        "Head": {
+            "TYPE": "HP",
+            "VALUE": 705.5999999999999,
+            "Substats": {
+                "0": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.0777600046
+                },
+                "1": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.0324000004
+                },
+                "2": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.0388800023
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.2462400024
+                }
+            }
+        },
+        "Hands": {
+            "TYPE": "ATK",
+            "VALUE": 352.79999999999995,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.0388800023
+                },
+                "1": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.0734400043
+                },
+                "2": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.1512
+                },
+                "3": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.0777600046
+                }
+            }
+        },
+        "Body": {
+            "TYPE": "CRIT Rate",
+            "VALUE": 0.324,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 122.778895
+                },
+                "1": {
+                    "TYPE": "ATK",
+                    "VALUE": 40.220669
+                },
+                "2": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.043200002599999995
+                },
+                "3": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.0777600046
+                }
+            }
+        },
+        "Feet": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 80.44134500000001
+                },
+                "1": {
+                    "TYPE": "ATK",
+                    "VALUE": 19.051896
+                },
+                "2": {
+                    "TYPE": "DEF",
+                    "VALUE": 55.038811
+                },
+                "3": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.1231200012
+                }
+            }
+        },
+        "Planar Sphere": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "DEF",
+                    "VALUE": 35.986915
+                },
+                "1": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.0777600046
+                },
+                "2": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.09720000000000001
+                },
+                "3": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.10368
+                }
+            }
+        },
+        "Link Rope": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "ATK",
+                    "VALUE": 57.155688000000005
+                },
+                "1": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.0777600046
+                },
+                "2": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.0432
+                },
+                "3": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.11664000079999999
+                }
+            }
+        }
+    }
+}
+{
+    "Char": "Welt",
+    "Charstats": {
+        "CHAR_ATK": 544.896,
+        "CHAR_DEF": 446.985,
+        "CHAR_HP": 987.624,
+        "CHAR_SPD": 102
+    },
+    "Light cone": "In the Name of the World",
+    "Light cone stats": {
+        "LC_HP": 909.6,
+        "LC_ATK": 500.28,
+        "LC_DEF": 397.95
+    },
+    "Relics": {
+        "Head": {
+            "TYPE": "HP",
+            "VALUE": 112.896,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.043200002599999995
+                },
+                "1": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.02592
+                },
+                "2": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.0648000008
+                }
+            }
+        },
+        "Hands": {
+            "TYPE": "ATK",
+            "VALUE": 293.52959999999996,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.1555200092
+                },
+                "1": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.054000000000000006
+                },
+                "2": {
+                    "TYPE": "Effect Hit Rate",
+                    "VALUE": 0.0388800023
+                },
+                "3": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.034560002
+                }
+            }
+        },
+        "Body": {
+            "TYPE": "HP%",
+            "VALUE": 0.17142000000000002,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 30.483035
+                },
+                "1": {
+                    "TYPE": "ATK",
+                    "VALUE": 13.548016
+                },
+                "2": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.043200002599999995
+                },
+                "3": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.0233280019
+                }
+            }
+        },
+        "Feet": {
+            "TYPE": "ATK%",
+            "VALUE": 0.33523200000000003,
+            "Substats": {
+                "0": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.0918
+                },
+                "1": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.02592
+                },
+                "2": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.069120004
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.05184
+                }
+            }
+        },
+        "Planar Sphere": {
+            "TYPE": "Imaginary DMG Boost%",
+            "VALUE": 0.301711011,
+            "Substats": {
+                "0": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.0820800049
+                },
+                "1": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.0918
+                },
+                "2": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.02592
+                },
+                "3": {
+                    "TYPE": "Effect Hit Rate",
+                    "VALUE": 0.034560002
+                }
+            }
+        },
+        "Link Rope": {
+            "TYPE": "ATK%",
+            "VALUE": 0.248836,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 33.870039
+                },
+                "1": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.0777600046
+                },
+                "2": {
+                    "TYPE": "SPD",
+                    "VALUE": 2.0
+                },
+                "3": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.0518400008
+                }
+            }
+        }
+    }
+}
+{
+    "Char": "Himeko",
+    "Charstats": {
+        "CHAR_ATK": 720.72,
+        "CHAR_DEF": 415.8,
+        "CHAR_HP": 997.9200000000001,
+        "CHAR_SPD": 96
+    },
+    "Light cone": "The Seriousness of Breakfast",
+    "Light cone stats": {
+        "LC_HP": 608.64,
+        "LC_ATK": 342.36,
+        "LC_DEF": 285.3
+    },
+    "Relics": {
+        "Head": {
+            "TYPE": "HP",
+            "VALUE": 705.5999999999999,
+            "Substats": {
+                "0": {
+                    "TYPE": "ATK",
+                    "VALUE": 55.038811
+                },
+                "1": {
+                    "TYPE": "DEF",
+                    "VALUE": 21.168773
+                },
+                "2": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.034560002
+                },
+                "3": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.0874800006
+                }
+            }
+        },
+        "Hands": {
+            "TYPE": "ATK",
+            "VALUE": 352.79999999999995,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 76.20759000000001
+                },
+                "1": {
+                    "TYPE": "DEF",
+                    "VALUE": 33.870038
+                },
+                "2": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.0388800023
+                },
+                "3": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.11664000079999999
+                }
+            }
+        },
+        "Body": {
+            "TYPE": "CRIT Rate",
+            "VALUE": 0.324,
+            "Substats": {
+                "0": {
+                    "TYPE": "DEF",
+                    "VALUE": 19.051896
+                },
+                "1": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.069120004
+                },
+                "2": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.0918
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.18792000199999997
+                }
+            }
+        },
+        "Feet": {
+            "TYPE": "SPD",
+            "VALUE": 25.032,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 80.44134500000001
+                },
+                "1": {
+                    "TYPE": "DEF",
+                    "VALUE": 38.103792
+                },
+                "2": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.029160000199999998
+                },
+                "3": {
+                    "TYPE": "Effect Hit Rate",
+                    "VALUE": 0.1209600072
+                }
+            }
+        },
+        "Planar Sphere": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 42.33755000000001
+                },
+                "1": {
+                    "TYPE": "ATK",
+                    "VALUE": 59.27256500000001
+                },
+                "2": {
+                    "TYPE": "DEF",
+                    "VALUE": 42.337546
+                },
+                "3": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.069120004
+                }
+            }
+        },
+        "Link Rope": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 80.44134500000001
+                },
+                "1": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.1209600072
+                },
+                "2": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.054000000000000006
+                },
+                "3": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.0550800002
+                }
+            }
+        }
+    }
+}
+{
+    "Char": "Trailblazer",
+    "Charstats": {
+        "CHAR_ATK": 620.9280000000001,
+        "CHAR_DEF": 460.845,
+        "CHAR_HP": 1203.0479999999998,
+        "CHAR_SPD": 100
+    },
+    "Light cone": "On the Fall of an Aeon",
+    "Light cone stats": {
+        "LC_HP": 760.8,
+        "LC_ATK": 380.4,
+        "LC_DEF": 285.3
+    },
+    "Relics": {
+        "Head": {
+            "TYPE": "HP",
+            "VALUE": 705.5999999999999,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.0777600046
+                },
+                "1": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.0777600046
+                },
+                "2": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.05184
+                },
+                "3": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.1123200066
+                }
+            }
+        },
+        "Hands": {
+            "TYPE": "ATK",
+            "VALUE": 352.79999999999995,
+            "Substats": {
+                "0": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.048600000000000004
+                },
+                "1": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.1101600004
+                },
+                "2": {
+                    "TYPE": "Effect Hit Rate",
+                    "VALUE": 0.1512000089
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.05184
+                }
+            }
+        },
+        "Body": {
+            "TYPE": "CRIT Rate",
+            "VALUE": 0.324,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.043200002599999995
+                },
+                "1": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.1404
+                },
+                "2": {
+                    "TYPE": "SPD",
+                    "VALUE": 4.6
+                },
+                "3": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.11664000079999999
+                }
+            }
+        },
+        "Feet": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.0777600046
+                },
+                "1": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.054000000000000006
+                },
+                "2": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.11664000079999999
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.18792000199999997
+                }
+            }
+        },
+        "Planar Sphere": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 76.20759000000001
+                },
+                "1": {
+                    "TYPE": "ATK",
+                    "VALUE": 16.935019
+                },
+                "2": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.0432
+                },
+                "3": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.1555200092
+                }
+            }
+        },
+        "Link Rope": {
+            "TYPE": "ATK%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 105.84387500000001
+                },
+                "1": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.0820800049
+                },
+                "2": {
+                    "TYPE": "CRIT DMG",
+                    "VALUE": 0.0648000008
+                },
+                "3": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.0734400043
+                }
+            }
+        }
+    }
+}
+{
+    "Char": "Lynx",
+    "Charstats": {
+        "CHAR_ATK": 493.91999999999996,
+        "CHAR_DEF": 551.25,
+        "CHAR_HP": 1058.4,
+        "CHAR_SPD": 100
+    },
+    "Light cone": "Post-Op Conversation",
+    "Light cone stats": {
+        "LC_HP": 760.8,
+        "LC_ATK": 304.32,
+        "LC_DEF": 237.75
+    },
+    "Relics": {
+        "Head": {
+            "TYPE": "HP",
+            "VALUE": 705.5999999999999,
+            "Substats": {
+                "0": {
+                    "TYPE": "ATK",
+                    "VALUE": 40.220669
+                },
+                "1": {
+                    "TYPE": "DEF",
+                    "VALUE": 19.051896
+                },
+                "2": {
+                    "TYPE": "HP%",
+                    "VALUE": 0.0777600046
+                },
+                "3": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.12528000749999998
+                }
+            }
+        },
+        "Hands": {
+            "TYPE": "ATK",
+            "VALUE": 352.79999999999995,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 114.31138500000002
+                },
+                "1": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.10800000000000001
+                },
+                "2": {
+                    "TYPE": "Effect Hit Rate",
+                    "VALUE": 0.0820800049
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.1296000016
+                }
+            }
+        },
+        "Body": {
+            "TYPE": "DEF%",
+            "VALUE": 0.5400000149999999,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 38.103795000000005
+                },
+                "1": {
+                    "TYPE": "ATK",
+                    "VALUE": 38.103792
+                },
+                "2": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.1123200066
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.1231200012
+                }
+            }
+        },
+        "Feet": {
+            "TYPE": "HP%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 42.33755000000001
+                },
+                "1": {
+                    "TYPE": "ATK",
+                    "VALUE": 42.337546
+                },
+                "2": {
+                    "TYPE": "ATK%",
+                    "VALUE": 0.0777600046
+                },
+                "3": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.189
+                }
+            }
+        },
+        "Planar Sphere": {
+            "TYPE": "HP%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "HP",
+                    "VALUE": 105.84387500000001
+                },
+                "1": {
+                    "TYPE": "ATK",
+                    "VALUE": 38.103792
+                },
+                "2": {
+                    "TYPE": "DEF",
+                    "VALUE": 21.168773
+                },
+                "3": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.0615600006
+                }
+            }
+        },
+        "Link Rope": {
+            "TYPE": "HP%",
+            "VALUE": 0.43200000000000005,
+            "Substats": {
+                "0": {
+                    "TYPE": "DEF%",
+                    "VALUE": 0.0918
+                },
+                "1": {
+                    "TYPE": "CRIT Rate",
+                    "VALUE": 0.0550800002
+                },
+                "2": {
+                    "TYPE": "Effect RES",
+                    "VALUE": 0.0820800049
+                },
+                "3": {
+                    "TYPE": "Break Effect%",
+                    "VALUE": 0.1231200012
+                }
+            }
+        }
+    }
+}
