@@ -1,0 +1,432 @@
+{
+    "1005": {
+        "Character": {
+            "id": 1005,
+            "name": "Kafka",
+            "level": 80,
+            "ascension": 6
+        },
+        "Light cone": {
+            "id": 21022,
+            "name": "Fermata",
+            "level": 80,
+            "ascension": 6
+        },
+        "Traces list": [
+            1005201,
+            1005202,
+            1005203,
+            1005204,
+            1005205,
+            1005206,
+            1005207,
+            1005210
+        ],
+        "Relics": {
+            "Head": {
+                "setid": 116,
+                "setname": "Prisoner in Deep Confinement",
+                "level": 15,
+                "type": "51",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Hands": {
+                "setid": 116,
+                "setname": "Prisoner in Deep Confinement",
+                "level": 15,
+                "type": "52",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Body": {
+                "setid": 116,
+                "setname": "Prisoner in Deep Confinement",
+                "level": 15,
+                "type": "53",
+                "rarity": "5",
+                "mainstat": "2"
+            },
+            "Feet": {
+                "setid": 116,
+                "setname": "Prisoner in Deep Confinement",
+                "level": 15,
+                "type": "54",
+                "rarity": "5",
+                "mainstat": "4"
+            },
+            "Planar Sphere": {
+                "setid": 301,
+                "setname": "Space Sealing Station",
+                "level": 15,
+                "type": "55",
+                "rarity": "5",
+                "mainstat": "7"
+            },
+            "Link Rope": {
+                "setid": 301,
+                "setname": "Space Sealing Station",
+                "level": 15,
+                "type": "56",
+                "rarity": "5",
+                "mainstat": "4"
+            }
+        }
+    },
+    "1308": {
+        "Character": {
+            "id": 1308,
+            "name": "Acheron",
+            "level": 80,
+            "ascension": 6
+        },
+        "Light cone": {
+            "id": 21008,
+            "name": "Eyes of the Prey",
+            "level": 80,
+            "ascension": 6
+        },
+        "Traces list": [
+            1308201,
+            1308202,
+            1308203,
+            1308204,
+            1308205,
+            1308206,
+            1308207
+        ],
+        "Relics": {
+            "Head": {
+                "setid": 117,
+                "setname": "Pioneer Diver of Dead Waters",
+                "level": 15,
+                "type": "51",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Hands": {
+                "setid": 117,
+                "setname": "Pioneer Diver of Dead Waters",
+                "level": 15,
+                "type": "52",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Body": {
+                "setid": 117,
+                "setname": "Pioneer Diver of Dead Waters",
+                "level": 15,
+                "type": "53",
+                "rarity": "5",
+                "mainstat": "4"
+            },
+            "Feet": {
+                "setid": 117,
+                "setname": "Pioneer Diver of Dead Waters",
+                "level": 15,
+                "type": "54",
+                "rarity": "5",
+                "mainstat": "2"
+            },
+            "Planar Sphere": {
+                "setid": 314,
+                "setname": "Izumo Gensei and Takama Divine Realm",
+                "level": 15,
+                "type": "55",
+                "rarity": "5",
+                "mainstat": "2"
+            },
+            "Link Rope": {
+                "setid": 314,
+                "setname": "Izumo Gensei and Takama Divine Realm",
+                "level": 15,
+                "type": "56",
+                "rarity": "5",
+                "mainstat": "4"
+            }
+        }
+    },
+    "1004": {
+        "Character": {
+            "id": 1004,
+            "name": "Welt",
+            "level": 70,
+            "ascension": 5
+        },
+        "Light cone": {
+            "id": 23004,
+            "name": "In the Name of the World",
+            "level": 70,
+            "ascension": 5
+        },
+        "Traces list": [
+            1004201,
+            1004202,
+            1004203,
+            1004204,
+            1004205,
+            1004206
+        ],
+        "Relics": {
+            "Head": {
+                "setid": 112,
+                "setname": "Wastelander of Banditry Desert",
+                "level": 0,
+                "type": "51",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Hands": {
+                "setid": 102,
+                "setname": "Musketeer of Wild Wheat",
+                "level": 12,
+                "type": "52",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Body": {
+                "setid": 102,
+                "setname": "Musketeer of Wild Wheat",
+                "level": 6,
+                "type": "43",
+                "rarity": "4",
+                "mainstat": "1"
+            },
+            "Feet": {
+                "setid": 111,
+                "setname": "Thief of Shooting Meteor",
+                "level": 11,
+                "type": "54",
+                "rarity": "5",
+                "mainstat": "2"
+            },
+            "Planar Sphere": {
+                "setid": 306,
+                "setname": "Inert Salsotto",
+                "level": 11,
+                "type": "55",
+                "rarity": "5",
+                "mainstat": "10"
+            },
+            "Link Rope": {
+                "setid": 302,
+                "setname": "Fleet of the Ageless",
+                "level": 10,
+                "type": "46",
+                "rarity": "4",
+                "mainstat": "4"
+            }
+        }
+    },
+    "1003": {
+        "Character": {
+            "id": 1003,
+            "name": "Himeko",
+            "level": 70,
+            "ascension": 5
+        },
+        "Light cone": {
+            "id": 21027,
+            "name": "The Seriousness of Breakfast",
+            "level": 60,
+            "ascension": 4
+        },
+        "Traces list": [
+            1003201,
+            1003202,
+            1003203,
+            1003204,
+            1003205,
+            1003206
+        ],
+        "Relics": {
+            "Head": {
+                "setid": 115,
+                "setname": "The Ashblazing Grand Duke",
+                "level": 15,
+                "type": "51",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Hands": {
+                "setid": 115,
+                "setname": "The Ashblazing Grand Duke",
+                "level": 15,
+                "type": "52",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Body": {
+                "setid": 115,
+                "setname": "The Ashblazing Grand Duke",
+                "level": 15,
+                "type": "53",
+                "rarity": "5",
+                "mainstat": "4"
+            },
+            "Feet": {
+                "setid": 115,
+                "setname": "The Ashblazing Grand Duke",
+                "level": 15,
+                "type": "54",
+                "rarity": "5",
+                "mainstat": "4"
+            },
+            "Planar Sphere": {
+                "setid": 305,
+                "setname": "Celestial Differentiator",
+                "level": 15,
+                "type": "55",
+                "rarity": "5",
+                "mainstat": "2"
+            },
+            "Link Rope": {
+                "setid": 305,
+                "setname": "Celestial Differentiator",
+                "level": 15,
+                "type": "56",
+                "rarity": "5",
+                "mainstat": "4"
+            }
+        }
+    },
+    "8002": {
+        "Character": {
+            "id": 8002,
+            "name": "Trailblazer",
+            "level": 80,
+            "ascension": 6
+        },
+        "Light cone": {
+            "id": 24000,
+            "name": "On the Fall of an Aeon",
+            "level": 60,
+            "ascension": 4
+        },
+        "Traces list": [
+            8002201,
+            8002202,
+            8002203,
+            8002204,
+            8002205,
+            8002206
+        ],
+        "Relics": {
+            "Head": {
+                "setid": 105,
+                "setname": "Champion of Streetwise Boxing",
+                "level": 15,
+                "type": "51",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Hands": {
+                "setid": 105,
+                "setname": "Champion of Streetwise Boxing",
+                "level": 15,
+                "type": "52",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Body": {
+                "setid": 105,
+                "setname": "Champion of Streetwise Boxing",
+                "level": 15,
+                "type": "53",
+                "rarity": "5",
+                "mainstat": "4"
+            },
+            "Feet": {
+                "setid": 105,
+                "setname": "Champion of Streetwise Boxing",
+                "level": 15,
+                "type": "54",
+                "rarity": "5",
+                "mainstat": "2"
+            },
+            "Planar Sphere": {
+                "setid": 311,
+                "setname": "Firmament Frontline: Glamoth",
+                "level": 15,
+                "type": "55",
+                "rarity": "5",
+                "mainstat": "2"
+            },
+            "Link Rope": {
+                "setid": 311,
+                "setname": "Firmament Frontline: Glamoth",
+                "level": 15,
+                "type": "56",
+                "rarity": "5",
+                "mainstat": "4"
+            }
+        }
+    },
+    "1110": {
+        "Character": {
+            "id": 1110,
+            "name": "Lynx",
+            "level": 80,
+            "ascension": 6
+        },
+        "Light cone": {
+            "id": 21000,
+            "name": "Post-Op Conversation",
+            "level": 60,
+            "ascension": 4
+        },
+        "Traces list": [
+            1110201
+        ],
+        "Relics": {
+            "Head": {
+                "setid": 113,
+                "setname": "Longevous Disciple",
+                "level": 15,
+                "type": "51",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Hands": {
+                "setid": 113,
+                "setname": "Longevous Disciple",
+                "level": 15,
+                "type": "52",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Body": {
+                "setid": 103,
+                "setname": "Knight of Purity Palace",
+                "level": 15,
+                "type": "53",
+                "rarity": "5",
+                "mainstat": "3"
+            },
+            "Feet": {
+                "setid": 112,
+                "setname": "Wastelander of Banditry Desert",
+                "level": 15,
+                "type": "54",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Planar Sphere": {
+                "setid": 302,
+                "setname": "Fleet of the Ageless",
+                "level": 15,
+                "type": "55",
+                "rarity": "5",
+                "mainstat": "1"
+            },
+            "Link Rope": {
+                "setid": 302,
+                "setname": "Fleet of the Ageless",
+                "level": 15,
+                "type": "56",
+                "rarity": "5",
+                "mainstat": "3"
+            }
+        }
+    }
+}
