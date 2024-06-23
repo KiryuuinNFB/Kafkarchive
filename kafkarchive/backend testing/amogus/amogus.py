@@ -38,6 +38,11 @@ async def amogus_relicsub_database():
     return relsubdict
 
 
+async def amogus_relic_database():
+    response = requests.get(f"{hsrmapapi}relicset.json")
+    relsubdict = response.json()
+    return relsubdict
+
 #debug
 
 async def testing():
@@ -104,10 +109,14 @@ async def amogus_get_lc_base_from_lvl(id, asc, lvl):
 
 async def amogus_get_relic_main_from_type(type, id, lvl):
     relicmain = await amogus_relicmain_database()
+
     relicmaindict = relicmain[str(type)][id-1]
 
     reliccalculated = relicmaindict["base"]+(relicmaindict["step"]*lvl)
-    return reliccalculated
+    relicsummary = dict(TYPE = relicmaindict["type"],
+                        VALUE = reliccalculated)
+    
+    return relicsummary
 
 
 """

@@ -23,6 +23,22 @@ async def main() -> None:
             lcid = eachchars["Light cone"]["id"]
             lcsup = eachchars["Light cone"]["ascension"]
             lclvl = eachchars["Light cone"]["level"]
+
+            relicdict = eachchars["Relics"]
+            dict_of_relics = {}
+            for types in relicdict:
+
+                relictype = relicdict[types]["type"]
+                relicid = relicdict[types]["mainstat"]
+                reliclevel = relicdict[types]["level"]
+                calculatedrelic = await amogus_get_relic_main_from_type(relictype, relicid, reliclevel)
+                
+                dict_of_relics.update({types : calculatedrelic})
+
+               
+            """
+            now format everything nicely
+            """
                 
         #print(json.dumps(enkafetched, indent=4, sort_keys=False))
             calculatedchar = await amogus_get_char_base_from_lvl(charid, charasc, charlvl)
@@ -31,6 +47,7 @@ async def main() -> None:
             calculated.update({"Charstats":calculatedchar})
             calculated.update({"Light cone":lcname})
             calculated.update({"Light cone stats":calculatedlc})
+            calculated.update({"Relics":dict_of_relics})
             
             print(json.dumps(calculated, indent=4, sort_keys=False))
         

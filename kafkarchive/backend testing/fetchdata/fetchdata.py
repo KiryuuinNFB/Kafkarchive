@@ -51,10 +51,10 @@ async def fetch() -> None:
                                  level = relic.level,
                                  type = str(relic.rarity) + str(relic.type),
                                  rarity = str(relic.rarity),
-                                 mainstat = str(relic.main_affix_id))
+                                 mainstat = relic.main_affix_id,
+                                 actualtype = str(relic.type))
                 """
                 do something with sub_affix_list
-                was going to continue programming but enka api is down and im sleepy
                 """
 
                 dict_of_relics.update({relictype[relic.type-1]: relic_individ_dict})
