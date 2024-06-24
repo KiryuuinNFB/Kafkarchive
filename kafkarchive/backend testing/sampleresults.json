@@ -16,7 +16,7 @@
         "Head": {
             "TYPE": "HP",
             "VALUE": 705.5999999999999,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "ATK",
                     "VALUE": 40.220669
@@ -38,7 +38,7 @@
         "Hands": {
             "TYPE": "ATK",
             "VALUE": 352.79999999999995,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 42.33755000000001
@@ -60,7 +60,7 @@
         "Body": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP%",
                     "VALUE": 0.0820800049
@@ -82,7 +82,7 @@
         "Feet": {
             "TYPE": "SPD",
             "VALUE": 25.032,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP%",
                     "VALUE": 0.069120004
@@ -104,7 +104,7 @@
         "Planar Sphere": {
             "TYPE": "Lightning DMG Boost%",
             "VALUE": 0.388803015,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "ATK",
                     "VALUE": 61.389442
@@ -126,7 +126,7 @@
         "Link Rope": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "DEF%",
                     "VALUE": 0.0918
@@ -144,6 +144,48 @@
                     "VALUE": 0.058320000399999995
                 }
             }
+        }
+    },
+    "Traces": {
+        "1005201": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1005202": {
+            "TYPE": "StatusProbabilityBase",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1005203": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1005204": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1005205": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.06,
+            "FLAT": false
+        },
+        "1005206": {
+            "TYPE": "StatusProbabilityBase",
+            "VALUE": 0.06,
+            "FLAT": false
+        },
+        "1005207": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.06,
+            "FLAT": false
+        },
+        "1005210": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.08,
+            "FLAT": false
         }
     }
 }
@@ -165,7 +207,7 @@
         "Head": {
             "TYPE": "HP",
             "VALUE": 705.5999999999999,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "ATK%",
                     "VALUE": 0.0777600046
@@ -187,7 +229,7 @@
         "Hands": {
             "TYPE": "ATK",
             "VALUE": 352.79999999999995,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP%",
                     "VALUE": 0.0388800023
@@ -209,7 +251,7 @@
         "Body": {
             "TYPE": "CRIT Rate",
             "VALUE": 0.324,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 122.778895
@@ -231,7 +273,7 @@
         "Feet": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 80.44134500000001
@@ -253,7 +295,7 @@
         "Planar Sphere": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "DEF",
                     "VALUE": 35.986915
@@ -275,7 +317,7 @@
         "Link Rope": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "ATK",
                     "VALUE": 57.155688000000005
@@ -293,6 +335,43 @@
                     "VALUE": 0.11664000079999999
                 }
             }
+        }
+    },
+    "Traces": {
+        "1308201": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1308202": {
+            "TYPE": "CriticalDamageBase",
+            "VALUE": 0.053,
+            "FLAT": false
+        },
+        "1308203": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1308204": {
+            "TYPE": "ThunderAddedRatio",
+            "VALUE": 0.032,
+            "FLAT": false
+        },
+        "1308205": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.06,
+            "FLAT": false
+        },
+        "1308206": {
+            "TYPE": "CriticalDamageBase",
+            "VALUE": 0.08,
+            "FLAT": false
+        },
+        "1308207": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.06,
+            "FLAT": false
         }
     }
 }
@@ -314,7 +393,7 @@
         "Head": {
             "TYPE": "HP",
             "VALUE": 112.896,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP%",
                     "VALUE": 0.043200002599999995
@@ -332,7 +411,7 @@
         "Hands": {
             "TYPE": "ATK",
             "VALUE": 293.52959999999996,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP%",
                     "VALUE": 0.1555200092
@@ -354,7 +433,7 @@
         "Body": {
             "TYPE": "HP%",
             "VALUE": 0.17142000000000002,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 30.483035
@@ -376,7 +455,7 @@
         "Feet": {
             "TYPE": "ATK%",
             "VALUE": 0.33523200000000003,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "DEF%",
                     "VALUE": 0.0918
@@ -398,7 +477,7 @@
         "Planar Sphere": {
             "TYPE": "Imaginary DMG Boost%",
             "VALUE": 0.301711011,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "ATK%",
                     "VALUE": 0.0820800049
@@ -420,7 +499,7 @@
         "Link Rope": {
             "TYPE": "ATK%",
             "VALUE": 0.248836,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 33.870039
@@ -438,6 +517,38 @@
                     "VALUE": 0.0518400008
                 }
             }
+        }
+    },
+    "Traces": {
+        "1004201": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1004202": {
+            "TYPE": "ImaginaryAddedRatio",
+            "VALUE": 0.032,
+            "FLAT": false
+        },
+        "1004203": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1004204": {
+            "TYPE": "StatusResistanceBase",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1004205": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.06,
+            "FLAT": false
+        },
+        "1004206": {
+            "TYPE": "ImaginaryAddedRatio",
+            "VALUE": 0.048,
+            "FLAT": false
         }
     }
 }
@@ -459,7 +570,7 @@
         "Head": {
             "TYPE": "HP",
             "VALUE": 705.5999999999999,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "ATK",
                     "VALUE": 55.038811
@@ -481,7 +592,7 @@
         "Hands": {
             "TYPE": "ATK",
             "VALUE": 352.79999999999995,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 76.20759000000001
@@ -503,7 +614,7 @@
         "Body": {
             "TYPE": "CRIT Rate",
             "VALUE": 0.324,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "DEF",
                     "VALUE": 19.051896
@@ -525,7 +636,7 @@
         "Feet": {
             "TYPE": "SPD",
             "VALUE": 25.032,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 80.44134500000001
@@ -547,7 +658,7 @@
         "Planar Sphere": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 42.33755000000001
@@ -569,7 +680,7 @@
         "Link Rope": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 80.44134500000001
@@ -587,6 +698,38 @@
                     "VALUE": 0.0550800002
                 }
             }
+        }
+    },
+    "Traces": {
+        "1003201": {
+            "TYPE": "FireAddedRatio",
+            "VALUE": 0.032,
+            "FLAT": false
+        },
+        "1003202": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1003203": {
+            "TYPE": "FireAddedRatio",
+            "VALUE": 0.032,
+            "FLAT": false
+        },
+        "1003204": {
+            "TYPE": "StatusResistanceBase",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "1003205": {
+            "TYPE": "FireAddedRatio",
+            "VALUE": 0.048,
+            "FLAT": false
+        },
+        "1003206": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.06,
+            "FLAT": false
         }
     }
 }
@@ -608,7 +751,7 @@
         "Head": {
             "TYPE": "HP",
             "VALUE": 705.5999999999999,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP%",
                     "VALUE": 0.0777600046
@@ -630,7 +773,7 @@
         "Hands": {
             "TYPE": "ATK",
             "VALUE": 352.79999999999995,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "DEF%",
                     "VALUE": 0.048600000000000004
@@ -652,7 +795,7 @@
         "Body": {
             "TYPE": "CRIT Rate",
             "VALUE": 0.324,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP%",
                     "VALUE": 0.043200002599999995
@@ -674,7 +817,7 @@
         "Feet": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP%",
                     "VALUE": 0.0777600046
@@ -696,7 +839,7 @@
         "Planar Sphere": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 76.20759000000001
@@ -718,7 +861,7 @@
         "Link Rope": {
             "TYPE": "ATK%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 105.84387500000001
@@ -736,6 +879,38 @@
                     "VALUE": 0.0734400043
                 }
             }
+        }
+    },
+    "Traces": {
+        "8002201": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "8002202": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "8002203": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
+        },
+        "8002204": {
+            "TYPE": "DefenceAddedRatio",
+            "VALUE": 0.05,
+            "FLAT": false
+        },
+        "8002205": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.06,
+            "FLAT": false
+        },
+        "8002206": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.06,
+            "FLAT": false
         }
     }
 }
@@ -757,7 +932,7 @@
         "Head": {
             "TYPE": "HP",
             "VALUE": 705.5999999999999,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "ATK",
                     "VALUE": 40.220669
@@ -779,7 +954,7 @@
         "Hands": {
             "TYPE": "ATK",
             "VALUE": 352.79999999999995,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 114.31138500000002
@@ -801,7 +976,7 @@
         "Body": {
             "TYPE": "DEF%",
             "VALUE": 0.5400000149999999,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 38.103795000000005
@@ -823,7 +998,7 @@
         "Feet": {
             "TYPE": "HP%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 42.33755000000001
@@ -845,7 +1020,7 @@
         "Planar Sphere": {
             "TYPE": "HP%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "HP",
                     "VALUE": 105.84387500000001
@@ -867,7 +1042,7 @@
         "Link Rope": {
             "TYPE": "HP%",
             "VALUE": 0.43200000000000005,
-            "Substats": {
+            "SUBSTATS": {
                 "0": {
                     "TYPE": "DEF%",
                     "VALUE": 0.0918
@@ -885,6 +1060,13 @@
                     "VALUE": 0.1231200012
                 }
             }
+        }
+    },
+    "Traces": {
+        "1110201": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.04,
+            "FLAT": false
         }
     }
 }

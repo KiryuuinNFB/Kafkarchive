@@ -11,7 +11,7 @@ retry = "y"
 async def main() -> None:
     enkafetched = await fetch()
     start = timeit.default_timer()
-    #print(json.dumps(enkafetched, indent=4, sort_keys=False))
+    print(json.dumps(enkafetched, indent=4, sort_keys=False))
     if enkafetched is not None:
         for chars in enkafetched:
             calculated = {}
@@ -74,7 +74,7 @@ async def main() -> None:
             calculated.update({"Relics": dict_of_relics})
             calculated.update({"Traces": dict_of_traces})
             
-            print(json.dumps(calculated, indent=4, sort_keys=False))
+            #print(json.dumps(calculated, indent=4, sort_keys=False))
         
         stop = timeit.default_timer()
         print('Time elapsed ', round(stop - start,3), "seconds")  
