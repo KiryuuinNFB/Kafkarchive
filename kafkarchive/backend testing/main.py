@@ -29,6 +29,14 @@ async def main() -> None:
             lclvl = eachchars["Light cone"]["level"]
             lcequip = eachchars["Light cone"]["equipped"]
 
+            traces = eachchars["Traces list"]
+
+            dict_of_traces = {}
+            for traceid in traces:
+                
+                trace_data = await amogus_get_trace_val_from_id(traceid)
+                dict_of_traces.update({traceid:trace_data})
+
             relicdict = eachchars["Relics"]
             dict_of_relics = {}
             for types in relicdict:
@@ -64,6 +72,7 @@ async def main() -> None:
             calculated.update({"Light cone":lcname})
             calculated.update({"Light cone stats":calculatedlc})
             calculated.update({"Relics": dict_of_relics})
+            calculated.update({"Traces": dict_of_traces})
             
             print(json.dumps(calculated, indent=4, sort_keys=False))
         

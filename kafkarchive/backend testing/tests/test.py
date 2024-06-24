@@ -1,10 +1,3 @@
-import yatta
-import asyncio
-import json
+number = 0.0024
 
-async def main() -> None:
-    async with yatta.YattaAPI() as client:
-        fetched = await client.fetch_light_cone_detail(20000)
-        print(fetched)
-
-asyncio.run(main())
+print(str(number)[0:1])

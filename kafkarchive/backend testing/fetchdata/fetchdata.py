@@ -36,10 +36,10 @@ async def fetch() -> None:
                 important_char_info.update({"Light cone": lcdict})
             else:
                 lcemptydict = dict(id = 0,
-                              name = "NOT EQUIPPED",
-                              level = 0,
-                              ascension = 0,
-                              equipped = False)
+                                   name = "NOT EQUIPPED",
+                                   level = 0,
+                                   ascension = 0,
+                                   equipped = False)
                 important_char_info.update({"Light cone": lcemptydict})
 
             chartrace = []
@@ -62,13 +62,13 @@ async def fetch() -> None:
                     dict_of_substats.update({relic_sub.index(substats):relic_substats_dict})
 
                 relic_individ_dict = dict(setid = relic.set_id,
-                                 setname = relic.set_name,
-                                 level = relic.level,
-                                 type = str(relic.rarity) + str(relic.type),
-                                 rarity = str(relic.rarity),
-                                 mainstat = relic.main_affix_id,
-                                 actualtype = str(relic.type),
-                                 substats = dict_of_substats)
+                                          setname = relic.set_name,
+                                          level = relic.level,
+                                          type = str(relic.rarity) + str(relic.type),
+                                          rarity = str(relic.rarity),
+                                          mainstat = relic.main_affix_id,
+                                          actualtype = str(relic.type),
+                                          substats = dict_of_substats)
                 """
                 what tf did i do but now it works for some reason
                 """

@@ -11,7 +11,9 @@ hsrmapapishort = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/"
 #pulling data
 
 async def amogus_stats_database():
-    response = requests.get(f"{hsrmapapi}stats.json")
+   
+    response = requests.get(f"{hsrmapapi}stats.json", timeout=60)
+    
     statsdict = response.json()
     for stats in statsdict:
         
@@ -42,6 +44,14 @@ async def amogus_relic_database():
     response = requests.get(f"{hsrmapapi}relicset.json")
     relsubdict = response.json()
     return relsubdict
+
+async def amogus_hsrmap_chars_database(id):
+    response = requests.get(f"{hsrmapapi}avatar.json")
+    avtrdict = response.json()
+    
+    return avtrdict[str(id)]
+
+
 
 #debug
 
@@ -136,7 +146,21 @@ async def amogus_get_relic_sub_from_subaffix(rarity, id, cnt, step):
 
     return relicsubsummary
 
-    
+async def amogus_get_trace_val_from_id(traceid):
+    charid = str(traceid)[0:4]
+
+    chardict = await amogus_hsrmap_chars_database(charid)
+    for traces in chardict["tree"]:
+        if traces["id"] == str(traceid):
+            if str(traces["status"][0]["Value"])[0:1] == "0":
+                flat = False
+            else:
+                flat = True
+            indivi_trace = dict(TYPE = traces["status"][0]["PropertyType"],
+                                VALUE = traces["status"][0]["Value"],
+                                FLAT = flat)
+
+    return indivi_trace
 
 if __name__ == '__main__':
     async def main() -> None:
