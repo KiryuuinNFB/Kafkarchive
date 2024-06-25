@@ -3,7 +3,6 @@ import json
 import asyncio
 
 async def main() -> None:
-    result = await amogus_hsrmap_chars_database(1005)
-    print(json.dumps(result, indent=4, sort_keys=False))
+    await amogus_get_relic_bonus_from_id_and_count(111, 2)
 
 asyncio.run(main())

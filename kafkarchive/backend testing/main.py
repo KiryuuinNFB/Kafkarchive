@@ -11,7 +11,7 @@ retry = "y"
 async def main() -> None:
     enkafetched = await fetch()
     start = timeit.default_timer()
-    print(json.dumps(enkafetched, indent=4, sort_keys=False))
+    #print(json.dumps(enkafetched, indent=4, sort_keys=False))
     if enkafetched is not None:
         for chars in enkafetched:
             calculated = {}
@@ -39,12 +39,15 @@ async def main() -> None:
 
             relicdict = eachchars["Relics"]
             dict_of_relics = {}
+            list_of_relic_bonus = []
             for types in relicdict:
 
                 relictype = relicdict[types]["type"]
                 relicid = relicdict[types]["mainstat"]
                 reliclevel = relicdict[types]["level"]
                 relicrarity = relicdict[types]["rarity"]
+
+                relicsetid = relicdict[types]["setid"]
 
                 calculatedrelic = await amogus_get_relic_main_from_type(relictype, relicid, reliclevel)
                 
@@ -61,8 +64,9 @@ async def main() -> None:
                     calculatedsubstats = await amogus_get_relic_sub_from_subaffix(relicrarity, substat_id, substat_cnt, substat_step)
                     dict_of_substats.update({substats:calculatedsubstats})
                 calculatedrelic.update({"SUBSTATS":dict_of_substats})
-                
-                   
+                list_of_relic_bonus.append(relicsetid)
+            dict_of_relic_bonus = {i:list_of_relic_bonus.count(i) for i in list_of_relic_bonus}    
+            
         
             calculatedchar = await amogus_get_char_base_from_lvl(charid, charasc, charlvl)
             
@@ -73,8 +77,9 @@ async def main() -> None:
             calculated.update({"Light cone stats":calculatedlc})
             calculated.update({"Relics": dict_of_relics})
             calculated.update({"Traces": dict_of_traces})
+            calculated.update({"Relic bonuses": dict_of_relic_bonus})
             
-            #print(json.dumps(calculated, indent=4, sort_keys=False))
+            print(json.dumps(calculated, indent=4, sort_keys=False))
         
         stop = timeit.default_timer()
         print('Time elapsed ', round(stop - start,3), "seconds")  

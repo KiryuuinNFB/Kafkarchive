@@ -6,8 +6,6 @@ yattaapi = "https://api.yatta.top/hsr/v2/en/"
 hsrmapapi = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/en/"
 hsrmapapishort = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/"
 
-
-
 #pulling data
 
 async def amogus_stats_database():
@@ -38,7 +36,6 @@ async def amogus_relicsub_database():
     response = requests.get(f"{hsrmapapishort}relicSubStats.json")
     relsubdict = response.json()
     return relsubdict
-
 
 async def amogus_relic_database():
     response = requests.get(f"{hsrmapapi}relicset.json")
@@ -161,6 +158,16 @@ async def amogus_get_trace_val_from_id(traceid):
                                 FLAT = flat)
 
     return indivi_trace
+
+async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
+    relic = await amogus_relic_database()
+    relicmain = relic[str(relicid)]
+
+    for bonuses in relicmain["props"]:
+        print(bonuses)
+        #print(i
+
+
 
 if __name__ == '__main__':
     async def main() -> None:
