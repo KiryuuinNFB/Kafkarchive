@@ -4,9 +4,7 @@ import asyncio
 import json
 import timeit
 
-
 retry = "y"
-
 
 async def main() -> None:
     enkafetched = await fetch()
@@ -40,6 +38,7 @@ async def main() -> None:
             relicdict = eachchars["Relics"]
             dict_of_relics = {}
             list_of_relic_bonus = []
+            dict_of_calculated_bonus = {}
             for types in relicdict:
 
                 relictype = relicdict[types]["type"]
@@ -65,8 +64,10 @@ async def main() -> None:
                     dict_of_substats.update({substats:calculatedsubstats})
                 calculatedrelic.update({"SUBSTATS":dict_of_substats})
                 list_of_relic_bonus.append(relicsetid)
-            dict_of_relic_bonus = {i:list_of_relic_bonus.count(i) for i in list_of_relic_bonus}    
-            
+            dict_of_relic_bonus = {i:list_of_relic_bonus.count(i) for i in list_of_relic_bonus}
+            for sets in dict_of_relic_bonus:
+                fetchedrelbonus = await amogus_get_relic_bonus_from_id_and_count(sets, dict_of_relic_bonus[sets])
+                dict_of_calculated_bonus.update({sets:fetchedrelbonus})
         
             calculatedchar = await amogus_get_char_base_from_lvl(charid, charasc, charlvl)
             
@@ -77,7 +78,7 @@ async def main() -> None:
             calculated.update({"Light cone stats":calculatedlc})
             calculated.update({"Relics": dict_of_relics})
             calculated.update({"Traces": dict_of_traces})
-            calculated.update({"Relic bonuses": dict_of_relic_bonus})
+            calculated.update({"Relic bonuses": dict_of_calculated_bonus})
             
             print(json.dumps(calculated, indent=4, sort_keys=False))
         

@@ -187,6 +187,28 @@
             "VALUE": 0.08,
             "FLAT": false
         }
+    },
+    "Relic bonuses": {
+        "116": {
+            "BONUS1": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.12
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "301": {
+            "BONUS1": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.12
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        }
     }
 }
 {
@@ -373,6 +395,28 @@
             "VALUE": 0.06,
             "FLAT": false
         }
+    },
+    "Relic bonuses": {
+        "117": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": "CriticalChanceBase",
+                "VALUE": 0.04
+            }
+        },
+        "314": {
+            "BONUS1": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.12
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        }
     }
 }
 {
@@ -550,14 +594,66 @@
             "VALUE": 0.048,
             "FLAT": false
         }
+    },
+    "Relic bonuses": {
+        "112": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "102": {
+            "BONUS1": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.12
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "111": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "306": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "302": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        }
     }
 }
 {
     "Char": "Himeko",
     "Charstats": {
-        "CHAR_ATK": 720.72,
-        "CHAR_DEF": 415.8,
-        "CHAR_HP": 997.9200000000001,
+        "CHAR_ATK": 725.8679999999999,
+        "CHAR_DEF": 418.77,
+        "CHAR_HP": 1005.048,
         "CHAR_SPD": 96
     },
     "Light cone": "The Seriousness of Breakfast",
@@ -730,6 +826,28 @@
             "TYPE": "AttackAddedRatio",
             "VALUE": 0.06,
             "FLAT": false
+        }
+    },
+    "Relic bonuses": {
+        "115": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "305": {
+            "BONUS1": {
+                "TYPE": "CriticalDamageBase",
+                "VALUE": 0.16
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
         }
     }
 }
@@ -912,6 +1030,28 @@
             "VALUE": 0.06,
             "FLAT": false
         }
+    },
+    "Relic bonuses": {
+        "105": {
+            "BONUS1": {
+                "TYPE": "PhysicalAddedRatio",
+                "VALUE": 0.1
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "311": {
+            "BONUS1": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.12
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        }
     }
 }
 {
@@ -1067,6 +1207,48 @@
             "TYPE": "HPAddedRatio",
             "VALUE": 0.04,
             "FLAT": false
+        }
+    },
+    "Relic bonuses": {
+        "113": {
+            "BONUS1": {
+                "TYPE": "HPAddedRatio",
+                "VALUE": 0.12
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "103": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "112": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "302": {
+            "BONUS1": {
+                "TYPE": "HPAddedRatio",
+                "VALUE": 0.12
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
         }
     }
 }

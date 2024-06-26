@@ -48,10 +48,7 @@ async def amogus_hsrmap_chars_database(id):
     
     return avtrdict[str(id)]
 
-
-
 #debug
-
 async def testing():
     print("testing")
         
@@ -163,11 +160,36 @@ async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
     relic = await amogus_relic_database()
     relicmain = relic[str(relicid)]
 
-    for bonuses in relicmain["props"]:
-        print(bonuses)
-        #print(i
+    active2 = dict(TYPE = None,
+                   VALUE = 0)
+    active4 = dict(TYPE = None,
+                   VALUE = 0)
+    activeempty = dict(TYPE = None,
+                   VALUE = 0)
 
-
+    for bonuses in relicmain["props"]: 
+        if bonuses[0]["active"] == 2:
+            active2["TYPE"] = bonuses[0]["type"]
+            active2["VALUE"] = bonuses[0]["value"]
+        elif bonuses[0]["active"] == 4:
+            active4["TYPE"] = bonuses[0]["type"]
+            active4["VALUE"] = bonuses[0]["value"]
+    
+    if count == 2 or count == 3:
+        if active2["TYPE"] != None:
+            result = dict(BONUS1 = active2, 
+                          BONUS2 = activeempty)
+        else:
+            result = dict(BONUS1 = active4, 
+                          BONUS2 = activeempty)
+    elif count == 4:
+        result = dict(BONUS1 = active2, 
+                      BONUS2 = active4)
+    elif count >= 1 or count < 4:
+        result = dict(BONUS1 = activeempty, 
+                      BONUS2 = activeempty)
+        
+    return result
 
 if __name__ == '__main__':
     async def main() -> None:
