@@ -48,6 +48,15 @@ async def amogus_hsrmap_chars_database(id):
     
     return avtrdict[str(id)]
 
+async def amogus_check_flat(statid):
+    response = requests.get(f"{hsrmapapi}stats.json", timeout=60)
+    statdict = response.json()
+    
+    for eachstats in statdict:
+        if statdict[eachstats]["id"] == statid:
+            return statdict[eachstats]["flat"]
+    #return statdict
+
 #debug
 async def testing():
     print("testing")
@@ -144,12 +153,10 @@ async def amogus_get_trace_val_from_id(traceid):
     charid = str(traceid)[0:4]
 
     chardict = await amogus_hsrmap_chars_database(charid)
+    #print(json.dumps(chardict, indent=4, sort_keys=False))
     for traces in chardict["tree"]:
         if traces["id"] == str(traceid):
-            if str(traces["status"][0]["Value"])[0:1] == "0":
-                flat = False
-            else:
-                flat = True
+            flat = await amogus_check_flat(traces["status"][0]["PropertyType"])
             indivi_trace = dict(TYPE = traces["status"][0]["PropertyType"],
                                 VALUE = traces["status"][0]["Value"],
                                 FLAT = flat)
@@ -185,7 +192,7 @@ async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
     elif count == 4:
         result = dict(BONUS1 = active2, 
                       BONUS2 = active4)
-    elif count >= 1 or count < 4:
+    elif count <= 1 or count > 4:
         result = dict(BONUS1 = activeempty, 
                       BONUS2 = activeempty)
         
