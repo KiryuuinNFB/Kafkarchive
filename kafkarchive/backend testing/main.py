@@ -80,8 +80,9 @@ async def main() -> None:
             calculated.update({"Relics": dict_of_relics})
             calculated.update({"Traces": dict_of_traces})
             calculated.update({"Relic bonuses": dict_of_calculated_bonus})
-            
-            print(json.dumps(calculated, indent=4, sort_keys=False))
+
+            #print(json.dumps(calculated, indent=4, sort_keys=False))
+
             #allasjson.update({chars:calculated})
         #print(json.dumps(allasjson, indent=4, sort_keys=False))
         
