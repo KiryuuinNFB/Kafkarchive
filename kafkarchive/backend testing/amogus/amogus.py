@@ -168,19 +168,24 @@ async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
     relicmain = relic[str(relicid)]
 
     active2 = dict(TYPE = None,
-                   VALUE = 0)
+                   VALUE = 0,
+                   FLAT = True)
     active4 = dict(TYPE = None,
-                   VALUE = 0)
+                   VALUE = 0,
+                   FLAT = True)
     activeempty = dict(TYPE = None,
-                   VALUE = 0)
+                   VALUE = 0,
+                   FLAT = True)
 
     for bonuses in relicmain["props"]: 
         if bonuses[0]["active"] == 2:
             active2["TYPE"] = bonuses[0]["type"]
             active2["VALUE"] = bonuses[0]["value"]
+            active2["FLAT"] = await amogus_check_flat(bonuses[0]["type"])
         elif bonuses[0]["active"] == 4:
             active4["TYPE"] = bonuses[0]["type"]
             active4["VALUE"] = bonuses[0]["value"]
+            active4["FLAT"] = await amogus_check_flat(bonuses[0]["type"])
     
     if count == 2 or count == 3:
         if active2["TYPE"] != None:

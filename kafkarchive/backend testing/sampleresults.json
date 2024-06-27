@@ -155,7 +155,7 @@
         "1005202": {
             "TYPE": "StatusProbabilityBase",
             "VALUE": 0.04,
-            "FLAT": false
+            "FLAT": true
         },
         "1005203": {
             "TYPE": "AttackAddedRatio",
@@ -175,7 +175,7 @@
         "1005206": {
             "TYPE": "StatusProbabilityBase",
             "VALUE": 0.06,
-            "FLAT": false
+            "FLAT": true
         },
         "1005207": {
             "TYPE": "AttackAddedRatio",
@@ -192,21 +192,25 @@
         "116": {
             "BONUS1": {
                 "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12
+                "VALUE": 0.12,
+                "FLAT": false
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "301": {
             "BONUS1": {
                 "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12
+                "VALUE": 0.12,
+                "FLAT": false
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         }
     }
@@ -368,7 +372,7 @@
         "1308202": {
             "TYPE": "CriticalDamageBase",
             "VALUE": 0.053,
-            "FLAT": false
+            "FLAT": true
         },
         "1308203": {
             "TYPE": "AttackAddedRatio",
@@ -388,7 +392,7 @@
         "1308206": {
             "TYPE": "CriticalDamageBase",
             "VALUE": 0.08,
-            "FLAT": false
+            "FLAT": true
         },
         "1308207": {
             "TYPE": "AttackAddedRatio",
@@ -400,21 +404,25 @@
         "117": {
             "BONUS1": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             },
             "BONUS2": {
                 "TYPE": "CriticalChanceBase",
-                "VALUE": 0.04
+                "VALUE": 0.04,
+                "FLAT": true
             }
         },
         "314": {
             "BONUS1": {
                 "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12
+                "VALUE": 0.12,
+                "FLAT": false
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         }
     }
@@ -582,7 +590,7 @@
         "1004204": {
             "TYPE": "StatusResistanceBase",
             "VALUE": 0.04,
-            "FLAT": false
+            "FLAT": true
         },
         "1004205": {
             "TYPE": "AttackAddedRatio",
@@ -599,51 +607,61 @@
         "112": {
             "BONUS1": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "102": {
             "BONUS1": {
                 "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12
+                "VALUE": 0.12,
+                "FLAT": false
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "111": {
             "BONUS1": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "306": {
             "BONUS1": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "302": {
             "BONUS1": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         }
     }
@@ -815,7 +833,7 @@
         "1003204": {
             "TYPE": "StatusResistanceBase",
             "VALUE": 0.04,
-            "FLAT": false
+            "FLAT": true
         },
         "1003205": {
             "TYPE": "FireAddedRatio",
@@ -832,21 +850,25 @@
         "115": {
             "BONUS1": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "305": {
             "BONUS1": {
                 "TYPE": "CriticalDamageBase",
-                "VALUE": 0.16
+                "VALUE": 0.16,
+                "FLAT": true
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         }
     }
@@ -1035,21 +1057,25 @@
         "105": {
             "BONUS1": {
                 "TYPE": "PhysicalAddedRatio",
-                "VALUE": 0.1
+                "VALUE": 0.1,
+                "FLAT": false
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "311": {
             "BONUS1": {
                 "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12
+                "VALUE": 0.12,
+                "FLAT": false
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         }
     }
@@ -1213,41 +1239,49 @@
         "113": {
             "BONUS1": {
                 "TYPE": "HPAddedRatio",
-                "VALUE": 0.12
+                "VALUE": 0.12,
+                "FLAT": false
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "103": {
             "BONUS1": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "112": {
             "BONUS1": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         },
         "302": {
             "BONUS1": {
                 "TYPE": "HPAddedRatio",
-                "VALUE": 0.12
+                "VALUE": 0.12,
+                "FLAT": false
             },
             "BONUS2": {
                 "TYPE": null,
-                "VALUE": 0
+                "VALUE": 0,
+                "FLAT": true
             }
         }
     }
