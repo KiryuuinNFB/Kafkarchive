@@ -131,10 +131,10 @@ async def amogus_get_relic_main_from_type(type, id, lvl):
     relicmain = await amogus_relicmain_database()
 
     relicmaindict = relicmain[str(type)][id-1]
-
     reliccalculated = relicmaindict["base"] + (relicmaindict["step"]*lvl)
-    relicsummary = dict(TYPE = relicmaindict["type"],
-                        VALUE = reliccalculated)
+    relicsummary = dict(TYPE = relicmaindict["property"],
+                        VALUE = reliccalculated,
+                        FLAT = await amogus_check_flat(relicmaindict["property"]))
     
     return relicsummary
 
@@ -144,8 +144,9 @@ async def amogus_get_relic_sub_from_subaffix(rarity, id, cnt, step):
     relicsubdict = relicsub[rarity][id-1]
 
     relicsubcalculated = relicsubdict["base"]*cnt + relicsubdict["step"]*int(step or 0)
-    relicsubsummary = dict(TYPE = relicsubdict["type"],
-                           VALUE = relicsubcalculated)
+    relicsubsummary = dict(TYPE = relicsubdict["property"],
+                           VALUE = relicsubcalculated,
+                           FLAT = await amogus_check_flat(relicsubdict["property"]))
 
     return relicsubsummary
 
@@ -174,8 +175,8 @@ async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
                    VALUE = 0,
                    FLAT = True)
     activeempty = dict(TYPE = None,
-                   VALUE = 0,
-                   FLAT = True)
+                        VALUE = 0,
+                        FLAT = True)
 
     for bonuses in relicmain["props"]: 
         if bonuses[0]["active"] == 2:

@@ -9,6 +9,7 @@ retry = "y"
 async def main() -> None:
     enkafetched = await fetch()
     start = timeit.default_timer()
+    #allasjson = {}
     #print(json.dumps(enkafetched, indent=4, sort_keys=False))
     if enkafetched is not None:
         for chars in enkafetched:
@@ -81,6 +82,8 @@ async def main() -> None:
             calculated.update({"Relic bonuses": dict_of_calculated_bonus})
             
             print(json.dumps(calculated, indent=4, sort_keys=False))
+            #allasjson.update({chars:calculated})
+        #print(json.dumps(allasjson, indent=4, sort_keys=False))
         
         stop = timeit.default_timer()
         print('Time elapsed ', round(stop - start,3), "seconds")  

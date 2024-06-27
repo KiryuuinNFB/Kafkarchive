@@ -1,1287 +1,1468 @@
 {
-    "Char": "Kafka",
-    "Charstats": {
-        "CHAR_ATK": 679.1400000000001,
-        "CHAR_DEF": 485.1,
-        "CHAR_HP": 1086.624,
-        "CHAR_SPD": 100
-    },
-    "Light cone": "Fermata",
-    "Light cone stats": {
-        "LC_HP": 952.56,
-        "LC_ATK": 476.28,
-        "LC_DEF": 330.75
-    },
-    "Relics": {
-        "Head": {
-            "TYPE": "HP",
-            "VALUE": 705.5999999999999,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "ATK",
-                    "VALUE": 40.220669
-                },
-                "1": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.09720000000000001
-                },
-                "2": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.1749600012
-                },
-                "3": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.034560002
+    "1005": {
+        "Char": "Kafka",
+        "Charstats": {
+            "CHAR_ATK": 679.1400000000001,
+            "CHAR_DEF": 485.1,
+            "CHAR_HP": 1086.624,
+            "CHAR_SPD": 100
+        },
+        "Light cone": "Fermata",
+        "Light cone stats": {
+            "LC_HP": 952.56,
+            "LC_ATK": 476.28,
+            "LC_DEF": 330.75
+        },
+        "Relics": {
+            "Head": {
+                "TYPE": "HPDelta",
+                "VALUE": 705.5999999999999,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 40.220669,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.09720000000000001,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.1749600012,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.034560002,
+                        "FLAT": true
+                    }
                 }
-            }
-        },
-        "Hands": {
-            "TYPE": "ATK",
-            "VALUE": 352.79999999999995,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 42.33755000000001
-                },
-                "1": {
-                    "TYPE": "DEF",
-                    "VALUE": 61.389442
-                },
-                "2": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.034560002
-                },
-                "3": {
-                    "TYPE": "Effect Hit Rate",
-                    "VALUE": 0.12528000749999998
+            },
+            "Hands": {
+                "TYPE": "AttackDelta",
+                "VALUE": 352.79999999999995,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 42.33755000000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 61.389442,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.034560002,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "StatusProbabilityBase",
+                        "VALUE": 0.12528000749999998,
+                        "FLAT": true
+                    }
                 }
-            }
-        },
-        "Body": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.0820800049
-                },
-                "1": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.11664000079999999
-                },
-                "2": {
-                    "TYPE": "Effect Hit Rate",
-                    "VALUE": 0.1166400069
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.05184
-                }
-            }
-        },
-        "Feet": {
-            "TYPE": "SPD",
-            "VALUE": 25.032,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.069120004
-                },
-                "1": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.05184
-                },
-                "2": {
-                    "TYPE": "Effect Hit Rate",
-                    "VALUE": 0.1209600072
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.11664000079999999
-                }
-            }
-        },
-        "Planar Sphere": {
-            "TYPE": "Lightning DMG Boost%",
-            "VALUE": 0.388803015,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "ATK",
-                    "VALUE": 61.389442
-                },
-                "1": {
-                    "TYPE": "SPD",
-                    "VALUE": 4.3
-                },
-                "2": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.0820800049
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.058320000399999995
-                }
-            }
-        },
-        "Link Rope": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.0918
-                },
-                "1": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.1749600012
-                },
-                "2": {
-                    "TYPE": "Effect Hit Rate",
-                    "VALUE": 0.0777600046
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.058320000399999995
-                }
-            }
-        }
-    },
-    "Traces": {
-        "1005201": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "1005202": {
-            "TYPE": "StatusProbabilityBase",
-            "VALUE": 0.04,
-            "FLAT": true
-        },
-        "1005203": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "1005204": {
-            "TYPE": "HPAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "1005205": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.06,
-            "FLAT": false
-        },
-        "1005206": {
-            "TYPE": "StatusProbabilityBase",
-            "VALUE": 0.06,
-            "FLAT": true
-        },
-        "1005207": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.06,
-            "FLAT": false
-        },
-        "1005210": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.08,
-            "FLAT": false
-        }
-    },
-    "Relic bonuses": {
-        "116": {
-            "BONUS1": {
+            },
+            "Body": {
                 "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12,
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.0820800049,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.11664000079999999,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "StatusProbabilityBase",
+                        "VALUE": 0.1166400069,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.05184,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Feet": {
+                "TYPE": "SpeedDelta",
+                "VALUE": 25.032,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.069120004,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.05184,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "StatusProbabilityBase",
+                        "VALUE": 0.1209600072,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.11664000079999999,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Planar Sphere": {
+                "TYPE": "ThunderAddedRatio",
+                "VALUE": 0.388803015,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 61.389442,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "SpeedDelta",
+                        "VALUE": 4.3,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.0820800049,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.058320000399999995,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Link Rope": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.0918,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.1749600012,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "StatusProbabilityBase",
+                        "VALUE": 0.0777600046,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.058320000399999995,
+                        "FLAT": true
+                    }
+                }
+            }
+        },
+        "Traces": {
+            "1005201": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.04,
                 "FLAT": false
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        },
-        "301": {
-            "BONUS1": {
-                "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12,
-                "FLAT": false
-            },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        }
-    }
-}
-{
-    "Char": "Acheron",
-    "Charstats": {
-        "CHAR_ATK": 698.544,
-        "CHAR_DEF": 436.59000000000003,
-        "CHAR_HP": 1125.4319999999998,
-        "CHAR_SPD": 101
-    },
-    "Light cone": "Eyes of the Prey",
-    "Light cone stats": {
-        "LC_HP": 952.56,
-        "LC_ATK": 476.28,
-        "LC_DEF": 330.75
-    },
-    "Relics": {
-        "Head": {
-            "TYPE": "HP",
-            "VALUE": 705.5999999999999,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.0777600046
-                },
-                "1": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.0324000004
-                },
-                "2": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.0388800023
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.2462400024
-                }
-            }
-        },
-        "Hands": {
-            "TYPE": "ATK",
-            "VALUE": 352.79999999999995,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.0388800023
-                },
-                "1": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.0734400043
-                },
-                "2": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.1512
-                },
-                "3": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.0777600046
-                }
-            }
-        },
-        "Body": {
-            "TYPE": "CRIT Rate",
-            "VALUE": 0.324,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 122.778895
-                },
-                "1": {
-                    "TYPE": "ATK",
-                    "VALUE": 40.220669
-                },
-                "2": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.043200002599999995
-                },
-                "3": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.0777600046
-                }
-            }
-        },
-        "Feet": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 80.44134500000001
-                },
-                "1": {
-                    "TYPE": "ATK",
-                    "VALUE": 19.051896
-                },
-                "2": {
-                    "TYPE": "DEF",
-                    "VALUE": 55.038811
-                },
-                "3": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.1231200012
-                }
-            }
-        },
-        "Planar Sphere": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "DEF",
-                    "VALUE": 35.986915
-                },
-                "1": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.0777600046
-                },
-                "2": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.09720000000000001
-                },
-                "3": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.10368
-                }
-            }
-        },
-        "Link Rope": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "ATK",
-                    "VALUE": 57.155688000000005
-                },
-                "1": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.0777600046
-                },
-                "2": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.0432
-                },
-                "3": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.11664000079999999
-                }
-            }
-        }
-    },
-    "Traces": {
-        "1308201": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "1308202": {
-            "TYPE": "CriticalDamageBase",
-            "VALUE": 0.053,
-            "FLAT": true
-        },
-        "1308203": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "1308204": {
-            "TYPE": "ThunderAddedRatio",
-            "VALUE": 0.032,
-            "FLAT": false
-        },
-        "1308205": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.06,
-            "FLAT": false
-        },
-        "1308206": {
-            "TYPE": "CriticalDamageBase",
-            "VALUE": 0.08,
-            "FLAT": true
-        },
-        "1308207": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.06,
-            "FLAT": false
-        }
-    },
-    "Relic bonuses": {
-        "117": {
-            "BONUS1": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            },
-            "BONUS2": {
-                "TYPE": "CriticalChanceBase",
+            "1005202": {
+                "TYPE": "StatusProbabilityBase",
                 "VALUE": 0.04,
                 "FLAT": true
-            }
-        },
-        "314": {
-            "BONUS1": {
+            },
+            "1005203": {
                 "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12,
+                "VALUE": 0.04,
                 "FLAT": false
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        }
-    }
-}
-{
-    "Char": "Welt",
-    "Charstats": {
-        "CHAR_ATK": 544.896,
-        "CHAR_DEF": 446.985,
-        "CHAR_HP": 987.624,
-        "CHAR_SPD": 102
-    },
-    "Light cone": "In the Name of the World",
-    "Light cone stats": {
-        "LC_HP": 909.6,
-        "LC_ATK": 500.28,
-        "LC_DEF": 397.95
-    },
-    "Relics": {
-        "Head": {
-            "TYPE": "HP",
-            "VALUE": 112.896,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.043200002599999995
-                },
-                "1": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.02592
-                },
-                "2": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.0648000008
-                }
-            }
-        },
-        "Hands": {
-            "TYPE": "ATK",
-            "VALUE": 293.52959999999996,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.1555200092
-                },
-                "1": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.054000000000000006
-                },
-                "2": {
-                    "TYPE": "Effect Hit Rate",
-                    "VALUE": 0.0388800023
-                },
-                "3": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.034560002
-                }
-            }
-        },
-        "Body": {
-            "TYPE": "HP%",
-            "VALUE": 0.17142000000000002,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 30.483035
-                },
-                "1": {
-                    "TYPE": "ATK",
-                    "VALUE": 13.548016
-                },
-                "2": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.043200002599999995
-                },
-                "3": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.0233280019
-                }
-            }
-        },
-        "Feet": {
-            "TYPE": "ATK%",
-            "VALUE": 0.33523200000000003,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.0918
-                },
-                "1": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.02592
-                },
-                "2": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.069120004
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.05184
-                }
-            }
-        },
-        "Planar Sphere": {
-            "TYPE": "Imaginary DMG Boost%",
-            "VALUE": 0.301711011,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.0820800049
-                },
-                "1": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.0918
-                },
-                "2": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.02592
-                },
-                "3": {
-                    "TYPE": "Effect Hit Rate",
-                    "VALUE": 0.034560002
-                }
-            }
-        },
-        "Link Rope": {
-            "TYPE": "ATK%",
-            "VALUE": 0.248836,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 33.870039
-                },
-                "1": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.0777600046
-                },
-                "2": {
-                    "TYPE": "SPD",
-                    "VALUE": 2.0
-                },
-                "3": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.0518400008
-                }
-            }
-        }
-    },
-    "Traces": {
-        "1004201": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "1004202": {
-            "TYPE": "ImaginaryAddedRatio",
-            "VALUE": 0.032,
-            "FLAT": false
-        },
-        "1004203": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "1004204": {
-            "TYPE": "StatusResistanceBase",
-            "VALUE": 0.04,
-            "FLAT": true
-        },
-        "1004205": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.06,
-            "FLAT": false
-        },
-        "1004206": {
-            "TYPE": "ImaginaryAddedRatio",
-            "VALUE": 0.048,
-            "FLAT": false
-        }
-    },
-    "Relic bonuses": {
-        "112": {
-            "BONUS1": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        },
-        "102": {
-            "BONUS1": {
-                "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12,
+            "1005204": {
+                "TYPE": "HPAddedRatio",
+                "VALUE": 0.04,
                 "FLAT": false
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        },
-        "111": {
-            "BONUS1": {
-                "TYPE": null,
-                "VALUE": 0,
+            "1005205": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.06,
+                "FLAT": false
+            },
+            "1005206": {
+                "TYPE": "StatusProbabilityBase",
+                "VALUE": 0.06,
                 "FLAT": true
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        },
-        "306": {
-            "BONUS1": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
+            "1005207": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.06,
+                "FLAT": false
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
+            "1005210": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.08,
+                "FLAT": false
             }
         },
-        "302": {
-            "BONUS1": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
+        "Relic bonuses": {
+            "116": {
+                "BONUS1": {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.12,
+                    "FLAT": false
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        }
-    }
-}
-{
-    "Char": "Himeko",
-    "Charstats": {
-        "CHAR_ATK": 725.8679999999999,
-        "CHAR_DEF": 418.77,
-        "CHAR_HP": 1005.048,
-        "CHAR_SPD": 96
-    },
-    "Light cone": "The Seriousness of Breakfast",
-    "Light cone stats": {
-        "LC_HP": 608.64,
-        "LC_ATK": 342.36,
-        "LC_DEF": 285.3
-    },
-    "Relics": {
-        "Head": {
-            "TYPE": "HP",
-            "VALUE": 705.5999999999999,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "ATK",
-                    "VALUE": 55.038811
+            "301": {
+                "BONUS1": {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.12,
+                    "FLAT": false
                 },
-                "1": {
-                    "TYPE": "DEF",
-                    "VALUE": 21.168773
-                },
-                "2": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.034560002
-                },
-                "3": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.0874800006
-                }
-            }
-        },
-        "Hands": {
-            "TYPE": "ATK",
-            "VALUE": 352.79999999999995,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 76.20759000000001
-                },
-                "1": {
-                    "TYPE": "DEF",
-                    "VALUE": 33.870038
-                },
-                "2": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.0388800023
-                },
-                "3": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.11664000079999999
-                }
-            }
-        },
-        "Body": {
-            "TYPE": "CRIT Rate",
-            "VALUE": 0.324,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "DEF",
-                    "VALUE": 19.051896
-                },
-                "1": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.069120004
-                },
-                "2": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.0918
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.18792000199999997
-                }
-            }
-        },
-        "Feet": {
-            "TYPE": "SPD",
-            "VALUE": 25.032,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 80.44134500000001
-                },
-                "1": {
-                    "TYPE": "DEF",
-                    "VALUE": 38.103792
-                },
-                "2": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.029160000199999998
-                },
-                "3": {
-                    "TYPE": "Effect Hit Rate",
-                    "VALUE": 0.1209600072
-                }
-            }
-        },
-        "Planar Sphere": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 42.33755000000001
-                },
-                "1": {
-                    "TYPE": "ATK",
-                    "VALUE": 59.27256500000001
-                },
-                "2": {
-                    "TYPE": "DEF",
-                    "VALUE": 42.337546
-                },
-                "3": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.069120004
-                }
-            }
-        },
-        "Link Rope": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 80.44134500000001
-                },
-                "1": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.1209600072
-                },
-                "2": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.054000000000000006
-                },
-                "3": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.0550800002
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
                 }
             }
         }
     },
-    "Traces": {
-        "1003201": {
-            "TYPE": "FireAddedRatio",
-            "VALUE": 0.032,
-            "FLAT": false
+    "1308": {
+        "Char": "Acheron",
+        "Charstats": {
+            "CHAR_ATK": 698.544,
+            "CHAR_DEF": 436.59000000000003,
+            "CHAR_HP": 1125.4319999999998,
+            "CHAR_SPD": 101
         },
-        "1003202": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
+        "Light cone": "Eyes of the Prey",
+        "Light cone stats": {
+            "LC_HP": 952.56,
+            "LC_ATK": 476.28,
+            "LC_DEF": 330.75
         },
-        "1003203": {
-            "TYPE": "FireAddedRatio",
-            "VALUE": 0.032,
-            "FLAT": false
-        },
-        "1003204": {
-            "TYPE": "StatusResistanceBase",
-            "VALUE": 0.04,
-            "FLAT": true
-        },
-        "1003205": {
-            "TYPE": "FireAddedRatio",
-            "VALUE": 0.048,
-            "FLAT": false
-        },
-        "1003206": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.06,
-            "FLAT": false
-        }
-    },
-    "Relic bonuses": {
-        "115": {
-            "BONUS1": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
+        "Relics": {
+            "Head": {
+                "TYPE": "HPDelta",
+                "VALUE": 705.5999999999999,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.0777600046,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.0324000004,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.0388800023,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.2462400024,
+                        "FLAT": true
+                    }
+                }
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
+            "Hands": {
+                "TYPE": "AttackDelta",
+                "VALUE": 352.79999999999995,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.0388800023,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.0734400043,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.1512,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.0777600046,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Body": {
+                "TYPE": "CriticalChanceBase",
+                "VALUE": 0.324,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 122.778895,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 40.220669,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.043200002599999995,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.0777600046,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Feet": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 80.44134500000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 19.051896,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 55.038811,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.1231200012,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Planar Sphere": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 35.986915,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.0777600046,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.09720000000000001,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.10368,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Link Rope": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 57.155688000000005,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.0777600046,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.0432,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.11664000079999999,
+                        "FLAT": true
+                    }
+                }
             }
         },
-        "305": {
-            "BONUS1": {
+        "Traces": {
+            "1308201": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.04,
+                "FLAT": false
+            },
+            "1308202": {
                 "TYPE": "CriticalDamageBase",
-                "VALUE": 0.16,
+                "VALUE": 0.053,
                 "FLAT": true
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        }
-    }
-}
-{
-    "Char": "Trailblazer",
-    "Charstats": {
-        "CHAR_ATK": 620.9280000000001,
-        "CHAR_DEF": 460.845,
-        "CHAR_HP": 1203.0479999999998,
-        "CHAR_SPD": 100
-    },
-    "Light cone": "On the Fall of an Aeon",
-    "Light cone stats": {
-        "LC_HP": 760.8,
-        "LC_ATK": 380.4,
-        "LC_DEF": 285.3
-    },
-    "Relics": {
-        "Head": {
-            "TYPE": "HP",
-            "VALUE": 705.5999999999999,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.0777600046
-                },
-                "1": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.0777600046
-                },
-                "2": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.05184
-                },
-                "3": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.1123200066
-                }
-            }
-        },
-        "Hands": {
-            "TYPE": "ATK",
-            "VALUE": 352.79999999999995,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.048600000000000004
-                },
-                "1": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.1101600004
-                },
-                "2": {
-                    "TYPE": "Effect Hit Rate",
-                    "VALUE": 0.1512000089
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.05184
-                }
-            }
-        },
-        "Body": {
-            "TYPE": "CRIT Rate",
-            "VALUE": 0.324,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.043200002599999995
-                },
-                "1": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.1404
-                },
-                "2": {
-                    "TYPE": "SPD",
-                    "VALUE": 4.6
-                },
-                "3": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.11664000079999999
-                }
-            }
-        },
-        "Feet": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.0777600046
-                },
-                "1": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.054000000000000006
-                },
-                "2": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.11664000079999999
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.18792000199999997
-                }
-            }
-        },
-        "Planar Sphere": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 76.20759000000001
-                },
-                "1": {
-                    "TYPE": "ATK",
-                    "VALUE": 16.935019
-                },
-                "2": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.0432
-                },
-                "3": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.1555200092
-                }
-            }
-        },
-        "Link Rope": {
-            "TYPE": "ATK%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 105.84387500000001
-                },
-                "1": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.0820800049
-                },
-                "2": {
-                    "TYPE": "CRIT DMG",
-                    "VALUE": 0.0648000008
-                },
-                "3": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.0734400043
-                }
-            }
-        }
-    },
-    "Traces": {
-        "8002201": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "8002202": {
-            "TYPE": "HPAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "8002203": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        },
-        "8002204": {
-            "TYPE": "DefenceAddedRatio",
-            "VALUE": 0.05,
-            "FLAT": false
-        },
-        "8002205": {
-            "TYPE": "AttackAddedRatio",
-            "VALUE": 0.06,
-            "FLAT": false
-        },
-        "8002206": {
-            "TYPE": "HPAddedRatio",
-            "VALUE": 0.06,
-            "FLAT": false
-        }
-    },
-    "Relic bonuses": {
-        "105": {
-            "BONUS1": {
-                "TYPE": "PhysicalAddedRatio",
-                "VALUE": 0.1,
-                "FLAT": false
-            },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        },
-        "311": {
-            "BONUS1": {
+            "1308203": {
                 "TYPE": "AttackAddedRatio",
-                "VALUE": 0.12,
+                "VALUE": 0.04,
                 "FLAT": false
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
+            "1308204": {
+                "TYPE": "ThunderAddedRatio",
+                "VALUE": 0.032,
+                "FLAT": false
+            },
+            "1308205": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.06,
+                "FLAT": false
+            },
+            "1308206": {
+                "TYPE": "CriticalDamageBase",
+                "VALUE": 0.08,
                 "FLAT": true
-            }
-        }
-    }
-}
-{
-    "Char": "Lynx",
-    "Charstats": {
-        "CHAR_ATK": 493.91999999999996,
-        "CHAR_DEF": 551.25,
-        "CHAR_HP": 1058.4,
-        "CHAR_SPD": 100
-    },
-    "Light cone": "Post-Op Conversation",
-    "Light cone stats": {
-        "LC_HP": 760.8,
-        "LC_ATK": 304.32,
-        "LC_DEF": 237.75
-    },
-    "Relics": {
-        "Head": {
-            "TYPE": "HP",
-            "VALUE": 705.5999999999999,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "ATK",
-                    "VALUE": 40.220669
-                },
-                "1": {
-                    "TYPE": "DEF",
-                    "VALUE": 19.051896
-                },
-                "2": {
-                    "TYPE": "HP%",
-                    "VALUE": 0.0777600046
-                },
-                "3": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.12528000749999998
-                }
+            },
+            "1308207": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.06,
+                "FLAT": false
             }
         },
-        "Hands": {
-            "TYPE": "ATK",
-            "VALUE": 352.79999999999995,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 114.31138500000002
+        "Relic bonuses": {
+            "117": {
+                "BONUS1": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
                 },
-                "1": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.10800000000000001
-                },
-                "2": {
-                    "TYPE": "Effect Hit Rate",
-                    "VALUE": 0.0820800049
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.1296000016
+                "BONUS2": {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.04,
+                    "FLAT": true
                 }
-            }
-        },
-        "Body": {
-            "TYPE": "DEF%",
-            "VALUE": 0.5400000149999999,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 38.103795000000005
+            },
+            "314": {
+                "BONUS1": {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.12,
+                    "FLAT": false
                 },
-                "1": {
-                    "TYPE": "ATK",
-                    "VALUE": 38.103792
-                },
-                "2": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.1123200066
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.1231200012
-                }
-            }
-        },
-        "Feet": {
-            "TYPE": "HP%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 42.33755000000001
-                },
-                "1": {
-                    "TYPE": "ATK",
-                    "VALUE": 42.337546
-                },
-                "2": {
-                    "TYPE": "ATK%",
-                    "VALUE": 0.0777600046
-                },
-                "3": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.189
-                }
-            }
-        },
-        "Planar Sphere": {
-            "TYPE": "HP%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "HP",
-                    "VALUE": 105.84387500000001
-                },
-                "1": {
-                    "TYPE": "ATK",
-                    "VALUE": 38.103792
-                },
-                "2": {
-                    "TYPE": "DEF",
-                    "VALUE": 21.168773
-                },
-                "3": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.0615600006
-                }
-            }
-        },
-        "Link Rope": {
-            "TYPE": "HP%",
-            "VALUE": 0.43200000000000005,
-            "SUBSTATS": {
-                "0": {
-                    "TYPE": "DEF%",
-                    "VALUE": 0.0918
-                },
-                "1": {
-                    "TYPE": "CRIT Rate",
-                    "VALUE": 0.0550800002
-                },
-                "2": {
-                    "TYPE": "Effect RES",
-                    "VALUE": 0.0820800049
-                },
-                "3": {
-                    "TYPE": "Break Effect%",
-                    "VALUE": 0.1231200012
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
                 }
             }
         }
     },
-    "Traces": {
-        "1110201": {
-            "TYPE": "HPAddedRatio",
-            "VALUE": 0.04,
-            "FLAT": false
-        }
-    },
-    "Relic bonuses": {
-        "113": {
-            "BONUS1": {
+    "1004": {
+        "Char": "Welt",
+        "Charstats": {
+            "CHAR_ATK": 544.896,
+            "CHAR_DEF": 446.985,
+            "CHAR_HP": 987.624,
+            "CHAR_SPD": 102
+        },
+        "Light cone": "In the Name of the World",
+        "Light cone stats": {
+            "LC_HP": 909.6,
+            "LC_ATK": 500.28,
+            "LC_DEF": 397.95
+        },
+        "Relics": {
+            "Head": {
+                "TYPE": "HPDelta",
+                "VALUE": 112.896,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.043200002599999995,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.02592,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.0648000008,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Hands": {
+                "TYPE": "AttackDelta",
+                "VALUE": 293.52959999999996,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.1555200092,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.054000000000000006,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "StatusProbabilityBase",
+                        "VALUE": 0.0388800023,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.034560002,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Body": {
                 "TYPE": "HPAddedRatio",
-                "VALUE": 0.12,
+                "VALUE": 0.17142000000000002,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 30.483035,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 13.548016,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.043200002599999995,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.0233280019,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Feet": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.33523200000000003,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.0918,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.02592,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.069120004,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.05184,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Planar Sphere": {
+                "TYPE": "ImaginaryAddedRatio",
+                "VALUE": 0.301711011,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.0820800049,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.0918,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.02592,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "StatusProbabilityBase",
+                        "VALUE": 0.034560002,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Link Rope": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.248836,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 33.870039,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.0777600046,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "SpeedDelta",
+                        "VALUE": 2.0,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.0518400008,
+                        "FLAT": true
+                    }
+                }
+            }
+        },
+        "Traces": {
+            "1004201": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.04,
                 "FLAT": false
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
-            }
-        },
-        "103": {
-            "BONUS1": {
-                "TYPE": null,
-                "VALUE": 0,
+            "1004202": {
+                "TYPE": "ImaginaryAddedRatio",
+                "VALUE": 0.032,
+                "FLAT": false
+            },
+            "1004203": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.04,
+                "FLAT": false
+            },
+            "1004204": {
+                "TYPE": "StatusResistanceBase",
+                "VALUE": 0.04,
                 "FLAT": true
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
+            "1004205": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.06,
+                "FLAT": false
+            },
+            "1004206": {
+                "TYPE": "ImaginaryAddedRatio",
+                "VALUE": 0.048,
+                "FLAT": false
             }
         },
-        "112": {
-            "BONUS1": {
-                "TYPE": null,
-                "VALUE": 0,
+        "Relic bonuses": {
+            "112": {
+                "BONUS1": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            },
+            "102": {
+                "BONUS1": {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.12,
+                    "FLAT": false
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            },
+            "111": {
+                "BONUS1": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            },
+            "306": {
+                "BONUS1": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            },
+            "302": {
+                "BONUS1": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            }
+        }
+    },
+    "1003": {
+        "Char": "Himeko",
+        "Charstats": {
+            "CHAR_ATK": 725.8679999999999,
+            "CHAR_DEF": 418.77,
+            "CHAR_HP": 1005.048,
+            "CHAR_SPD": 96
+        },
+        "Light cone": "The Seriousness of Breakfast",
+        "Light cone stats": {
+            "LC_HP": 608.64,
+            "LC_ATK": 342.36,
+            "LC_DEF": 285.3
+        },
+        "Relics": {
+            "Head": {
+                "TYPE": "HPDelta",
+                "VALUE": 705.5999999999999,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 55.038811,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 21.168773,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.034560002,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.0874800006,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Hands": {
+                "TYPE": "AttackDelta",
+                "VALUE": 352.79999999999995,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 76.20759000000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 33.870038,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.0388800023,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.11664000079999999,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Body": {
+                "TYPE": "CriticalChanceBase",
+                "VALUE": 0.324,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 19.051896,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.069120004,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.0918,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.18792000199999997,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Feet": {
+                "TYPE": "SpeedDelta",
+                "VALUE": 25.032,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 80.44134500000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 38.103792,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.029160000199999998,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "StatusProbabilityBase",
+                        "VALUE": 0.1209600072,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Planar Sphere": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 42.33755000000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 59.27256500000001,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 42.337546,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.069120004,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Link Rope": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 80.44134500000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.1209600072,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.054000000000000006,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.0550800002,
+                        "FLAT": true
+                    }
+                }
+            }
+        },
+        "Traces": {
+            "1003201": {
+                "TYPE": "FireAddedRatio",
+                "VALUE": 0.032,
+                "FLAT": false
+            },
+            "1003202": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.04,
+                "FLAT": false
+            },
+            "1003203": {
+                "TYPE": "FireAddedRatio",
+                "VALUE": 0.032,
+                "FLAT": false
+            },
+            "1003204": {
+                "TYPE": "StatusResistanceBase",
+                "VALUE": 0.04,
                 "FLAT": true
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
+            "1003205": {
+                "TYPE": "FireAddedRatio",
+                "VALUE": 0.048,
+                "FLAT": false
+            },
+            "1003206": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.06,
+                "FLAT": false
             }
         },
-        "302": {
-            "BONUS1": {
+        "Relic bonuses": {
+            "115": {
+                "BONUS1": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            },
+            "305": {
+                "BONUS1": {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.16,
+                    "FLAT": true
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            }
+        }
+    },
+    "8002": {
+        "Char": "Trailblazer",
+        "Charstats": {
+            "CHAR_ATK": 620.9280000000001,
+            "CHAR_DEF": 460.845,
+            "CHAR_HP": 1203.0479999999998,
+            "CHAR_SPD": 100
+        },
+        "Light cone": "On the Fall of an Aeon",
+        "Light cone stats": {
+            "LC_HP": 760.8,
+            "LC_ATK": 380.4,
+            "LC_DEF": 285.3
+        },
+        "Relics": {
+            "Head": {
+                "TYPE": "HPDelta",
+                "VALUE": 705.5999999999999,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.0777600046,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.0777600046,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.05184,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.1123200066,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Hands": {
+                "TYPE": "AttackDelta",
+                "VALUE": 352.79999999999995,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.048600000000000004,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.1101600004,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "StatusProbabilityBase",
+                        "VALUE": 0.1512000089,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.05184,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Body": {
+                "TYPE": "CriticalChanceBase",
+                "VALUE": 0.324,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.043200002599999995,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.1404,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "SpeedDelta",
+                        "VALUE": 4.6,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.11664000079999999,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Feet": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.0777600046,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.054000000000000006,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.11664000079999999,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.18792000199999997,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Planar Sphere": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 76.20759000000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 16.935019,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.0432,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.1555200092,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Link Rope": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 105.84387500000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.0820800049,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "CriticalDamageBase",
+                        "VALUE": 0.0648000008,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.0734400043,
+                        "FLAT": true
+                    }
+                }
+            }
+        },
+        "Traces": {
+            "8002201": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.04,
+                "FLAT": false
+            },
+            "8002202": {
                 "TYPE": "HPAddedRatio",
-                "VALUE": 0.12,
+                "VALUE": 0.04,
                 "FLAT": false
             },
-            "BONUS2": {
-                "TYPE": null,
-                "VALUE": 0,
-                "FLAT": true
+            "8002203": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.04,
+                "FLAT": false
+            },
+            "8002204": {
+                "TYPE": "DefenceAddedRatio",
+                "VALUE": 0.05,
+                "FLAT": false
+            },
+            "8002205": {
+                "TYPE": "AttackAddedRatio",
+                "VALUE": 0.06,
+                "FLAT": false
+            },
+            "8002206": {
+                "TYPE": "HPAddedRatio",
+                "VALUE": 0.06,
+                "FLAT": false
+            }
+        },
+        "Relic bonuses": {
+            "105": {
+                "BONUS1": {
+                    "TYPE": "PhysicalAddedRatio",
+                    "VALUE": 0.1,
+                    "FLAT": false
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            },
+            "311": {
+                "BONUS1": {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.12,
+                    "FLAT": false
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            }
+        }
+    },
+    "1110": {
+        "Char": "Lynx",
+        "Charstats": {
+            "CHAR_ATK": 493.91999999999996,
+            "CHAR_DEF": 551.25,
+            "CHAR_HP": 1058.4,
+            "CHAR_SPD": 100
+        },
+        "Light cone": "Post-Op Conversation",
+        "Light cone stats": {
+            "LC_HP": 760.8,
+            "LC_ATK": 304.32,
+            "LC_DEF": 237.75
+        },
+        "Relics": {
+            "Head": {
+                "TYPE": "HPDelta",
+                "VALUE": 705.5999999999999,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 40.220669,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 19.051896,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "HPAddedRatio",
+                        "VALUE": 0.0777600046,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.12528000749999998,
+                        "FLAT": false
+                    }
+                }
+            },
+            "Hands": {
+                "TYPE": "AttackDelta",
+                "VALUE": 352.79999999999995,
+                "FLAT": true,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 114.31138500000002,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.10800000000000001,
+                        "FLAT": false
+                    },
+                    "2": {
+                        "TYPE": "StatusProbabilityBase",
+                        "VALUE": 0.0820800049,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.1296000016,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Body": {
+                "TYPE": "DefenceAddedRatio",
+                "VALUE": 0.5400000149999999,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 38.103795000000005,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 38.103792,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.1123200066,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.1231200012,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Feet": {
+                "TYPE": "HPAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 42.33755000000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 42.337546,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "AttackAddedRatio",
+                        "VALUE": 0.0777600046,
+                        "FLAT": false
+                    },
+                    "3": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.189,
+                        "FLAT": false
+                    }
+                }
+            },
+            "Planar Sphere": {
+                "TYPE": "HPAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "HPDelta",
+                        "VALUE": 105.84387500000001,
+                        "FLAT": true
+                    },
+                    "1": {
+                        "TYPE": "AttackDelta",
+                        "VALUE": 38.103792,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "DefenceDelta",
+                        "VALUE": 21.168773,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.0615600006,
+                        "FLAT": true
+                    }
+                }
+            },
+            "Link Rope": {
+                "TYPE": "HPAddedRatio",
+                "VALUE": 0.43200000000000005,
+                "FLAT": false,
+                "SUBSTATS": {
+                    "0": {
+                        "TYPE": "DefenceAddedRatio",
+                        "VALUE": 0.0918,
+                        "FLAT": false
+                    },
+                    "1": {
+                        "TYPE": "CriticalChanceBase",
+                        "VALUE": 0.0550800002,
+                        "FLAT": true
+                    },
+                    "2": {
+                        "TYPE": "StatusResistanceBase",
+                        "VALUE": 0.0820800049,
+                        "FLAT": true
+                    },
+                    "3": {
+                        "TYPE": "BreakDamageAddedRatioBase",
+                        "VALUE": 0.1231200012,
+                        "FLAT": true
+                    }
+                }
+            }
+        },
+        "Traces": {
+            "1110201": {
+                "TYPE": "HPAddedRatio",
+                "VALUE": 0.04,
+                "FLAT": false
+            }
+        },
+        "Relic bonuses": {
+            "113": {
+                "BONUS1": {
+                    "TYPE": "HPAddedRatio",
+                    "VALUE": 0.12,
+                    "FLAT": false
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            },
+            "103": {
+                "BONUS1": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            },
+            "112": {
+                "BONUS1": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
+            },
+            "302": {
+                "BONUS1": {
+                    "TYPE": "HPAddedRatio",
+                    "VALUE": 0.12,
+                    "FLAT": false
+                },
+                "BONUS2": {
+                    "TYPE": null,
+                    "VALUE": 0,
+                    "FLAT": true
+                }
             }
         }
     }
