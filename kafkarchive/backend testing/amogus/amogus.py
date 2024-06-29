@@ -51,7 +51,7 @@ async def amogus_hsrmap_chars_database(id):
     avtrdict = response.json()
     
     return avtrdict[str(id)]
-
+"""
 async def amogus_check_flat(statid):
     response = requests.get(f"{hsrmapapi}stats.json", timeout=60)
     statdict = response.json()
@@ -60,6 +60,7 @@ async def amogus_check_flat(statid):
         if statdict[eachstats]["id"] == statid:
             return statdict[eachstats]["flat"]
     #return statdict
+"""
 
 #debug
 async def testing():
@@ -137,8 +138,7 @@ async def amogus_get_relic_main_from_type(type, id, lvl):
     relicmaindict = relicmain[str(type)][id-1]
     reliccalculated = relicmaindict["base"] + (relicmaindict["step"]*lvl)
     relicsummary = dict(TYPE = relicmaindict["property"],
-                        VALUE = reliccalculated,
-                        FLAT = await amogus_check_flat(relicmaindict["property"]))
+                        VALUE = reliccalculated)
     
     return relicsummary
 
@@ -149,8 +149,7 @@ async def amogus_get_relic_sub_from_subaffix(rarity, id, cnt, step):
 
     relicsubcalculated = relicsubdict["base"]*cnt + relicsubdict["step"]*int(step or 0)
     relicsubsummary = dict(TYPE = relicsubdict["property"],
-                           VALUE = relicsubcalculated,
-                           FLAT = await amogus_check_flat(relicsubdict["property"]))
+                           VALUE = relicsubcalculated)
 
     return relicsubsummary
 
@@ -161,10 +160,8 @@ async def amogus_get_trace_val_from_id(traceid):
     #print(json.dumps(chardict, indent=4, sort_keys=False))
     for traces in chardict["tree"]:
         if traces["id"] == str(traceid):
-            flat = await amogus_check_flat(traces["status"][0]["PropertyType"])
             indivi_trace = dict(TYPE = traces["status"][0]["PropertyType"],
-                                VALUE = traces["status"][0]["Value"],
-                                FLAT = flat)
+                                VALUE = traces["status"][0]["Value"])
 
     return indivi_trace
 
@@ -173,24 +170,19 @@ async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
     relicmain = relic[str(relicid)]
 
     active2 = dict(TYPE = None,
-                   VALUE = 0,
-                   FLAT = True)
+                   VALUE = 0)
     active4 = dict(TYPE = None,
-                   VALUE = 0,
-                   FLAT = True)
+                   VALUE = 0)
     activeempty = dict(TYPE = None,
-                        VALUE = 0,
-                        FLAT = True)
+                        VALUE = 0)
 
     for bonuses in relicmain["props"]: 
         if bonuses[0]["active"] == 2:
             active2["TYPE"] = bonuses[0]["type"]
             active2["VALUE"] = bonuses[0]["value"]
-            active2["FLAT"] = await amogus_check_flat(bonuses[0]["type"])
         elif bonuses[0]["active"] == 4:
             active4["TYPE"] = bonuses[0]["type"]
             active4["VALUE"] = bonuses[0]["value"]
-            active4["FLAT"] = await amogus_check_flat(bonuses[0]["type"])
     
     if count == 2 or count == 3:
         if active2["TYPE"] != None:
