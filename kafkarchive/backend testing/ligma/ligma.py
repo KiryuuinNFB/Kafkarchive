@@ -1,8 +1,9 @@
 import json
 import asyncio
-
+"""
 with open('sampleresults.json', 'r') as f:
     imported_dict = json.load(f)
+"""
 
 flat_hp = []
 hp_percent = []
@@ -95,12 +96,14 @@ async def ligma_calculate_final(value_dict):
     print(round(calculated_spd, 3))
     print("=====================")
 
-
+"""
 async def main() -> None:
     for i in imported_dict:
         await ligma_calculate_final(imported_dict[i])
 
 asyncio.run(main())
+
+"""
 
 """
 only temporary

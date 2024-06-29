@@ -2,55 +2,57 @@ import asyncio
 import requests
 import json
 
-yattaapi = "https://api.yatta.top/hsr/v2/en/"
-hsrmapapi = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/en/"
-hsrmapapishort = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/"
-
 
 """
-please make a system where it pulls from the api only once as a local json file and everytime the program runs pull from there instead
+please fix spd not accurate
+and please fix path directory
 """
+    
 #pulling data
 
 async def amogus_stats_database():
-   
-    response = requests.get(f"{hsrmapapi}stats.json", timeout=60)
-    
-    statsdict = response.json()
+    with open(R"amogus\jsonsdata\stats.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    statsdict = response
     for stats in statsdict:
-        
         print(json.dumps(statsdict[stats], indent=4, sort_keys=False))
 
 async def amogus_chars_database(id):
-    response = requests.get(f"{yattaapi}avatar/{id}")
-    avtrdict = response.json()
+    with open(R"amogus\jsonsdata\avatar.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    avtrdict = response[str(id)]
     return avtrdict
 
 async def amogus_lc_database(id):
-    response = requests.get(f"{yattaapi}equipment/{id}")
-    lcdict = response.json()
+    with open(R"amogus\jsonsdata\lightCone.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    lcdict = response[str(id)]
     return lcdict
 
 async def amogus_relicmain_database():
-    response = requests.get(f"{hsrmapapishort}relicMainStats.json")
-    relmaindict = response.json()
+    with open(R"amogus\jsonsdata\relicMainStats.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    relmaindict  = response
     return relmaindict
 
 async def amogus_relicsub_database():
-    response = requests.get(f"{hsrmapapishort}relicSubStats.json")
-    relsubdict = response.json()
+    with open(R"amogus\jsonsdata\relicSubStats.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    relsubdict = response
     return relsubdict
 
 async def amogus_relic_database():
-    response = requests.get(f"{hsrmapapi}relicset.json")
-    relsubdict = response.json()
-    return relsubdict
+    with open(R"amogus\jsonsdata\relicsets.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    relicset = response
+    return relicset
 
 async def amogus_hsrmap_chars_database(id):
-    response = requests.get(f"{hsrmapapi}avatar.json")
-    avtrdict = response.json()
-    
-    return avtrdict[str(id)]
+    with open(R"amogus\jsonsdata\chars.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    avtrdict = response[str(id)]
+    #print(avtrdict)
+    return avtrdict
 """
 async def amogus_check_flat(statid):
     response = requests.get(f"{hsrmapapi}stats.json", timeout=60)
@@ -200,12 +202,7 @@ async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
         
     return result
 
-if __name__ == '__main__':
-    async def main() -> None:
-        i = await amogus_chars_database(1005)
-        print(json.dumps(i["data"]["name"], indent=4, sort_keys=False))
-
-    asyncio.run(main())
+#asyncio.run(amogus_hsrmap_chars_database(1005))
 
 """
 this file looks up game data

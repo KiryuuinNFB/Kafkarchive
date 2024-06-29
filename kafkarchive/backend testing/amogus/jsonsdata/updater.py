@@ -112,3 +112,7 @@ async def update_light_cone():
         print("Successfully updated lightCone.json")
 
 asyncio.run(update_light_cone())
+
+"""
+this file updates the json files
+"""
