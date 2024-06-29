@@ -36,7 +36,7 @@ async def list_sorting(dictwithval):
         
         case "SpeedDelta":
             flat_spd.append(dictwithval["VALUE"])
-        case "Speed":
+        case "SpeedAddedRatio":
             spd_percent.append(dictwithval["VALUE"])
         case _:
             pass
@@ -89,11 +89,12 @@ async def ligma_calculate_final(value_dict):
     calculated_atk = round(base_atk, 3) * (1 + sum(atk_percent)) + sum(flat_atk)
     calculated_def = round(base_def, 3) * (1 + sum(def_percent)) + sum(flat_def)
     calculated_spd = base_spd * (1 + sum(spd_percent)) + sum(flat_spd)
+
     print(value_dict["Char"])
-    print(round(calculated_hp, 3))
-    print(round(calculated_atk, 3))
-    print(round(calculated_def, 3))
-    print(round(calculated_spd, 3))
+    print("HP" , round(calculated_hp, 3))
+    print("ATK", round(calculated_atk, 3))
+    print("DEF", round(calculated_def, 3))
+    print("SPD", round(calculated_spd, 3))
     print("=====================")
 
 """

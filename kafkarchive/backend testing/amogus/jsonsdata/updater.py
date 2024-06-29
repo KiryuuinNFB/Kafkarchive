@@ -111,7 +111,17 @@ async def update_light_cone():
         json.dump(lc_dict, f, ensure_ascii=False, indent=4)
         print("Successfully updated lightCone.json")
 
-asyncio.run(update_light_cone())
+
+async def main() -> None:
+    await update_avatar()
+    await update_light_cone()
+    await update_chars()
+    await update_relic_main()
+    await update_relic_sub()
+    await update_relics()
+    await update_stats()
+
+asyncio.run(main())
 
 """
 this file updates the json files

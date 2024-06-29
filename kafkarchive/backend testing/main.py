@@ -82,7 +82,8 @@ async def main() -> None:
             calculated.update({"Traces": dict_of_traces})
             calculated.update({"Relic bonuses": dict_of_calculated_bonus})
 
-            #print(json.dumps(calculated, indent=4, sort_keys=False))
+            #with open("zkungsampleresult.json",'w', encoding='utf-8') as f:
+            #    json.dump(calculated, f, indent=4, ensure_ascii=False)
             await ligma_calculate_final(calculated)
             #allasjson.update({chars:calculated})
 
