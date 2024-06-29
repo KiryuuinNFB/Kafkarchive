@@ -1,5 +1,6 @@
 from fetchdata import fetch
 from amogus import *
+from ligma import *
 import asyncio
 import json
 import timeit
@@ -82,8 +83,9 @@ async def main() -> None:
             calculated.update({"Relic bonuses": dict_of_calculated_bonus})
 
             #print(json.dumps(calculated, indent=4, sort_keys=False))
-
+            #ligma_calculate_final(calculated)
             #allasjson.update({chars:calculated})
+
         #print(json.dumps(allasjson, indent=4, sort_keys=False))
         
         stop = timeit.default_timer()

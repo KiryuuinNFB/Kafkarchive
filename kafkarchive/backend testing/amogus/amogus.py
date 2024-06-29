@@ -6,6 +6,10 @@ yattaapi = "https://api.yatta.top/hsr/v2/en/"
 hsrmapapi = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/en/"
 hsrmapapishort = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/"
 
+
+"""
+please make a system where it pulls from the api only once as a local json file and everytime the program runs pull from there instead
+"""
 #pulling data
 
 async def amogus_stats_database():
