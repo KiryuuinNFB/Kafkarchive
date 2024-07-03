@@ -31,7 +31,16 @@
         </div>
 	</header>
 	<div class="content">
-		<h1>Kafkarchive is under maintenance</h1>
+		<h1 class="topic">About</h1>
+		<h2 class="subtopic">About Kafkarchive</h2>
+		<div class=walloftext>
+			<p>Kafkarchive is a Honkai: Star Rail database website where players can upload their character builds with tags that best describe them.
+				So that other players can look up builds that might fit their playstyles. It is also a site for calculating hypothetical builds. You can import your builds by putting in your UID, 
+				Or you can create your build manually.
+				This site was created for a school project, So don't expect super accurate information or optimized system. 
+			</p>
+		</div>
+
 	</div>
 </body>
 
@@ -100,7 +109,7 @@
 	.top-button:hover {
     	color: #d4a028;
     	background-color: #2e1d20;
-    	border-radius: 10px;
+    	border-radius: 12px;
 	}
 
 	.searches {
@@ -141,14 +150,36 @@
 		color: white;
 	}
 
+	.searchsubmit:hover {
+		border: 4px solid #d4a028;
+		background-color: #d4a028;
+		color: #1f0e16;
+		
+	}
+
 	.content {
 		font-family: Sarabun, Arial;
-		font-size: 70px;
-    	font-weight: 700;
 		color: #ffffff;
     	margin-top: 30px;
     	margin-left: 200px;
     	margin-right: 200px;
+	}
+
+	.topic {
+		font-size: 70px;
+    	font-weight: 700;
+	}
+
+	.subtopic {
+		font-size: 40px;
+    	font-weight: 600;
+	}
+
+	.walloftext {
+		font-family: Sarabun, Arial;
+    	color: #ffffff;
+    	font-size: 16px;
+    	line-height: 1.8;
 	}
 
 </style>
