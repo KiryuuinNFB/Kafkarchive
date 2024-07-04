@@ -1,6 +1,7 @@
 :global(body) {
     margin: 0;
     padding: 0;
+    min-width: 100vh;
 }
 
 body {
@@ -8,10 +9,6 @@ body {
     background-color: #170a10;
     margin: 0px;
     padding: 0px;
-}
-
-:root {
-      --global-footer-height: 2rem;
 }
 
 :root::-webkit-scrollbar {
@@ -41,7 +38,6 @@ body {
   }
 
 .content {
-    min-height: calc(75vh - var(--global-footer-height));
     font-family: Sarabun, Arial;
     color: #ffffff;
     margin-top: 30px;
@@ -88,3 +84,4 @@ body {
     height: 100px;
     width: 100px
 }
+

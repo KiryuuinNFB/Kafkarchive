@@ -1,5 +1,5 @@
 <script>
-    import './global.css';
+    import '../global.css';
     import sitelogo from '$lib/assets/logo2.png'
     export let searchcontent;
 </script>
@@ -116,7 +116,13 @@
 
     }
 
+
+    footer {
+        position: sticky;
+    }
+
     .bottom {
+       
         display: flex;
         flex-direction: row;
         background-color: #411c2d;
