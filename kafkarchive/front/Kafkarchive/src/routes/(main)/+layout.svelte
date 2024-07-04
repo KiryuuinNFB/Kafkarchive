@@ -1,6 +1,7 @@
 <script>
     import '../global.css';
     import sitelogo from '$lib/assets/logo2.png'
+
     export let searchcontent;
 </script>
 
@@ -27,7 +28,7 @@
     <div class="bottominfo">
         <h2 class="bottomkafka">Kafkarchive</h2>
         <p class="bottomtext">Copyright © 2024 Kafkarchive | <a href="https://www.youtube.com/@KiryuuinNFB/featured" target="_blank" class="bottomtextlink">NFB Production</a></p>
-        <a class="bottomtextlink" target="_blank" href="https://www.reddit.com/r/copypasta/comments/13725q0/10_reasons_javascript_is_homophobic/">Privacy Policy</a>
+        <a class="bottomtextlink" href="/privacy">Privacy Policy</a>
         <p class="bottomtext">Powered by <a href="https://enka.network/?hsr" target="_blank" class="bottomtextlink">Enka.Network</a></p>
         <p class="bottomtext">i want segg with kafka</p>
     </div>
@@ -116,13 +117,8 @@
 
     }
 
-
-    footer {
-        position: sticky;
-    }
-
     .bottom {
-       
+        margin-top: auto;
         display: flex;
         flex-direction: row;
         background-color: #411c2d;
