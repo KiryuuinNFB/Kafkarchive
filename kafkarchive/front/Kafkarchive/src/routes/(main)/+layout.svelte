@@ -30,7 +30,7 @@
         <p class="bottomtext">Copyright © 2024 Kafkarchive | <a href="https://www.youtube.com/@KiryuuinNFB/featured" target="_blank" class="bottomtextlink">NFB Production</a></p>
         <a class="bottomtextlink" href="/privacy">Privacy Policy</a>
         <p class="bottomtext">Powered by <a href="https://enka.network/?hsr" target="_blank" class="bottomtextlink">Enka.Network</a></p>
-        <p class="bottomtext">i want segg with kafka</p>
+        <p class="bottomtext">kafka please hug me</p>
     </div>
     <div class="bottominfo1">
         <a class="bottomtext2" target="_blank" href="https://github.com/KiryuuinNFB/Kafkarchive">Github</a>
@@ -118,6 +118,9 @@
     }
 
     .bottom {
+        height: 100%;
+        min-height: 35vh;
+        max-height: 100vh;
         margin-top: auto;
         display: flex;
         flex-direction: row;
