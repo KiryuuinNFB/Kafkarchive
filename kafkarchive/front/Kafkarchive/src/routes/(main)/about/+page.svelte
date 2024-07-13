@@ -42,7 +42,7 @@
 		<h3>Q | Why Kafka?</h3>
 		<p class="walloftext">A | I just really like mommy Kafka.</p>
 		<h3>Q | There are already a lot of websites like this. Why even make Kafkarchive?</h3>
-		<p class="walloftext">A | It's for me to practice programming. This is my first ever website and if it works, I am happy.</p>
+		<p class="walloftext">A | It's for me to practice programming as a hobby. This is my first ever website, It's a passion project and if it works, I am happy.</p>
 		<h3>Q | How can I support the development of this website?</h3>
 		<p class="walloftext">A | You can support the website not by donating but just by giving me a hug. No, Seriously i need it so bad. 
             My mental health isn't very good at all. Halfway into designing this website i realized just how little i know about the game mechanics. 

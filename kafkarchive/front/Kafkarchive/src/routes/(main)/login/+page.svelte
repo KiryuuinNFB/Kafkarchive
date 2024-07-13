@@ -26,7 +26,7 @@
 				<p class="logintopic">Login</p>
 				<div class="loginformlists">
 					<input bind:value={email} placeholder="Email" class="loginform">
-					<input bind:value={password} placeholder="Password" class="loginform">
+					<input bind:value={password} placeholder="Password" type="password" class="loginform">
 				</div>
 				<button on:click={login} class="loginsubmit">Login</button>
 				<button on:click={noacc} class="register">Create an account</button>

@@ -2,7 +2,7 @@
     import '../global.css';
     import sitelogo from '$lib/assets/logo2.png'
 
-    export let searchcontent;
+    export let searchcontent = "";
 </script>
 
 
