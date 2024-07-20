@@ -1,0 +1,213 @@
+{
+    "Char": "Blade",
+    "Charstats": {
+        "CHAR_ATK": 543.312,
+        "CHAR_DEF": 485.1,
+        "CHAR_HP": 1358.2800000000002,
+        "CHAR_SPD": 97
+    },
+    "Light_cone": "A Secret Vow",
+    "Light_cone_stats": {
+        "LC_HP": 1058.4,
+        "LC_ATK": 476.28,
+        "LC_DEF": 264.6
+    },
+    "Relics": {
+        "Head": {
+            "TYPE": "HPDelta",
+            "VALUE": 705.5999999999999,
+            "SUBSTATS": [
+                {
+                    "TYPE": "AttackDelta",
+                    "VALUE": 16.935019
+                },
+                {
+                    "TYPE": "DefenceAddedRatio",
+                    "VALUE": 0.1512
+                },
+                {
+                    "TYPE": "SpeedDelta",
+                    "VALUE": 4.9
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.058320000399999995
+                }
+            ]
+        },
+        "Hands": {
+            "TYPE": "AttackDelta",
+            "VALUE": 352.79999999999995,
+            "SUBSTATS": [
+                {
+                    "TYPE": "HPDelta",
+                    "VALUE": 38.103795000000005
+                },
+                {
+                    "TYPE": "HPAddedRatio",
+                    "VALUE": 0.1166400069
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.05184
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.1944000024
+                }
+            ]
+        },
+        "Body": {
+            "TYPE": "CriticalDamageBase",
+            "VALUE": 0.648,
+            "SUBSTATS": [
+                {
+                    "TYPE": "AttackDelta",
+                    "VALUE": 42.337546
+                },
+                {
+                    "TYPE": "DefenceDelta",
+                    "VALUE": 21.168773
+                },
+                {
+                    "TYPE": "HPAddedRatio",
+                    "VALUE": 0.1555200092
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.0550800002
+                }
+            ]
+        },
+        "Feet": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.43200000000000005,
+            "SUBSTATS": [
+                {
+                    "TYPE": "DefenceAddedRatio",
+                    "VALUE": 0.048600000000000004
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.0324000004
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.2786400012
+                },
+                {
+                    "TYPE": "StatusResistanceBase",
+                    "VALUE": 0.043200002599999995
+                }
+            ]
+        },
+        "Planar_Sphere": {
+            "TYPE": "WindAddedRatio",
+            "VALUE": 0.388803015,
+            "SUBSTATS": [
+                {
+                    "TYPE": "HPAddedRatio",
+                    "VALUE": 0.1296000078
+                },
+                {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.034560002
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.0550800002
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.11664000079999999
+                }
+            ]
+        },
+        "Link_Rope": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.43200000000000005,
+            "SUBSTATS": [
+                {
+                    "TYPE": "HPDelta",
+                    "VALUE": 38.103795000000005
+                },
+                {
+                    "TYPE": "SpeedDelta",
+                    "VALUE": 8.6
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.05184
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.0648000008
+                }
+            ]
+        }
+    },
+    "Traces": {
+        "1205201": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.04
+        },
+        "1205202": {
+            "TYPE": "CriticalChanceBase",
+            "VALUE": 0.026999999
+        },
+        "1205203": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.04
+        },
+        "1205204": {
+            "TYPE": "StatusResistanceBase",
+            "VALUE": 0.04
+        },
+        "1205205": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.06
+        },
+        "1205206": {
+            "TYPE": "CriticalChanceBase",
+            "VALUE": 0.04
+        },
+        "1205207": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.06
+        },
+        "1205208": {
+            "TYPE": "StatusResistanceBase",
+            "VALUE": 0.06
+        },
+        "1205209": {
+            "TYPE": "CriticalChanceBase",
+            "VALUE": 0.053
+        },
+        "1205210": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.08
+        }
+    },
+    "Relic_bonuses": {
+        "113": {
+            "BONUS1": {
+                "TYPE": "HPAddedRatio",
+                "VALUE": 0.12
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "309": {
+            "BONUS1": {
+                "TYPE": "CriticalChanceBase",
+                "VALUE": 0.08
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        }
+    }
+}

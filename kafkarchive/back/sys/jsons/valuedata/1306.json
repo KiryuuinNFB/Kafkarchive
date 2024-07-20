@@ -1,0 +1,225 @@
+{
+    "Char": "Sparkle",
+    "Charstats": {
+        "CHAR_ATK": 523.908,
+        "CHAR_DEF": 485.1,
+        "CHAR_HP": 1397.088,
+        "CHAR_SPD": 101
+    },
+    "Light_cone": "But the Battle Isn't Over",
+    "Light_cone_stats": {
+        "LC_HP": 1000.56,
+        "LC_ATK": 454.8,
+        "LC_DEF": 397.95
+    },
+    "Relics": {
+        "Head": {
+            "TYPE": "HPDelta",
+            "VALUE": 705.5999999999999,
+            "SUBSTATS": [
+                {
+                    "TYPE": "AttackDelta",
+                    "VALUE": 55.038811
+                },
+                {
+                    "TYPE": "SpeedDelta",
+                    "VALUE": 2.0
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.18792000199999997
+                },
+                {
+                    "TYPE": "BreakDamageAddedRatioBase",
+                    "VALUE": 0.05184
+                }
+            ]
+        },
+        "Hands": {
+            "TYPE": "AttackDelta",
+            "VALUE": 352.79999999999995,
+            "SUBSTATS": [
+                {
+                    "TYPE": "DefenceDelta",
+                    "VALUE": 38.103792
+                },
+                {
+                    "TYPE": "HPAddedRatio",
+                    "VALUE": 0.0388800023
+                },
+                {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.043200002599999995
+                },
+                {
+                    "TYPE": "SpeedDelta",
+                    "VALUE": 9.2
+                }
+            ]
+        },
+        "Body": {
+            "TYPE": "CriticalDamageBase",
+            "VALUE": 0.648,
+            "SUBSTATS": [
+                {
+                    "TYPE": "HPDelta",
+                    "VALUE": 33.87004
+                },
+                {
+                    "TYPE": "HPAddedRatio",
+                    "VALUE": 0.08640000519999999
+                },
+                {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.1123200066
+                },
+                {
+                    "TYPE": "SpeedDelta",
+                    "VALUE": 6.9
+                }
+            ]
+        },
+        "Feet": {
+            "TYPE": "SpeedDelta",
+            "VALUE": 25.032,
+            "SUBSTATS": [
+                {
+                    "TYPE": "HPDelta",
+                    "VALUE": 76.20759000000001
+                },
+                {
+                    "TYPE": "DefenceDelta",
+                    "VALUE": 19.051896
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.1231200012
+                },
+                {
+                    "TYPE": "BreakDamageAddedRatioBase",
+                    "VALUE": 0.1944000024
+                }
+            ]
+        },
+        "Planar_Sphere": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.43200000000000005,
+            "SUBSTATS": [
+                {
+                    "TYPE": "HPDelta",
+                    "VALUE": 38.103795000000005
+                },
+                {
+                    "TYPE": "AttackDelta",
+                    "VALUE": 59.27256500000001
+                },
+                {
+                    "TYPE": "SpeedDelta",
+                    "VALUE": 6.6
+                },
+                {
+                    "TYPE": "StatusResistanceBase",
+                    "VALUE": 0.0777600046
+                }
+            ]
+        },
+        "Link_Rope": {
+            "TYPE": "SPRatioBase",
+            "VALUE": 0.19439401499999998,
+            "SUBSTATS": [
+                {
+                    "TYPE": "DefenceDelta",
+                    "VALUE": 16.935019
+                },
+                {
+                    "TYPE": "HPAddedRatio",
+                    "VALUE": 0.1166400069
+                },
+                {
+                    "TYPE": "DefenceAddedRatio",
+                    "VALUE": 0.0864
+                },
+                {
+                    "TYPE": "StatusResistanceBase",
+                    "VALUE": 0.0820800049
+                }
+            ]
+        }
+    },
+    "Traces": {
+        "1306201": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.04
+        },
+        "1306202": {
+            "TYPE": "CriticalDamageBase",
+            "VALUE": 0.053
+        },
+        "1306203": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.04
+        },
+        "1306204": {
+            "TYPE": "StatusResistanceBase",
+            "VALUE": 0.04
+        },
+        "1306205": {
+            "TYPE": "HPAddedRatio",
+            "VALUE": 0.06
+        },
+        "1306206": {
+            "TYPE": "CriticalDamageBase",
+            "VALUE": 0.08
+        },
+        "1306208": {
+            "TYPE": "StatusResistanceBase",
+            "VALUE": 0.06
+        },
+        "1306209": {
+            "TYPE": "CriticalDamageBase",
+            "VALUE": 0.107
+        }
+    },
+    "Relic_bonuses": {
+        "114": {
+            "BONUS1": {
+                "TYPE": "SpeedAddedRatio",
+                "VALUE": 0.06
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "118": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "102": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        },
+        "310": {
+            "BONUS1": {
+                "TYPE": "StatusResistanceBase",
+                "VALUE": 0.1
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        }
+    }
+}

@@ -88,10 +88,12 @@ async def build_calculation(builddata) -> None:
         final = await ligma_calculate_final(calculated)
         stop = timeit.default_timer()
         print('Time elapsed ', round(stop - start,3), "seconds")
+        
+        #print(json.dumps(calculated, indent=4, sort_keys=False))
         return final
             #allasjson.update({chars:calculated})
 
-        #print(json.dumps(allasjson, indent=4, sort_keys=False))
+        
         
         
         

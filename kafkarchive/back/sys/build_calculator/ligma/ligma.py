@@ -17,6 +17,12 @@ def_percent = []
 flat_spd = []
 spd_percent = []
 
+flat_crit_rate = []
+flat_crit_dmg = []
+
+crit_rate_percent = []
+crit_dmg_percent = []
+
 async def list_sorting(dictwithval):
     match dictwithval["TYPE"]:
         case "HPDelta":
@@ -38,6 +44,18 @@ async def list_sorting(dictwithval):
             flat_spd.append(dictwithval["VALUE"])
         case "SpeedAddedRatio":
             spd_percent.append(dictwithval["VALUE"])
+
+        case "CriticalChance":
+            crit_rate_percent.append(dictwithval["VALUE"])
+        case "CriticalDamage":
+            crit_dmg_percent.append(dictwithval["VALUE"])
+
+        case "CriticalChanceBase":
+            flat_crit_rate.append(dictwithval["VALUE"])
+        case "CriticalDamageBase":
+            flat_crit_dmg.append(dictwithval["VALUE"])
+        
+
         case _:
             pass
 
@@ -51,6 +69,11 @@ async def ligma_calculate_final(value_dict):
     global flat_spd
     global spd_percent
 
+    global flat_crit_rate
+    global flat_crit_dmg
+    global crit_rate_percent
+    global crit_dmg_percent
+
     flat_hp = []
     hp_percent = []
     flat_atk = []
@@ -59,6 +82,13 @@ async def ligma_calculate_final(value_dict):
     def_percent = []
     flat_spd = [] 
     spd_percent = []
+
+    flat_crit_rate = []
+    flat_crit_dmg = []
+
+    crit_rate_percent = []
+    crit_dmg_percent = []
+
 
     base_hp = value_dict["Charstats"]["CHAR_HP"] + value_dict["Light_cone_stats"]["LC_HP"]
     base_atk = value_dict["Charstats"]["CHAR_ATK"] + value_dict["Light_cone_stats"]["LC_ATK"]
@@ -91,6 +121,9 @@ async def ligma_calculate_final(value_dict):
     calculated_def = round(base_def, 3) * (1 + sum(def_percent)) + sum(flat_def)
     calculated_spd = base_spd * (1 + sum(spd_percent)) + sum(flat_spd)
 
+    calculated_crit_rate = (sum(flat_crit_rate) * (1 + sum(crit_rate_percent)) * 100) + 5
+    calculated_crit_dmg = (sum(flat_crit_dmg) * (1 + sum(crit_dmg_percent)) * 100) + 50
+
     final = {}
 
     final.update({"NAME":value_dict["Char"]})
@@ -98,6 +131,8 @@ async def ligma_calculate_final(value_dict):
     final.update({"ATK":round(calculated_atk, 3)})
     final.update({"DEF":round(calculated_def, 3)})
     final.update({"SPD":round(calculated_spd, 3)})
+    final.update({"CRIT_RATE":round(calculated_crit_rate, 3)})
+    final.update({"CRIT_DMG":round(calculated_crit_dmg, 3)})
 
     return final
 

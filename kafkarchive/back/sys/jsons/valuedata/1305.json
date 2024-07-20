@@ -1,0 +1,209 @@
+{
+    "Char": "Dr. Ratio",
+    "Charstats": {
+        "CHAR_ATK": 776.1600000000001,
+        "CHAR_DEF": 460.845,
+        "CHAR_HP": 1047.816,
+        "CHAR_SPD": 103
+    },
+    "Light_cone": "Cruising in the Stellar Sea",
+    "Light_cone_stats": {
+        "LC_HP": 952.56,
+        "LC_ATK": 529.2,
+        "LC_DEF": 463.04999999999995
+    },
+    "Relics": {
+        "Head": {
+            "TYPE": "HPDelta",
+            "VALUE": 705.5999999999999,
+            "SUBSTATS": [
+                {
+                    "TYPE": "AttackDelta",
+                    "VALUE": 38.103792
+                },
+                {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.0820800049
+                },
+                {
+                    "TYPE": "SpeedDelta",
+                    "VALUE": 7.2
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.0648000008
+                }
+            ]
+        },
+        "Hands": {
+            "TYPE": "AttackDelta",
+            "VALUE": 352.79999999999995,
+            "SUBSTATS": [
+                {
+                    "TYPE": "HPAddedRatio",
+                    "VALUE": 0.043200002599999995
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.1522800014
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.1231200012
+                },
+                {
+                    "TYPE": "BreakDamageAddedRatioBase",
+                    "VALUE": 0.0648000008
+                }
+            ]
+        },
+        "Body": {
+            "TYPE": "CriticalDamageBase",
+            "VALUE": 0.648,
+            "SUBSTATS": [
+                {
+                    "TYPE": "DefenceDelta",
+                    "VALUE": 35.986915
+                },
+                {
+                    "TYPE": "DefenceAddedRatio",
+                    "VALUE": 0.1404
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.029160000199999998
+                },
+                {
+                    "TYPE": "StatusResistanceBase",
+                    "VALUE": 0.0820800049
+                }
+            ]
+        },
+        "Feet": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.43200000000000005,
+            "SUBSTATS": [
+                {
+                    "TYPE": "SpeedDelta",
+                    "VALUE": 2.3
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.0648000008
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.1749600012
+                },
+                {
+                    "TYPE": "StatusProbabilityBase",
+                    "VALUE": 0.0734400043
+                }
+            ]
+        },
+        "Planar_Sphere": {
+            "TYPE": "ImaginaryAddedRatio",
+            "VALUE": 0.388803015,
+            "SUBSTATS": [
+                {
+                    "TYPE": "AttackAddedRatio",
+                    "VALUE": 0.10800000629999999
+                },
+                {
+                    "TYPE": "DefenceAddedRatio",
+                    "VALUE": 0.0864
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.0550800002
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.05184
+                }
+            ]
+        },
+        "Link_Rope": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.43200000000000005,
+            "SUBSTATS": [
+                {
+                    "TYPE": "DefenceAddedRatio",
+                    "VALUE": 0.054000000000000006
+                },
+                {
+                    "TYPE": "CriticalChanceBase",
+                    "VALUE": 0.02592
+                },
+                {
+                    "TYPE": "CriticalDamageBase",
+                    "VALUE": 0.23328000159999998
+                },
+                {
+                    "TYPE": "StatusProbabilityBase",
+                    "VALUE": 0.0777600046
+                }
+            ]
+        }
+    },
+    "Traces": {
+        "1305201": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04
+        },
+        "1305202": {
+            "TYPE": "CriticalChanceBase",
+            "VALUE": 0.026999999
+        },
+        "1305203": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.04
+        },
+        "1305205": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.06
+        },
+        "1305206": {
+            "TYPE": "CriticalChanceBase",
+            "VALUE": 0.04
+        },
+        "1305207": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.06
+        },
+        "1305208": {
+            "TYPE": "DefenceAddedRatio",
+            "VALUE": 0.075
+        },
+        "1305209": {
+            "TYPE": "CriticalChanceBase",
+            "VALUE": 0.053
+        },
+        "1305210": {
+            "TYPE": "AttackAddedRatio",
+            "VALUE": 0.08
+        }
+    },
+    "Relic_bonuses": {
+        "117": {
+            "BONUS1": {
+                "TYPE": null,
+                "VALUE": 0
+            },
+            "BONUS2": {
+                "TYPE": "CriticalChanceBase",
+                "VALUE": 0.04
+            }
+        },
+        "306": {
+            "BONUS1": {
+                "TYPE": "CriticalChanceBase",
+                "VALUE": 0.08
+            },
+            "BONUS2": {
+                "TYPE": null,
+                "VALUE": 0
+            }
+        }
+    }
+}
