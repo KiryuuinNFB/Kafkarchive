@@ -85,3 +85,16 @@ body {
     width: 100px
 }
 
+.centerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-family: Sarabun, Arial;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.8;
+}

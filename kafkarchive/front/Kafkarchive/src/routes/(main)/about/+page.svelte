@@ -26,7 +26,7 @@
 		<h2 class="subtopic">About the developers</h2>
     <div class="walloftext">
         <p><a href="https://github.com/KiryuuinNFB" class="walloftextlink">Kiryuuin</a> | The only active developer. Did frontend and backend. And is the guy writing all of this.<br>
-			<a href="https://github.com/Ranviee0" class="walloftextlink">Ranvie</a> | Programming tech support.</p>
+			<a href="https://github.com/Ranviee0" class="walloftextlink">Ranvie</a> | Programming tech support. Without him, I wouldn't be able to do programming at all.</p>
 			
 		<p>Beta testers <br>
 			Phot007, Zkung, Hydragear.K, BaNinena</p>
@@ -42,19 +42,27 @@
 		<h3>Q | Why Kafka?</h3>
 		<p class="walloftext">A | I just really like mommy Kafka.</p>
 		<h3>Q | There are already a lot of websites like this. Why even make Kafkarchive?</h3>
-		<p class="walloftext">A | It's for me to practice programming as a hobby. This is my first ever website, It's a passion project and if it works, I am happy.</p>
+		<p class="walloftext">A | It's for me to practice programming as a hobby. This is my first ever website, It's a passion project and if it works, I am happy. 
+			And if I ever go to college I will put this website in my portfolio<br>
+			And if anyone says that there is no point in making this website. Then I'll be quoting <a href="https://www.youtube.com/watch?v=Qp3b-RXtz4w&t=50s&cc_load_policy=1" class="walloftextlink" target="_blank">one of my favorite song</a>. 
+		</p>
+
+		<div class="centerdiv">
+			<p class="quote">"Shut up, shut up, shut the fuck up. I&#39m healthier than you think. You are too mediocre to understand me, perhaps"</p>
+		</div>		
+
+		<p class="walloftext">What I meant by that was. I know it's pointless but shut up. This is my website and I get to do anything I want on my website. 
+			Also I don't hate you guys, I just really like that song lol.</p>
+
 		<h3>Q | How can I support the development of this website?</h3>
-		<p class="walloftext">A | You can support the website not by donating but just by giving me a hug. No, Seriously i need it so bad. 
+		<p class="walloftext">A | You can support me by visiting my <a class="walloftextlink" target="_blank" href="https://www.youtube.com/@KiryuuinNFB/featured">Youtube channel</a>
+			where I did music there. But I have already lost lots of motivation in music production. I might not be able to make quality remixes like I used to before.</p>
+		<p class="walloftext">You can also support the website just by giving me a hug. No, Seriously i need it so bad. 
             My mental health isn't very good at all. Halfway into designing this website i realized just how little i know about the game mechanics. 
             And the fact that a lot of players have already made much better and more practical websites just demotivates me. When I first started designing this website
             I didn't even know any JavaScript or anything about web frameworks. I have realized just how complicated web developing actually is and it is too late for me to stop now.</p>
 
-		<p class="walloftext"> Don't get me wrong. I'm kinda enjoying this. But this website is literally pointless. I mean you can just do build calculations on excel. As for the user uploaded builds database,
-			Who needs to see other peoples builds anyways. Just experiment on your own builds and have fun. I'm just a casual player that wants to do web development. I probably can't go to college anyways.
-		</p>
-
-		<p class="walloftext"> You can also support me by visiting my <a class="walloftextlink" target="_blank" href="https://www.youtube.com/@KiryuuinNFB/featured">Youtube channel</a>
-		where I did music there. But I have already lost lots of motivation in music production. I might not be able to make quality remixes like I used to before.</p>
+		
 	</div>
 
 	</div>
