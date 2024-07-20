@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Annotated
 from annotated_types import Len
+from build_calculator import build_calculation
 
 #numbers for debugging
 
@@ -28,7 +29,7 @@ class Light_cone(BaseModel):
 class Each_substats(BaseModel):
     id: int
     cnt: int
-    step: int
+    step: int | None = None
 
 class Each_relic(BaseModel):
     setid: int
@@ -83,5 +84,5 @@ async def calc(number: number):
 @app.post("/test")
 async def test(builddata: Build_data):
     builddict = builddata.model_dump()
-    result = builddict["Character"]["name"]
+    result = await build_calculation(builddict)
     return result
