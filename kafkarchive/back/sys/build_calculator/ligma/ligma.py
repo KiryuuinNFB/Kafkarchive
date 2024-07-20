@@ -148,6 +148,5 @@ asyncio.run(main())
 """
 
 """
-only temporary
-it is to test reading json files
+this file gets valuedata and turns it into final calculated stats you see in game
 """
