@@ -28,6 +28,11 @@ async def amogus_lc_database(id):
     lcdict = response[str(id)]
     return lcdict
 
+async def amogus_lc_database_no_id():
+    with open(Rf"{directory}\weapons.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    return response
+
 async def amogus_relicmain_database():
     with open(Rf"{directory}\relicMainStats.json", 'r', encoding="utf8") as f:
         response = json.load(f)
@@ -215,23 +220,7 @@ async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
 
 #asyncio.run(amogus_hsrmap_chars_database(1005))
 
-"""
-datatypes
-name
-description
-stats
-icon
-shortIcon
-drawIcon
-rarity
-element
-skills
-promos
-avatarTypes
-
-"""
-
-async def amogus_get_chars_name(datatype):
+async def amogus_get_chars_data(datatype):
     chars = await amogus_hsrmap_chars_database_no_id()
     exportdict = {}
     for ids in chars:
@@ -240,10 +229,21 @@ async def amogus_get_chars_name(datatype):
             exportdict.update({ids:chars[str(ids)][datatype]})
         else:
             pass
-        
-        
     return exportdict
 
+async def amogus_get_relic_data(datatype):
+    relics = await amogus_relic_database()
+    exportdict = {}
+    for ids in relics:
+        exportdict.update({ids:relics[str(ids)][datatype]})
+    return exportdict
+
+async def amogus_get_lc_data(datatype):
+    lcs = await amogus_lc_database_no_id()
+    exportdict = {}
+    for ids in lcs:
+        exportdict.update({ids:lcs[str(ids)][datatype]})
+    return exportdict
 """
 this file looks up game data
 """

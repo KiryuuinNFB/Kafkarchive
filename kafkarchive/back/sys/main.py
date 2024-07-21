@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Annotated
 from annotated_types import Len
@@ -91,4 +92,36 @@ get_char_data_types = "datatypes : name, description, stats, icon, shortIcon, dr
 
 @app.get("/data/chars/{datatype}", description=get_char_data_types)
 async def get_chars_data(datatype: str):
-    return await forward_amogus_get_chars_name(datatype)
+    return await forward_amogus_get_chars_data(datatype)
+
+get_relic_data_types = "datatypes : name, setID, two, twopc, four, fourpc, params, props, setIcon, planarSet"
+
+@app.get("/data/relics/{datatype}", description=get_relic_data_types)
+async def get_relic_data(datatype: str):
+    return await forward_amogus_get_relic_data(datatype)
+
+get_lightcone_data_types = "datatypes : name, icon, shortIcon, rarity, weaponType, refinements, maxHP, maxATK, maxDEF, promotion, promo, params, passives, id"
+
+@app.get("/data/lightcones/{datatype}", description=get_lightcone_data_types)
+async def get_lightcone_data(datatype: str):
+    return await forward_amogus_get_lc_data(datatype)
+
+img_path = R"build_calculator\amogus\jsonsdata\img"
+
+@app.get("/img/char/{id}")
+async def get_char_img(id):
+    return FileResponse(Rf"{img_path}\chars\{id}.png")
+
+@app.get("/img/charbig/{id}")
+async def get_char_img(id):
+    return FileResponse(Rf"{img_path}\charbig\{id}.png")
+
+
+@app.get("/img/lightcones/{id}")
+async def get_char_img(id):
+    return FileResponse(Rf"{img_path}\lightcones\{id}.png")
+
+@app.get("/img/relics/{id}/{relictype}")
+async def get_char_img(id, relictype):
+    return FileResponse(Rf"{img_path}\relics\IconRelic_{id}_{relictype}.png")
+

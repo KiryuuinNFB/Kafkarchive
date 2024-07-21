@@ -96,8 +96,14 @@ async def build_calculation(builddata) -> None:
     else:
         print("Enka API failed to fetch data")
 
-async def forward_amogus_get_chars_name(datatype):
-    return await amogus_get_chars_name(datatype)
+async def forward_amogus_get_chars_data(datatype):
+    return await amogus_get_chars_data(datatype)
+
+async def forward_amogus_get_relic_data(datatype):
+    return await amogus_get_relic_data(datatype)
+
+async def forward_amogus_get_lc_data(datatype):
+    return await amogus_get_lc_data(datatype)
     
     
 if __name__ == '__main__':

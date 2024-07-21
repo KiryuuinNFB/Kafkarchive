@@ -114,13 +114,24 @@ async def update_light_cone():
         json.dump(lc_dict, f, ensure_ascii=False, indent=4)
         print("Successfully updated lightCone.json")
 
+async def update_lcs():
+    response = requests.get(f"{hsrmapapi}weapons.json")
+    with open("weapons.json", 'w', encoding='utf-8') as f:
+        json.dump(response.json(), f, ensure_ascii=False, indent=4)
+        print("Successfully updated weapons.json")
+
 """
 image stuff
 """
 
 async def char_icon(id):
-    response = requests.get(f"{hsrimgapi}/spriteoutput/avataricon/{id}.png")
+    response = requests.get(f"{hsrimgapi}/spriteoutput/avatarroundicon/avatar/{id}.png")
     with open(Rf"{directory}\chars\{id}.png", 'wb') as f:
+        f.write(response.content)
+
+async def char_big(id):
+    response = requests.get(f"{hsrimgapi}/spriteoutput/avatardrawcard/{id}.png")
+    with open(Rf"{directory}\charbig\{id}.png", 'wb') as f:
         f.write(response.content)
 
 async def update_all_char_icons():
@@ -128,6 +139,8 @@ async def update_all_char_icons():
     for ids in id_lists:
         print(f"updating {ids}.png")
         await char_icon(ids)
+        await char_big(ids)
+    print("Successfully updated character images")
 
 async def lc_icon(id):
     response = requests.get(f"{hsrimgapi}/spriteoutput/lightconemediumicon/{id}.png")
@@ -139,6 +152,7 @@ async def update_all_lc_icons():
     for ids in id_lists:
         print(f"updating {ids}.png")
         await lc_icon(ids)
+    print("Successfully updated light cone images")
 
 async def get_all_relic_setid():
     with open(Rf"relicsets.json", 'r', encoding="utf8") as f:
@@ -148,25 +162,31 @@ async def get_all_relic_setid():
         id_lists.append(ids)
     return id_lists
 
-async def relic_set_icon(id):
-    response = requests.get(f"{hsrimgapi}/spriteoutput/lightconemediumicon/{id}.png")
-    with open(Rf"{directory}\lightcones\{id}.png", 'wb') as f:
+async def relic_icon(ids,relictype):
+    response = requests.get(f"{hsrimgapi}/spriteoutput/relicfigures/IconRelic_{ids}_{relictype}.png")
+    with open(Rf"{directory}\relics\IconRelic_{ids}_{relictype}.png", 'wb') as f:
         f.write(response.content)
 
-async def update_all_relic_set_icons():
-    id_list = await get_all_relic_setid()
-    id_dict = dict()
-    response = requests.get(f"{hsrmapapi}relicset.json")
-    for ids in id_list:
-        pass
-    """
-    please fix
-    get set icon id from set id
-    input = 101, output = 71000
-    """
+async def update_all_relic_icons():
+    with open(Rf"relicsets.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    for relics in response:
+        if response[relics]["planarSet"] == False:
+            for relictype in range(1,5):
+                await relic_icon(relics, relictype)
+                print(f"updating IconRelic_{relics}_{relictype}.png")
+        else: 
+            for relictype in range(5,7):
+                await relic_icon(relics, relictype)
+                print(f"updating IconRelic_{relics}_{relictype}.png")
+    print("Successfully updated relic images")
 
-    
 
+"""
+please fix
+get 1-4 or 5-6 from set id
+
+"""
 
 async def main() -> None:
     await update_avatar()
@@ -177,7 +197,7 @@ async def main() -> None:
     await update_relics()
     await update_stats()
 
-asyncio.run(update_all_lc_icons())
+asyncio.run(update_lcs())
 
 """
 this file updates the json files
