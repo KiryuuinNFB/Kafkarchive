@@ -5,6 +5,9 @@ import asyncio
 yattaapi = "https://api.yatta.top/hsr/v2/en/"
 hsrmapapi = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/en/"
 hsrmapapishort = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/"
+hsrimgapi = "https://raw.githubusercontent.com/FortOfFans/HSR/main"
+
+directory = R"img"
 
 """
 simple updaters
@@ -111,6 +114,59 @@ async def update_light_cone():
         json.dump(lc_dict, f, ensure_ascii=False, indent=4)
         print("Successfully updated lightCone.json")
 
+"""
+image stuff
+"""
+
+async def char_icon(id):
+    response = requests.get(f"{hsrimgapi}/spriteoutput/avataricon/{id}.png")
+    with open(Rf"{directory}\chars\{id}.png", 'wb') as f:
+        f.write(response.content)
+
+async def update_all_char_icons():
+    id_lists = await get_all_avtr_id()
+    for ids in id_lists:
+        print(f"updating {ids}.png")
+        await char_icon(ids)
+
+async def lc_icon(id):
+    response = requests.get(f"{hsrimgapi}/spriteoutput/lightconemediumicon/{id}.png")
+    with open(Rf"{directory}\lightcones\{id}.png", 'wb') as f:
+        f.write(response.content)
+
+async def update_all_lc_icons():
+    id_lists = await get_all_lc_id()
+    for ids in id_lists:
+        print(f"updating {ids}.png")
+        await lc_icon(ids)
+
+async def get_all_relic_setid():
+    with open(Rf"relicsets.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    id_lists = list(())
+    for ids in response:
+        id_lists.append(ids)
+    return id_lists
+
+async def relic_set_icon(id):
+    response = requests.get(f"{hsrimgapi}/spriteoutput/lightconemediumicon/{id}.png")
+    with open(Rf"{directory}\lightcones\{id}.png", 'wb') as f:
+        f.write(response.content)
+
+async def update_all_relic_set_icons():
+    id_list = await get_all_relic_setid()
+    id_dict = dict()
+    response = requests.get(f"{hsrmapapi}relicset.json")
+    for ids in id_list:
+        pass
+    """
+    please fix
+    get set icon id from set id
+    input = 101, output = 71000
+    """
+
+    
+
 
 async def main() -> None:
     await update_avatar()
@@ -121,7 +177,7 @@ async def main() -> None:
     await update_relics()
     await update_stats()
 
-asyncio.run(main())
+asyncio.run(update_all_lc_icons())
 
 """
 this file updates the json files

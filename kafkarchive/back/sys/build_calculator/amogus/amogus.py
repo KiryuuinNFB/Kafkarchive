@@ -1,13 +1,6 @@
-import asyncio
-import requests
 import json
 
 directory = R"build_calculator\amogus\jsonsdata"
-
-"""
-please fix spd not accurate
-and please fix path directory
-"""
     
 #pulling data
 
@@ -23,6 +16,11 @@ async def amogus_chars_database(id):
         response = json.load(f)
     avtrdict = response[str(id)]
     return avtrdict
+
+async def amogus_chars_database_no_id():
+    with open(Rf"{directory}\avatar.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    return response
 
 async def amogus_lc_database(id):
     with open(Rf"{directory}\lightCone.json", 'r', encoding="utf8") as f:
@@ -52,8 +50,12 @@ async def amogus_hsrmap_chars_database(id):
     with open(Rf"{directory}\chars.json", 'r', encoding="utf8") as f:
         response = json.load(f)
     avtrdict = response[str(id)]
-    #print(avtrdict)
     return avtrdict
+
+async def amogus_hsrmap_chars_database_no_id():
+    with open(Rf"{directory}\chars.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    return response
 """
 async def amogus_check_flat(statid):
     response = requests.get(f"{hsrmapapi}stats.json", timeout=60)
@@ -88,6 +90,11 @@ async def amogus_get_char_base_from_lvl(id, asc, lvl):
 
     spdbase = basedict["speedBase"]
 
+    critbase = basedict["criticalChance"]
+    critdmgbase = basedict["criticalDamage"]
+
+    aggrobase = basedict["baseAggro"]
+
     
     baseatkcalculated = atkbase + (atkadd*(lvl-1))
     basedefcalculated = defbase + (defadd*(lvl-1))
@@ -98,7 +105,10 @@ async def amogus_get_char_base_from_lvl(id, asc, lvl):
     calculatedcharbase = dict(CHAR_ATK = baseatkcalculated,
                               CHAR_DEF = basedefcalculated,
                               CHAR_HP = basehpcalculated,
-                              CHAR_SPD = basespdcalculated)
+                              CHAR_SPD = basespdcalculated,
+                              CHAR_CRIT_RATE = critbase,
+                              CHAR_CRIT_DMG = critdmgbase,
+                              CHAR_AGGRO = aggrobase)
     
     return calculatedcharbase
 
@@ -204,6 +214,35 @@ async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
     return result
 
 #asyncio.run(amogus_hsrmap_chars_database(1005))
+
+"""
+datatypes
+name
+description
+stats
+icon
+shortIcon
+drawIcon
+rarity
+element
+skills
+promos
+avatarTypes
+
+"""
+
+async def amogus_get_chars_name(datatype):
+    chars = await amogus_hsrmap_chars_database_no_id()
+    exportdict = {}
+    for ids in chars:
+        if ids != "maxLevels":
+            #print(chars[str(ids)]["name"])
+            exportdict.update({ids:chars[str(ids)][datatype]})
+        else:
+            pass
+        
+        
+    return exportdict
 
 """
 this file looks up game data

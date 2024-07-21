@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Annotated
 from annotated_types import Len
-from build_calculator import build_calculation
+from build_calculator import *
 
 #numbers for debugging
 
@@ -86,3 +86,9 @@ async def build_calc(builddata: Build_data):
     builddict = builddata.model_dump()
     result = await build_calculation(builddict)
     return result
+
+get_char_data_types = "datatypes : name, description, stats, icon, shortIcon, drawIcon, rarity, element, skills, promos, avatarType, promotion, treePromotion, maxPromo, exp, tree, ranks, statsArray, promoarrays, advancement, va, id"
+
+@app.get("/data/chars/{datatype}", description=get_char_data_types)
+async def get_chars_data(datatype: str):
+    return await forward_amogus_get_chars_name(datatype)

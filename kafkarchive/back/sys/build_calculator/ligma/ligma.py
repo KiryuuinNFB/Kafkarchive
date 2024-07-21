@@ -95,6 +95,9 @@ async def ligma_calculate_final(value_dict):
     base_def = value_dict["Charstats"]["CHAR_DEF"] + value_dict["Light_cone_stats"]["LC_DEF"]
     base_spd = value_dict["Charstats"]["CHAR_SPD"]
 
+    base_crit_rate = value_dict["Charstats"]["CHAR_CRIT_RATE"]
+    base_crit_dmg = value_dict["Charstats"]["CHAR_CRIT_DMG"]
+
     relics = value_dict["Relics"]
     for types in relics:
         await list_sorting(relics[types])
@@ -121,8 +124,8 @@ async def ligma_calculate_final(value_dict):
     calculated_def = round(base_def, 3) * (1 + sum(def_percent)) + sum(flat_def)
     calculated_spd = base_spd * (1 + sum(spd_percent)) + sum(flat_spd)
 
-    calculated_crit_rate = (sum(flat_crit_rate) * (1 + sum(crit_rate_percent)) * 100) + 5
-    calculated_crit_dmg = (sum(flat_crit_dmg) * (1 + sum(crit_dmg_percent)) * 100) + 50
+    calculated_crit_rate = (sum(flat_crit_rate) * (1 + sum(crit_rate_percent)) * 100) + (base_crit_rate * 100)
+    calculated_crit_dmg = (sum(flat_crit_dmg) * (1 + sum(crit_dmg_percent)) * 100) + (base_crit_dmg * 100)
 
     final = {}
 

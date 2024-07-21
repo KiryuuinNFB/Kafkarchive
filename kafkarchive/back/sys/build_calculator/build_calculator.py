@@ -93,13 +93,11 @@ async def build_calculation(builddata) -> None:
         return final
             #allasjson.update({chars:calculated})
 
-        
-        
-        
-        
-
     else:
         print("Enka API failed to fetch data")
+
+async def forward_amogus_get_chars_name(datatype):
+    return await amogus_get_chars_name(datatype)
     
     
 if __name__ == '__main__':
