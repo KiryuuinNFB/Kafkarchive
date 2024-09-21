@@ -256,7 +256,7 @@
         "shortIcon": "20002",
         "rarity": "Rare",
         "weaponType": "Warrior",
-        "refinements": "Increases the wearer's Basic ATK and Skill DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+        "refinements": "The wearer's Basic ATK and Skill deal <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> more DMG.",
         "maxHP": 847,
         "maxATK": 370,
         "maxDEF": 198,
@@ -379,7 +379,7 @@
         "shortIcon": "20003",
         "rarity": "Rare",
         "weaponType": "Knight",
-        "refinements": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the wearer's current HP is lower than <unbreak>#2[i]%</unbreak>, increases their DEF by a further <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+        "refinements": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the wearer's current HP percentage is lower than <unbreak>#2[i]%</unbreak>, increases their DEF by a further <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
         "maxHP": 847,
         "maxATK": 265,
         "maxDEF": 331,
@@ -681,7 +681,7 @@
         "shortIcon": "20005",
         "rarity": "Rare",
         "weaponType": "Shaman",
-        "refinements": "After entering battle, increases the ATK of all allies by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Effects of the same type cannot stack.",
+        "refinements": "After entering battle, increases the ATK of all allies by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Abilities of the same type cannot stack.",
         "maxHP": 847,
         "maxATK": 318,
         "maxDEF": 265,
@@ -804,7 +804,7 @@
         "shortIcon": "20006",
         "rarity": "Rare",
         "weaponType": "Mage",
-        "refinements": "Increases the wearer's Ultimate DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+        "refinements": "Increases DMG dealt by the wearer's Ultimate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
         "maxHP": 741,
         "maxATK": 370,
         "maxDEF": 265,
@@ -2049,7 +2049,7 @@
         "shortIcon": "20016",
         "rarity": "Rare",
         "weaponType": "Warrior",
-        "refinements": "If the wearer's current HP is lower than <unbreak>#1[i]%</unbreak>, CRIT Rate increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
+        "refinements": "If the wearer's current HP percentage is lower than <unbreak>#1[i]%</unbreak>, CRIT Rate increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
         "maxHP": 847,
         "maxATK": 370,
         "maxDEF": 198,
@@ -2976,7 +2976,7 @@
         "shortIcon": "21002",
         "rarity": "VeryRare",
         "weaponType": "Knight",
-        "refinements": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After entering battle, increases All-Type RES of all allies by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Effects of the same type cannot stack.",
+        "refinements": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After entering battle, increases All-Type RES of all allies by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Abilities of the same type cannot stack.",
         "maxHP": 953,
         "maxATK": 370,
         "maxDEF": 463,
@@ -3606,7 +3606,7 @@
         "shortIcon": "21006",
         "rarity": "VeryRare",
         "weaponType": "Mage",
-        "refinements": "Increases DMG dealt by the wearer's follow-up attacks by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the current HP of the target enemy is below or equal to <unbreak>#2[i]%</unbreak>, increases DMG dealt by follow-up attacks by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+        "refinements": "Increases DMG dealt by the wearer's follow-up attacks by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the current HP percentage of the target enemy is below or equal to <unbreak>#2[i]%</unbreak>, increases DMG dealt by follow-up attacks by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
         "maxHP": 953,
         "maxATK": 476,
         "maxDEF": 331,
@@ -4620,7 +4620,7 @@
         "shortIcon": "21013",
         "rarity": "VeryRare",
         "weaponType": "Mage",
-        "refinements": "The wearer regenerates <color=#f29e38ff><unbreak>#2[i]</unbreak></color> Energy immediately upon entering battle, and increases Ultimate DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+        "refinements": "The wearer regenerates <color=#f29e38ff><unbreak>#2[i]</unbreak></color> Energy immediately upon entering battle, and increases DMG dealt by the wearer's Ultimate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
         "maxHP": 847,
         "maxATK": 476,
         "maxDEF": 397,
@@ -5234,7 +5234,7 @@
         "shortIcon": "21017",
         "rarity": "VeryRare",
         "weaponType": "Rogue",
-        "refinements": "Increases the DMG of the wearer's Basic ATK and Skill by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. This effect increases by an extra <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> when the wearer's current Energy reaches its max level.",
+        "refinements": "The wearer's Basic ATK and Skill deals <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> more DMG. This effect increases by an extra <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> when the wearer's current Energy reaches its max level.",
         "maxHP": 953,
         "maxATK": 476,
         "maxDEF": 331,
@@ -7487,7 +7487,7 @@
         "shortIcon": "21032",
         "rarity": "VeryRare",
         "weaponType": "Shaman",
-        "refinements": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, all allies' CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, or all allies' Energy Regeneration Rate increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+        "refinements": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, all allies' CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, or all allies' Energy Regeneration Rate increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the same type cannot be stacked.",
         "maxHP": 953,
         "maxATK": 476,
         "maxDEF": 331,
@@ -7789,7 +7789,7 @@
         "shortIcon": "21034",
         "rarity": "VeryRare",
         "weaponType": "Mage",
-        "refinements": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by <color=#f29e38ff><unbreak>#1[f2]%</unbreak></color> per point of Energy, up to <unbreak>#2[i]</unbreak> Energy.",
+        "refinements": "After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by <color=#f29e38ff><unbreak>#1[f2]%</unbreak></color>. A max of <unbreak>#2[i]</unbreak> Energy will be taken into account for this.",
         "maxHP": 847,
         "maxATK": 529,
         "maxDEF": 331,
@@ -9713,7 +9713,7 @@
         "shortIcon": "21046",
         "rarity": "VeryRare",
         "weaponType": "Shaman",
-        "refinements": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Upon entering the battle, if there are two or more allies in the team who follow the same Path, these characters' CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Abilities of the same type cannot stack.",
+        "refinements": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Upon entering battle, if two or more characters follow the same Path, then these characters' CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Abilities of the same type cannot stack.",
         "maxHP": 953,
         "maxATK": 423,
         "maxDEF": 397,
@@ -9874,8 +9874,181 @@
                 }
             ]
         ],
-        "beta": true,
         "id": "21046"
+    },
+    "21047": {
+        "name": "Shadowed by Night",
+        "icon": "spriteoutput/lightconemediumicon/21047.png",
+        "shortIcon": "21047",
+        "rarity": "VeryRare",
+        "weaponType": "Rogue",
+        "refinements": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When entering battle or after dealing Break DMG, increases SPD by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). This effect can only trigger once per turn.",
+        "maxHP": 847,
+        "maxATK": 476,
+        "maxDEF": 397,
+        "promotion": {
+            "2": 308000,
+            "110191": 3,
+            "110192": 9,
+            "110193": 12,
+            "113011": 15,
+            "113012": 15,
+            "113013": 12
+        },
+        "promo": [
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 4000
+                },
+                {
+                    "ItemID": 113011,
+                    "ItemNum": 5
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 8000
+                },
+                {
+                    "ItemID": 110191,
+                    "ItemNum": 3
+                },
+                {
+                    "ItemID": 113011,
+                    "ItemNum": 10
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 16000
+                },
+                {
+                    "ItemID": 110192,
+                    "ItemNum": 3
+                },
+                {
+                    "ItemID": 113012,
+                    "ItemNum": 6
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 40000
+                },
+                {
+                    "ItemID": 110192,
+                    "ItemNum": 6
+                },
+                {
+                    "ItemID": 113012,
+                    "ItemNum": 9
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 80000
+                },
+                {
+                    "ItemID": 110193,
+                    "ItemNum": 4
+                },
+                {
+                    "ItemID": 113013,
+                    "ItemNum": 5
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 160000
+                },
+                {
+                    "ItemID": 110193,
+                    "ItemNum": 8
+                },
+                {
+                    "ItemID": 113013,
+                    "ItemNum": 7
+                }
+            ],
+            []
+        ],
+        "params": {
+            "R1": [
+                0.28,
+                0.08,
+                2
+            ],
+            "R2": [
+                0.35,
+                0.09,
+                2
+            ],
+            "R3": [
+                0.42,
+                0.1,
+                2
+            ],
+            "R4": [
+                0.49,
+                0.11,
+                2
+            ],
+            "R5": [
+                0.56,
+                0.12,
+                2
+            ],
+            "id": "21047"
+        },
+        "passives": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.28,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.35,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.42,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.49,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.56,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ]
+        ],
+        "id": "21047"
     },
     "22000": {
         "name": "Before the Tutorial Mission Starts",
@@ -10528,7 +10701,7 @@
         "shortIcon": "23001",
         "rarity": "SuperRare",
         "weaponType": "Rogue",
-        "refinements": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. While the wearer is in battle, for every <unbreak>#2[i]</unbreak> SPD that exceeds <unbreak>100</unbreak>, the DMG of the wearer's Basic ATK and Skill is increased by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> and the CRIT DMG of their Ultimate is increased by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. This effect can stack up to <unbreak>#5[i]</unbreak> time(s).",
+        "refinements": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. While the wearer is in battle, for every <unbreak>#2[i]</unbreak> SPD that exceeds <unbreak>100</unbreak>, increases DMG dealt by Basic ATK and Skill by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. At the same time, increases the CRIT DMG of Ultimate by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. This effect can stack up to <unbreak>#5[i]</unbreak> time(s).",
         "maxHP": 1058,
         "maxATK": 582,
         "maxDEF": 463,
@@ -11944,7 +12117,7 @@
         "shortIcon": "23009",
         "rarity": "SuperRare",
         "weaponType": "Warrior",
-        "refinements": "Increases the wearer's CRIT rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and increases their Max HP by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. When the wearer is attacked or consumes their own HP, their DMG increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. This effect is removed after the wearer uses an attack.",
+        "refinements": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and increases their Max HP by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. When the wearer is attacked or consumes their own HP, their DMG increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. This effect is removed after the wearer uses an attack.",
         "maxHP": 1270,
         "maxATK": 582,
         "maxDEF": 331,
@@ -12148,7 +12321,7 @@
         "shortIcon": "23010",
         "rarity": "SuperRare",
         "weaponType": "Mage",
-        "refinements": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Increases the wearer's Skill and Ultimate DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+        "refinements": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Increases DMG dealt by the wearer's Skill and Ultimate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After the wearer uses Skill or Ultimate, gains Somnus Corpus. Upon triggering a follow-up attack, consumes Somnus Corpus, and increases DMG dealt by follow-up attack by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
         "maxHP": 1058,
         "maxATK": 582,
         "maxDEF": 463,
@@ -12536,7 +12709,7 @@
         "shortIcon": "23012",
         "rarity": "SuperRare",
         "weaponType": "Rogue",
-        "refinements": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s). This effect can only trigger once every <unbreak>#4[i]</unbreak> turn(s).",
+        "refinements": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). This effect can only trigger once every <unbreak>#4[i]</unbreak> turn(s).",
         "maxHP": 1058,
         "maxATK": 582,
         "maxDEF": 463,
@@ -13282,7 +13455,7 @@
         "shortIcon": "23016",
         "rarity": "SuperRare",
         "weaponType": "Rogue",
-        "refinements": "Increase the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and their follow-up attacks' DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to <unbreak>#4[i]</unbreak> stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+        "refinements": "Increase the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and increases DMG dealt by follow-up attack by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After the wearer uses a follow-up attack, inflicts the target with the Tame state, stacking up to <unbreak>#4[i]</unbreak> time(s). When allies hit enemy targets under the Tame state, each Tame stack increases the CRIT DMG dealt by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
         "maxHP": 1058,
         "maxATK": 582,
         "maxDEF": 463,
@@ -13645,7 +13818,7 @@
         "shortIcon": "23018",
         "rarity": "SuperRare",
         "weaponType": "Mage",
-        "refinements": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses Ultimate, increases the wearer's Ultimate DMG based on their Max Energy. Each point of Energy increases the Ultimate DMG by <color=#f29e38ff><unbreak>#2[f2]%</unbreak></color>, up to <unbreak>#3[i]</unbreak> points of Energy.",
+        "refinements": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses Ultimate, increases DMG dealt by the wearer's Ultimate based on their Max Energy. Each point of Energy increases DMG dealt by Ultimate by <color=#f29e38ff><unbreak>#2[f2]%</unbreak></color>. A max of <unbreak>#3[i]</unbreak> points of Energy will be taken into account for this.",
         "maxHP": 1058,
         "maxATK": 582,
         "maxDEF": 463,
@@ -13819,7 +13992,7 @@
         "shortIcon": "23019",
         "rarity": "SuperRare",
         "weaponType": "Shaman",
-        "refinements": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses their Ultimate, increases all allies' DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). Should the wearer's Break Effect exceed or equal <unbreak>#4[i]%</unbreak>, 1 Skill Point will be recovered.\\nAt the start of each wave, all allies regenerate <color=#f29e38ff><unbreak>#5[f1]</unbreak></color> Energy immediately. Effects of the same type cannot stack.",
+        "refinements": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses their Ultimate, increases all allies' DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). Should the wearer's Break Effect exceed or equal <unbreak>#4[i]%</unbreak>, 1 Skill Point will be recovered.\\nAt the start of each wave, all allies regenerate <color=#f29e38ff><unbreak>#5[f1]</unbreak></color> Energy immediately. Abilities of the same type cannot stack.",
         "maxHP": 1058,
         "maxATK": 529,
         "maxDEF": 529,
@@ -14749,7 +14922,7 @@
         "shortIcon": "23024",
         "rarity": "SuperRare",
         "weaponType": "Warlock",
-        "refinements": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer's Ultimate additionally increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+        "refinements": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by Ultimate additionally increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
         "maxHP": 1058,
         "maxATK": 635,
         "maxDEF": 397,
@@ -14923,7 +15096,7 @@
         "shortIcon": "23025",
         "rarity": "SuperRare",
         "weaponType": "Warrior",
-        "refinements": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for <unbreak>#4[i]</unbreak> turn(s). Targets afflicted with Routed receive <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> increased Break DMG from the wearer, and their SPD is lowered by <unbreak>#3[i]%</unbreak>. Effects of the similar type cannot be stacked.",
+        "refinements": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for <unbreak>#4[i]</unbreak> turn(s). Targets afflicted with Routed receive <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> increased Break DMG from the wearer, and their SPD is lowered by <unbreak>#3[i]%</unbreak>. Effects of the same type cannot be stacked.",
         "maxHP": 1164,
         "maxATK": 476,
         "maxDEF": 529,
@@ -15424,7 +15597,7 @@
         "shortIcon": "23028",
         "rarity": "SuperRare",
         "weaponType": "Mage",
-        "refinements": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. While the wearer is in battle, for every <unbreak>#3[i]%</unbreak> CRIT DMG that exceeds <unbreak>#2[i]%</unbreak>, the DMG dealt by follow-up attack increases by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. This effect can stack up to <unbreak>#5[i]</unbreak> time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of the target's DEF, lasting for <unbreak>#7[i]</unbreak> turn(s).",
+        "refinements": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. While the wearer is in battle, for every <unbreak>#3[i]%</unbreak> CRIT DMG that exceeds <unbreak>#2[i]%</unbreak>, the DMG dealt by follow-up attack increases by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. This effect can stack up to <unbreak>#5[i]</unbreak> time(s). When the battle starts or after the wearer uses their Basic ATK, enables the DMG dealt by Ultimate or follow-up attack to ignore <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of the target's DEF, lasting for <unbreak>#7[i]</unbreak> turn(s).",
         "maxHP": 953,
         "maxATK": 582,
         "maxDEF": 529,
@@ -15618,7 +15791,7 @@
         "shortIcon": "23029",
         "rarity": "SuperRare",
         "weaponType": "Warlock",
-        "refinements": "Increases the wearer's Effect Hit Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the target is not under the Unarmored effect dealt by the wearer, when the wearer uses a Basic ATK, Skill, or Ultimate on enemy targets, there is a <unbreak>#2[i]%</unbreak> base chance to inflict Unarmored to the enemy. Under the Unarmored state, the target enemy's DMG received is increased by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>, lasting for <unbreak>#4[i]</unbreak> turn(s). When the wearer deals DMG to an enemy with the Unarmored effect inflicted by themselves, there is a <unbreak>#5[i]%</unbreak> base chance to escalate the Unarmored state from them into the Cornered state, which increases the target enemy's DMG received by <color=#f29e38ff><unbreak>#6[i]%</unbreak></color>.",
+        "refinements": "Increases the wearer's Effect Hit Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a <unbreak>#2[i]%</unbreak> base chance to inflict \"Unarmored\" on the target. While in the Unarmored state, the enemy target receives <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> increased DMG, lasting for <unbreak>#4[i]</unbreak> turn(s). If the target is under a DoT state inflicted by the wearer, there is a <unbreak>#5[i]%</unbreak> base chance to upgrade the \"Unarmored\" state inflicted by the wearer to the \"Cornered\" state, which additionally increases the DMG the enemy target receives by <color=#f29e38ff><unbreak>#6[i]%</unbreak></color>, lasting for <unbreak>#4[i]</unbreak> turn(s). During this period, the wearer cannot inflict \"Unarmored\" on the target.",
         "maxHP": 953,
         "maxATK": 582,
         "maxDEF": 529,
@@ -15627,9 +15800,9 @@
             "110221": 4,
             "110222": 12,
             "110223": 15,
-            "114011": 20,
-            "114012": 20,
-            "114013": 14
+            "113001": 20,
+            "113002": 20,
+            "113003": 14
         },
         "promo": [
             [
@@ -15638,7 +15811,7 @@
                     "ItemNum": 5000
                 },
                 {
-                    "ItemID": 114011,
+                    "ItemID": 113001,
                     "ItemNum": 8
                 }
             ],
@@ -15652,7 +15825,7 @@
                     "ItemNum": 4
                 },
                 {
-                    "ItemID": 114011,
+                    "ItemID": 113001,
                     "ItemNum": 12
                 }
             ],
@@ -15666,7 +15839,7 @@
                     "ItemNum": 4
                 },
                 {
-                    "ItemID": 114012,
+                    "ItemID": 113002,
                     "ItemNum": 8
                 }
             ],
@@ -15680,7 +15853,7 @@
                     "ItemNum": 8
                 },
                 {
-                    "ItemID": 114012,
+                    "ItemID": 113002,
                     "ItemNum": 12
                 }
             ],
@@ -15694,7 +15867,7 @@
                     "ItemNum": 5
                 },
                 {
-                    "ItemID": 114013,
+                    "ItemID": 113003,
                     "ItemNum": 6
                 }
             ],
@@ -15708,7 +15881,7 @@
                     "ItemNum": 10
                 },
                 {
-                    "ItemID": 114013,
+                    "ItemID": 113003,
                     "ItemNum": 8
                 }
             ],
@@ -15721,7 +15894,7 @@
                 0.1,
                 2,
                 0.6,
-                0.18
+                0.14
             ],
             "R2": [
                 0.7,
@@ -15729,7 +15902,7 @@
                 0.12,
                 2,
                 0.6,
-                0.21
+                0.16
             ],
             "R3": [
                 0.8,
@@ -15737,7 +15910,7 @@
                 0.14,
                 2,
                 0.6,
-                0.24
+                0.18
             ],
             "R4": [
                 0.9,
@@ -15745,7 +15918,7 @@
                 0.16,
                 2,
                 0.6,
-                0.27
+                0.2
             ],
             "R5": [
                 1,
@@ -15753,7 +15926,7 @@
                 0.18,
                 2,
                 0.6,
-                0.3
+                0.22
             ],
             "id": "23029"
         },
@@ -15799,7 +15972,6 @@
                 }
             ]
         ],
-        "beta": true,
         "id": "23029"
     },
     "23030": {
@@ -15808,7 +15980,7 @@
         "shortIcon": "23030",
         "rarity": "SuperRare",
         "weaponType": "Warrior",
-        "refinements": "Greatly increases the odds that the wearer will be attacked, increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses their Ultimate, they receive 1 stack of Firedance, lasting for 2 turns and up to <unbreak>#2[i]</unbreak> stacks. Each stack of Firedance increases the DMG dealt by the wearer's follow-up attack by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+        "refinements": "Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Ultimate, receives 1 stack of Firedance, lasting for 2 turns and stacking up to <unbreak>#2[i]</unbreak> time(s). Each stack of Firedance increases the DMG dealt by the wearer's follow-up attack by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
         "maxHP": 1058,
         "maxATK": 582,
         "maxDEF": 463,
@@ -15817,9 +15989,9 @@
             "110181": 4,
             "110182": 12,
             "110183": 15,
-            "114001": 20,
-            "114002": 20,
-            "114003": 14
+            "113011": 20,
+            "113012": 20,
+            "113013": 14
         },
         "promo": [
             [
@@ -15828,7 +16000,7 @@
                     "ItemNum": 5000
                 },
                 {
-                    "ItemID": 114001,
+                    "ItemID": 113011,
                     "ItemNum": 8
                 }
             ],
@@ -15842,7 +16014,7 @@
                     "ItemNum": 4
                 },
                 {
-                    "ItemID": 114001,
+                    "ItemID": 113011,
                     "ItemNum": 12
                 }
             ],
@@ -15856,7 +16028,7 @@
                     "ItemNum": 4
                 },
                 {
-                    "ItemID": 114002,
+                    "ItemID": 113012,
                     "ItemNum": 8
                 }
             ],
@@ -15870,7 +16042,7 @@
                     "ItemNum": 8
                 },
                 {
-                    "ItemID": 114002,
+                    "ItemID": 113012,
                     "ItemNum": 12
                 }
             ],
@@ -15884,7 +16056,7 @@
                     "ItemNum": 5
                 },
                 {
-                    "ItemID": 114003,
+                    "ItemID": 113013,
                     "ItemNum": 6
                 }
             ],
@@ -15898,7 +16070,7 @@
                     "ItemNum": 10
                 },
                 {
-                    "ItemID": 114003,
+                    "ItemID": 113013,
                     "ItemNum": 8
                 }
             ],
@@ -15979,8 +16151,365 @@
                 }
             ]
         ],
-        "beta": true,
         "id": "23030"
+    },
+    "23031": {
+        "name": "I Venture Forth to Hunt",
+        "icon": "spriteoutput/lightconemediumicon/23031.png",
+        "shortIcon": "23031",
+        "rarity": "SuperRare",
+        "weaponType": "Rogue",
+        "refinements": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>. When the wearer launches a follow-up attack, gains 1 stack of \"Luminflux,\" stacking up to <unbreak>#3[i]</unbreak> time(s). Each stack of \"Luminflux\" enables the Ultimate DMG dealt by the wearer to ignore <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the target's DEF. When the wearer's turn ends, removes 1 stack of \"Luminflux.\"",
+        "maxHP": 953,
+        "maxATK": 635,
+        "maxDEF": 463,
+        "promotion": {
+            "2": 385000,
+            "110191": 4,
+            "110192": 12,
+            "110193": 15,
+            "113011": 20,
+            "113012": 20,
+            "113013": 14
+        },
+        "promo": [
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 5000
+                },
+                {
+                    "ItemID": 113011,
+                    "ItemNum": 8
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 10000
+                },
+                {
+                    "ItemID": 110191,
+                    "ItemNum": 4
+                },
+                {
+                    "ItemID": 113011,
+                    "ItemNum": 12
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 20000
+                },
+                {
+                    "ItemID": 110192,
+                    "ItemNum": 4
+                },
+                {
+                    "ItemID": 113012,
+                    "ItemNum": 8
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 50000
+                },
+                {
+                    "ItemID": 110192,
+                    "ItemNum": 8
+                },
+                {
+                    "ItemID": 113012,
+                    "ItemNum": 12
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 100000
+                },
+                {
+                    "ItemID": 110193,
+                    "ItemNum": 5
+                },
+                {
+                    "ItemID": 113013,
+                    "ItemNum": 6
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 200000
+                },
+                {
+                    "ItemID": 110193,
+                    "ItemNum": 10
+                },
+                {
+                    "ItemID": 113013,
+                    "ItemNum": 8
+                }
+            ],
+            []
+        ],
+        "params": {
+            "R1": [
+                0.15,
+                0.27,
+                2
+            ],
+            "R2": [
+                0.175,
+                0.3,
+                2
+            ],
+            "R3": [
+                0.2,
+                0.33,
+                2
+            ],
+            "R4": [
+                0.225,
+                0.36,
+                2
+            ],
+            "R5": [
+                0.25,
+                0.39,
+                2
+            ],
+            "id": "23031"
+        },
+        "passives": [
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.15,
+                    "icon": "spriteoutput/ui/avatar/icon/IconCriticalChance.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.18,
+                    "icon": "spriteoutput/ui/avatar/icon/IconCriticalChance.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.2,
+                    "icon": "spriteoutput/ui/avatar/icon/IconCriticalChance.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.23,
+                    "icon": "spriteoutput/ui/avatar/icon/IconCriticalChance.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "CriticalChanceBase",
+                    "value": 0.25,
+                    "icon": "spriteoutput/ui/avatar/icon/IconCriticalChance.png",
+                    "flat": false
+                }
+            ]
+        ],
+        "id": "23031"
+    },
+    "23032": {
+        "name": "Scent Alone Stays True",
+        "icon": "spriteoutput/lightconemediumicon/23032.png",
+        "shortIcon": "23032",
+        "rarity": "SuperRare",
+        "weaponType": "Priest",
+        "refinements": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Ultimate to attack enemy targets, inflicts the targets with the \"Woefree\" state, lasting for <unbreak>#5[i]</unbreak> turn(s). While in \"Woefree,\" enemy targets take <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> increased DMG. The effect of increasing DMG taken is additionally boosted by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> if the wearer's current Break Effect is <unbreak>#3[i]%</unbreak> or higher.",
+        "maxHP": 1058,
+        "maxATK": 529,
+        "maxDEF": 529,
+        "promotion": {
+            "2": 385000,
+            "110241": 4,
+            "110242": 12,
+            "110243": 15,
+            "113001": 20,
+            "113002": 20,
+            "113003": 14
+        },
+        "promo": [
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 5000
+                },
+                {
+                    "ItemID": 113001,
+                    "ItemNum": 8
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 10000
+                },
+                {
+                    "ItemID": 110241,
+                    "ItemNum": 4
+                },
+                {
+                    "ItemID": 113001,
+                    "ItemNum": 12
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 20000
+                },
+                {
+                    "ItemID": 110242,
+                    "ItemNum": 4
+                },
+                {
+                    "ItemID": 113002,
+                    "ItemNum": 8
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 50000
+                },
+                {
+                    "ItemID": 110242,
+                    "ItemNum": 8
+                },
+                {
+                    "ItemID": 113002,
+                    "ItemNum": 12
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 100000
+                },
+                {
+                    "ItemID": 110243,
+                    "ItemNum": 5
+                },
+                {
+                    "ItemID": 113003,
+                    "ItemNum": 6
+                }
+            ],
+            [
+                {
+                    "ItemID": 2,
+                    "ItemNum": 200000
+                },
+                {
+                    "ItemID": 110243,
+                    "ItemNum": 10
+                },
+                {
+                    "ItemID": 113003,
+                    "ItemNum": 8
+                }
+            ],
+            []
+        ],
+        "params": {
+            "R1": [
+                0.6,
+                0.1,
+                1.5,
+                0.08,
+                2
+            ],
+            "R2": [
+                0.7,
+                0.12,
+                1.5,
+                0.1,
+                2
+            ],
+            "R3": [
+                0.8,
+                0.14,
+                1.5,
+                0.12,
+                2
+            ],
+            "R4": [
+                0.9,
+                0.16,
+                1.5,
+                0.14,
+                2
+            ],
+            "R5": [
+                1,
+                0.18,
+                1.5,
+                0.16,
+                2
+            ],
+            "id": "23032"
+        },
+        "passives": [
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.6,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.7,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.8,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 0.9,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ],
+            [
+                {
+                    "type": "BreakDamageAddedRatioBase",
+                    "value": 1,
+                    "icon": "spriteoutput/ui/avatar/icon/IconBreakUp.png",
+                    "flat": false
+                }
+            ]
+        ],
+        "id": "23032"
     },
     "24000": {
         "name": "On the Fall of an Aeon",
@@ -15988,7 +16517,7 @@
         "shortIcon": "24000",
         "rarity": "SuperRare",
         "weaponType": "Warrior",
-        "refinements": "Whenever the wearer attacks, their ATK is increased by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> in this battle. This effect can stack up to <unbreak>#2[i]</unbreak> time(s). After a character inflicts Weakness Break on an enemy, the wearer's DMG increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> for <unbreak>#4[i]</unbreak> turn(s).",
+        "refinements": "When the wearer attacks, increases their ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> in this battle. This effect can stack up to <unbreak>#2[i]</unbreak> time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>, lasting for <unbreak>#4[i]</unbreak> turn(s).",
         "maxHP": 1058,
         "maxATK": 529,
         "maxDEF": 397,
@@ -16126,7 +16655,7 @@
         "shortIcon": "24001",
         "rarity": "SuperRare",
         "weaponType": "Rogue",
-        "refinements": "Increases the wearer's CRIT rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, and increases their CRIT rate against enemies with HP less than or equal to <unbreak>#2[i]%</unbreak> by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. When the wearer defeats an enemy, their ATK is increased by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> for <unbreak>#5[i]</unbreak> turn(s).",
+        "refinements": "Increases the wearer's CRIT rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, and increases their CRIT rate against enemies with HP percentage less than or equal to <unbreak>#2[i]%</unbreak> by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. When the wearer defeats an enemy, their ATK is increased by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> for <unbreak>#5[i]</unbreak> turn(s).",
         "maxHP": 953,
         "maxATK": 529,
         "maxDEF": 463,

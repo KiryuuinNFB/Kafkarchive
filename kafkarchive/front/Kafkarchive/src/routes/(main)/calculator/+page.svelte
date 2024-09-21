@@ -1,6 +1,7 @@
 <script>
 	let sitetitle = "Calculator | Kafkarchive";
 	import Heading from "../../head.svelte"
+	
 </script>
 
 <Heading bind:SiteHead={sitetitle}/>

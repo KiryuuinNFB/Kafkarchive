@@ -536,7 +536,7 @@
             ],
             "skill": {
                 "name": "Havoc",
-                "description": "Increases the wearer's Basic ATK and Skill DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+                "description": "The wearer's Basic ATK and Skill deal <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> more DMG.",
                 "params": {
                     "1": [
                         0.2,
@@ -720,7 +720,7 @@
             ],
             "skill": {
                 "name": "Stasis",
-                "description": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the wearer's current HP is lower than <unbreak>#2[i]%</unbreak>, increases their DEF by a further <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+                "description": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the wearer's current HP percentage is lower than <unbreak>#2[i]%</unbreak>, increases their DEF by a further <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
                 "params": {
                     "1": [
                         0.16,
@@ -1109,7 +1109,7 @@
             ],
             "skill": {
                 "name": "Concerted",
-                "description": "After entering battle, increases the ATK of all allies by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Effects of the same type cannot stack.",
+                "description": "After entering battle, increases the ATK of all allies by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Abilities of the same type cannot stack.",
                 "params": {
                     "1": [
                         0.08,
@@ -1146,7 +1146,7 @@
             "icon": "20006",
             "isSellable": true,
             "route": "Data Bank",
-            "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"Human extinction is inevitable, but the library will live on: lonely, immobile, and hidden from the public. Its vast collection is useless, yet pure from corruption.\"</i>",
+            "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"Human extinction is inevitable, but the library will live on: Lonely, immobile, and hidden from the public. Its vast collection is useless, yet pure from corruption.\"</i>",
             "upgrade": [
                 {
                     "level": 0,
@@ -1293,7 +1293,7 @@
             ],
             "skill": {
                 "name": "Learned",
-                "description": "Increases the wearer's Ultimate DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+                "description": "Increases DMG dealt by the wearer's Ultimate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
                 "params": {
                     "1": [
                         0.28,
@@ -3154,7 +3154,7 @@
             ],
             "skill": {
                 "name": "Legion",
-                "description": "If the wearer's current HP is lower than <unbreak>#1[i]%</unbreak>, CRIT Rate increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
+                "description": "If the wearer's current HP percentage is lower than <unbreak>#1[i]%</unbreak>, CRIT Rate increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
                 "params": {
                     "1": [
                         0.8,
@@ -4477,7 +4477,7 @@
             ],
             "skill": {
                 "name": "At This Very Moment",
-                "description": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After entering battle, increases All-Type RES of all allies by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Effects of the same type cannot stack.",
+                "description": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After entering battle, increases All-Type RES of all allies by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Abilities of the same type cannot stack.",
                 "params": {
                     "1": [
                         0.16,
@@ -5234,7 +5234,7 @@
             ],
             "skill": {
                 "name": "The Maiden in the Painting",
-                "description": "Increases DMG dealt by the wearer's follow-up attacks by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the current HP of the target enemy is below or equal to <unbreak>#2[i]%</unbreak>, increases DMG dealt by follow-up attacks by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+                "description": "Increases DMG dealt by the wearer's follow-up attacks by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the current HP percentage of the target enemy is below or equal to <unbreak>#2[i]%</unbreak>, increases DMG dealt by follow-up attacks by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
                 "params": {
                     "1": [
                         0.24,
@@ -6571,7 +6571,7 @@
             ],
             "skill": {
                 "name": "The Power of Sound",
-                "description": "The wearer regenerates <color=#f29e38ff><unbreak>#2[i]</unbreak></color> Energy immediately upon entering battle, and increases Ultimate DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+                "description": "The wearer regenerates <color=#f29e38ff><unbreak>#2[i]</unbreak></color> Energy immediately upon entering battle, and increases DMG dealt by the wearer's Ultimate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
                 "params": {
                     "1": [
                         0.32,
@@ -7363,7 +7363,7 @@
             ],
             "skill": {
                 "name": "Like Before You Leave!",
-                "description": "Increases the DMG of the wearer's Basic ATK and Skill by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. This effect increases by an extra <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> when the wearer's current Energy reaches its max level.",
+                "description": "The wearer's Basic ATK and Skill deals <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> more DMG. This effect increases by an extra <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> when the wearer's current Energy reaches its max level.",
                 "params": {
                     "1": [
                         0.24,
@@ -10095,7 +10095,7 @@
             "icon": "21032",
             "isSellable": true,
             "route": "Carve the Moon, Weave the Clouds",
-            "description": "He immediately falls in love with the golden vessel and is about to buy it,\\nbut the Foxian girl drags him aside and whispers:\\n<i>\"Please return at night, Mr. Benefactor, and make up your mind then.\"</i>\\n\\nAs promised, he returns at night.\\nThe same Foxian girl opens the door and smiles at him.\\n<i>\"Please follow me, Mr. Benefactor.\"</i>\\n\\nA ray of moonlight shines onto the base of the etched plate.\\nThe artisan had traced the petals with lines of various depths, and he would not be able to see such details without the moonlight.\\n\\nHe finally recalls why this item is called \"Carve the Moon, Weave the Clouds.\"",
+            "description": "He immediately falls in love with the golden vessel and is about to buy it,\\nbut the foxian girl drags him aside and whispers:\\n<i>\"Please return at night, Mr. Benefactor, and make up your mind then.\"</i>\\n\\nAs promised, he returns at night.\\nThe same foxian girl opens the door and smiles at him.\\n<i>\"Please follow me, Mr. Benefactor.\"</i>\\n\\nA ray of moonlight shines onto the base of the etched plate.\\nThe artisan had traced the petals with lines of various depths, and he would not be able to see such details without the moonlight.\\n\\nHe finally recalls why this item is called \"Carve the Moon, Weave the Clouds.\"",
             "upgrade": [
                 {
                     "level": 0,
@@ -10242,7 +10242,7 @@
             ],
             "skill": {
                 "name": "Secret",
-                "description": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, all allies' CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, or all allies' Energy Regeneration Rate increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+                "description": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, all allies' CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, or all allies' Energy Regeneration Rate increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the same type cannot be stacked.",
                 "params": {
                     "1": [
                         0.1,
@@ -10631,7 +10631,7 @@
             ],
             "skill": {
                 "name": "A Storm Is Coming",
-                "description": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by <color=#f29e38ff><unbreak>#1[f2]%</unbreak></color> per point of Energy, up to <unbreak>#2[i]</unbreak> Energy.",
+                "description": "After entering battle, increases the wearer's DMG based on their Max Energy. Each point of Energy increases DMG by <color=#f29e38ff><unbreak>#1[f2]%</unbreak></color>. A max of <unbreak>#2[i]</unbreak> Energy will be taken into account for this.",
                 "params": {
                     "1": [
                         0.0019999999,
@@ -12846,8 +12846,393 @@
         }
     },
     "21046": {
-        "code": 404,
-        "data": "Data Not Found!"
+        "response": 200,
+        "data": {
+            "id": 21046,
+            "name": "Poised to Bloom",
+            "rank": 4,
+            "types": {
+                "pathType": {
+                    "id": "Shaman",
+                    "name": "Harmony"
+                }
+            },
+            "icon": "21046",
+            "isSellable": true,
+            "route": "Poised to Bloom",
+            "description": "Dawn's first light whispers. In the stillness of the flower grove, a shifting form dances, startling birds into flight one after another.\\n\\nSilently reciting sword techniques, she moves with the flow, her once-clumsy moves now gaining finesse. Where the sword's cuts rend the air, petals fall like rain, swirling chaotically as they fall. Unbeknownst to her, the cool mist has dampened her hair.\\n\\n<i> \"Nice swordplay!\" </i>\\nStartled, she instinctively turns her sword—\\nBehind her, a young {F#woman}{M#man} with gray hair lowers the camera in hand.\\n<i> \"Beautiful memories won't just fade away with the wind.\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 4000,
+                        "114001": 5
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 43.2,
+                        "attackBase": 19.2,
+                        "defenceBase": 18
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 8000,
+                        "110231": 3,
+                        "114001": 10
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 95.04,
+                        "attackBase": 42.24,
+                        "defenceBase": 39.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 16000,
+                        "110232": 3,
+                        "114002": 6
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 164.16,
+                        "attackBase": 72.96,
+                        "defenceBase": 68.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 40000,
+                        "110232": 6,
+                        "114002": 9
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 233.28,
+                        "attackBase": 103.68,
+                        "defenceBase": 97.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 80000,
+                        "110233": 4,
+                        "114003": 5
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 302.4,
+                        "attackBase": 134.4,
+                        "defenceBase": 126
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 160000,
+                        "110233": 8,
+                        "114003": 7
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 371.52,
+                        "attackBase": 165.12,
+                        "defenceBase": 154.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 440.64,
+                        "attackBase": 195.84,
+                        "defenceBase": 183.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Lose Not, Forget Not",
+                "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Upon entering battle, if two or more characters follow the same Path, then these characters' CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Abilities of the same type cannot stack.",
+                "params": {
+                    "1": [
+                        0.16,
+                        0.2,
+                        0.24,
+                        0.28,
+                        0.32
+                    ],
+                    "2": [
+                        0.16,
+                        0.2,
+                        0.24,
+                        0.28,
+                        0.32
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110231": 2,
+                "110232": 3,
+                "110233": 4,
+                "114001": 2,
+                "114002": 3,
+                "114003": 4
+            }
+        }
+    },
+    "21047": {
+        "response": 200,
+        "data": {
+            "id": 21047,
+            "name": "Shadowed by Night",
+            "rank": 4,
+            "types": {
+                "pathType": {
+                    "id": "Rogue",
+                    "name": "The Hunt"
+                }
+            },
+            "icon": "21047",
+            "isSellable": true,
+            "route": "Shadowed by Night",
+            "description": "<i>\"Footprints.\"</i>\\n<i>\"Scratches.\"</i>\\n<i>\"Scents.\"</i>\\n\\nAfter everything has been appropriately handled, he picks up a crow feather and gracefully leaps onto the roof.\\nIn the vast city, a pitch-black shadow shuttles through the corners unseen.\\n\\n<i>\"I shall merge into shadows and keep vigil over you all.\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 4000,
+                        "113011": 5
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 38.4,
+                        "attackBase": 21.6,
+                        "defenceBase": 18
+                    },
+                    "skillAdd": {
+                        "hPAdd": 5.76,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 8000,
+                        "110191": 3,
+                        "113011": 10
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 84.48,
+                        "attackBase": 47.52,
+                        "defenceBase": 39.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 5.76,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 16000,
+                        "110192": 3,
+                        "113012": 6
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 145.92,
+                        "attackBase": 82.08,
+                        "defenceBase": 68.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 5.76,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 40000,
+                        "110192": 6,
+                        "113012": 9
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 207.36,
+                        "attackBase": 116.64,
+                        "defenceBase": 97.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 5.76,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 80000,
+                        "110193": 4,
+                        "113013": 5
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 268.8,
+                        "attackBase": 151.2,
+                        "defenceBase": 126
+                    },
+                    "skillAdd": {
+                        "hPAdd": 5.76,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 160000,
+                        "110193": 8,
+                        "113013": 7
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 330.24,
+                        "attackBase": 185.76,
+                        "defenceBase": 154.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 5.76,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 391.68,
+                        "attackBase": 220.32,
+                        "defenceBase": 183.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 5.76,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.7
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Concealment",
+                "description": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When entering battle or after dealing Break DMG, increases SPD by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). This effect can only trigger once per turn.",
+                "params": {
+                    "1": [
+                        0.28,
+                        0.35,
+                        0.42,
+                        0.49,
+                        0.56
+                    ],
+                    "2": [
+                        0.08,
+                        0.09,
+                        0.1,
+                        0.11,
+                        0.12
+                    ],
+                    "3": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110191": 2,
+                "110192": 3,
+                "110193": 4,
+                "113011": 2,
+                "113012": 3,
+                "113013": 4
+            }
+        }
     },
     "22000": {
         "response": 200,
@@ -13789,7 +14174,7 @@
             ],
             "skill": {
                 "name": "Flowers and Butterflies",
-                "description": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. While the wearer is in battle, for every <unbreak>#2[i]</unbreak> SPD that exceeds <unbreak>100</unbreak>, the DMG of the wearer's Basic ATK and Skill is increased by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> and the CRIT DMG of their Ultimate is increased by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. This effect can stack up to <unbreak>#5[i]</unbreak> time(s).",
+                "description": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. While the wearer is in battle, for every <unbreak>#2[i]</unbreak> SPD that exceeds <unbreak>100</unbreak>, increases DMG dealt by Basic ATK and Skill by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. At the same time, increases the CRIT DMG of Ultimate by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. This effect can stack up to <unbreak>#5[i]</unbreak> time(s).",
                 "params": {
                     "1": [
                         0.18,
@@ -15627,7 +16012,7 @@
             ],
             "skill": {
                 "name": "Long Night",
-                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Increases the wearer's Skill and Ultimate DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Increases DMG dealt by the wearer's Skill and Ultimate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After the wearer uses Skill or Ultimate, gains Somnus Corpus. Upon triggering a follow-up attack, consumes Somnus Corpus, and increases DMG dealt by follow-up attack by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
                 "params": {
                     "1": [
                         0.36,
@@ -16037,7 +16422,7 @@
             ],
             "skill": {
                 "name": "Sweet Dreams",
-                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s). This effect can only trigger once every <unbreak>#4[i]</unbreak> turn(s).",
+                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer's Basic ATK or Skill DMG does not result in a CRIT Hit, increases their CRIT Rate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). This effect can only trigger once every <unbreak>#4[i]</unbreak> turn(s).",
                 "params": {
                     "1": [
                         0.3,
@@ -16857,7 +17242,7 @@
             ],
             "skill": {
                 "name": "One At A Time",
-                "description": "Increase the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and their follow-up attacks' DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to <unbreak>#4[i]</unbreak> stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+                "description": "Increase the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and increases DMG dealt by follow-up attack by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After the wearer uses a follow-up attack, inflicts the target with the Tame state, stacking up to <unbreak>#4[i]</unbreak> time(s). When allies hit enemy targets under the Tame state, each Tame stack increases the CRIT DMG dealt by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
                 "params": {
                     "1": [
                         0.18,
@@ -17274,7 +17659,7 @@
             ],
             "skill": {
                 "name": "A Knight's Pilgrimage",
-                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses Ultimate, increases the wearer's Ultimate DMG based on their Max Energy. Each point of Energy increases the Ultimate DMG by <color=#f29e38ff><unbreak>#2[f2]%</unbreak></color>, up to <unbreak>#3[i]</unbreak> points of Energy.",
+                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses Ultimate, increases DMG dealt by the wearer's Ultimate based on their Max Energy. Each point of Energy increases DMG dealt by Ultimate by <color=#f29e38ff><unbreak>#2[f2]%</unbreak></color>. A max of <unbreak>#3[i]</unbreak> points of Energy will be taken into account for this.",
                 "params": {
                     "1": [
                         0.36,
@@ -17472,7 +17857,7 @@
             ],
             "skill": {
                 "name": "The Plum Fragrance In My Bones",
-                "description": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses their Ultimate, increases all allies' DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). Should the wearer's Break Effect exceed or equal <unbreak>#4[i]%</unbreak>, 1 Skill Point will be recovered.\\nAt the start of each wave, all allies regenerate <color=#f29e38ff><unbreak>#5[f1]</unbreak></color> Energy immediately. Effects of the same type cannot stack.",
+                "description": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses their Ultimate, increases all allies' DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). Should the wearer's Break Effect exceed or equal <unbreak>#4[i]%</unbreak>, 1 Skill Point will be recovered.\\nAt the start of each wave, all allies regenerate <color=#f29e38ff><unbreak>#5[f1]</unbreak></color> Energy immediately. Abilities of the same type cannot stack.",
                 "params": {
                     "1": [
                         0.6,
@@ -18546,7 +18931,7 @@
             ],
             "skill": {
                 "name": "Steerer",
-                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer's Ultimate additionally increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by Ultimate additionally increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
                 "params": {
                     "1": [
                         0.36,
@@ -18744,7 +19129,7 @@
             ],
             "skill": {
                 "name": "Metamorphosis",
-                "description": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for <unbreak>#4[i]</unbreak> turn(s). Targets afflicted with Routed receive <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> increased Break DMG from the wearer, and their SPD is lowered by <unbreak>#3[i]%</unbreak>. Effects of the similar type cannot be stacked.",
+                "description": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for <unbreak>#4[i]</unbreak> turn(s). Targets afflicted with Routed receive <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> increased Break DMG from the wearer, and their SPD is lowered by <unbreak>#3[i]%</unbreak>. Effects of the same type cannot be stacked.",
                 "params": {
                     "1": [
                         0.6,
@@ -19431,12 +19816,838 @@
         }
     },
     "23029": {
-        "code": 404,
-        "data": "Data Not Found!"
+        "response": 200,
+        "data": {
+            "id": 23029,
+            "name": "Those Many Springs",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Warlock",
+                    "name": "Nihility"
+                }
+            },
+            "icon": "23029",
+            "isSellable": false,
+            "route": "Those Many Springs",
+            "description": "After a few sudden drizzles, spring tides rise, birthing lush greenery.\\n<i>\"How many springs has it been?\"</i>\\nHe recalls those young soldiers heading to the battlefield for the first time. Year after year, the faces were all different, yet they radiated the exact same vigor and hope.\\nThe willow withers as it waits for their return. But what they manage to bring home is often... the frost that can never melt.\\n\\nBirds' warbles linger in the air as he closes his eyes, allowing sunlight to fall on his face through the gaps between the leaves.\\n—<i>\"Alas, those who remain are the loneliest of all.\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "113001": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 43.2,
+                        "attackBase": 26.4,
+                        "defenceBase": 24
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110221": 4,
+                        "113001": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 95.04,
+                        "attackBase": 58.08,
+                        "defenceBase": 52.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110222": 4,
+                        "113002": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 164.16,
+                        "attackBase": 100.32,
+                        "defenceBase": 91.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110222": 8,
+                        "113002": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 233.28,
+                        "attackBase": 142.56,
+                        "defenceBase": 129.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110223": 5,
+                        "113003": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 302.4,
+                        "attackBase": 184.8,
+                        "defenceBase": 168
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110223": 10,
+                        "113003": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 371.52,
+                        "attackBase": 227.04,
+                        "defenceBase": 206.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 440.64,
+                        "attackBase": 269.28,
+                        "defenceBase": 244.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Worldly Affairs Leave No Mark",
+                "description": "Increases the wearer's Effect Hit Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Basic ATK, Skill, or Ultimate to attack an enemy target, there is a <unbreak>#2[i]%</unbreak> base chance to inflict \"Unarmored\" on the target. While in the Unarmored state, the enemy target receives <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> increased DMG, lasting for <unbreak>#4[i]</unbreak> turn(s). If the target is under a DoT state inflicted by the wearer, there is a <unbreak>#5[i]%</unbreak> base chance to upgrade the \"Unarmored\" state inflicted by the wearer to the \"Cornered\" state, which additionally increases the DMG the target enemy receives by <color=#f29e38ff><unbreak>#6[i]%</unbreak></color>, lasting for <unbreak>#4[i]</unbreak> turn(s). During this period, the wearer cannot inflict \"Unarmored\" on the target.",
+                "params": {
+                    "1": [
+                        0.6,
+                        0.7,
+                        0.8,
+                        0.9,
+                        1
+                    ],
+                    "2": [
+                        0.6,
+                        0.6,
+                        0.6,
+                        0.6,
+                        0.6
+                    ],
+                    "3": [
+                        0.1,
+                        0.12,
+                        0.14,
+                        0.16,
+                        0.18
+                    ],
+                    "4": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "5": [
+                        0.6,
+                        0.6,
+                        0.6,
+                        0.6,
+                        0.6
+                    ],
+                    "6": [
+                        0.14,
+                        0.16,
+                        0.18,
+                        0.2,
+                        0.22
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110221": 2,
+                "110222": 3,
+                "110223": 4,
+                "113001": 2,
+                "113002": 3,
+                "113003": 4
+            }
+        }
     },
     "23030": {
-        "code": 404,
-        "data": "Data Not Found!"
+        "response": 200,
+        "data": {
+            "id": 23030,
+            "name": "Dance at Sunset",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Warrior",
+                    "name": "Destruction"
+                }
+            },
+            "icon": "23030",
+            "isSellable": false,
+            "route": "Dance at Sunset",
+            "description": "<i>In the resplendent twilight, a swift figure darts across the rooftops.</i>\\n\\n<i>\"Lili, Guoguo, let's see who makes it to the finish line first!\"</i>\\nScaling the eaves, evading the guards, swaying with the wind, the girl moves like a nimble critter, chasing the last sliver of sunlight.\\n\\nThe warm evening breeze caresses her face, and the setting sun bathes the cat in a kaleidoscope of colors.\\n<i>\"You guys won!\"</i>\\nShe declares, wiping sweat from her brow and cradling the cat in her arms.\\nAmidst a rising galaxy of stars, her unguarded smile dissolves into a bloom of innocence, akin to the layered twilight hues adrift in the sky.",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "113011": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 48,
+                        "attackBase": 26.4,
+                        "defenceBase": 21
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110181": 4,
+                        "113011": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 105.6,
+                        "attackBase": 58.08,
+                        "defenceBase": 46.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110182": 4,
+                        "113012": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 182.4,
+                        "attackBase": 100.32,
+                        "defenceBase": 79.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110182": 8,
+                        "113012": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 259.2,
+                        "attackBase": 142.56,
+                        "defenceBase": 113.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110183": 5,
+                        "113013": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 336,
+                        "attackBase": 184.8,
+                        "defenceBase": 147
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110183": 10,
+                        "113013": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 412.8,
+                        "attackBase": 227.04,
+                        "defenceBase": 180.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 489.6,
+                        "attackBase": 269.28,
+                        "defenceBase": 214.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.15
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Deeply Engrossed",
+                "description": "Greatly increases the wearer's chance of getting attacked and increases CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Ultimate, receives 1 stack of Firedance, lasting for 2 turns and stacking up to <unbreak>#2[i]</unbreak> time(s). Each stack of Firedance increases the DMG dealt by the wearer's follow-up attack by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+                "params": {
+                    "1": [
+                        0.36,
+                        0.42,
+                        0.48,
+                        0.54,
+                        0.6
+                    ],
+                    "2": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "3": [
+                        0.36,
+                        0.42,
+                        0.48,
+                        0.54,
+                        0.6
+                    ],
+                    "4": [
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110181": 2,
+                "110182": 3,
+                "110183": 4,
+                "113011": 2,
+                "113012": 3,
+                "113013": 4
+            }
+        }
+    },
+    "23031": {
+        "response": 200,
+        "data": {
+            "id": 23031,
+            "name": "I Venture Forth to Hunt",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Rogue",
+                    "name": "The Hunt"
+                }
+            },
+            "icon": "23031",
+            "isSellable": false,
+            "route": "I Venture Forth to Hunt",
+            "description": "<i>\"Pitiful, laughable slaves...\"</i>\\nThe Denizens of Abundance's legions come crashing upon the border like an avalanche, with Lupitoxin rushing toward the Verdant Knights like a tide, trying to arouse the deep-set fear hidden in the soldiers' hearts. Illusions of dread came forth, striking the wills of the warriors, compelling them to drop their blades and be seized by hesitation.\\nBut the front remains stalwart like a bronze wall, unstirred by the borisins' disdainful words. From among the soldiers, a single figure saunters forth.\\nShe moves her body at a slow pace, and the flags behind her rustle under the unseen killing intent.\\n<i>\"The general... it's the general...\"</i>\\n<i>\"General Feixiao...\"</i>\\n<i>\"The Merlin's Claw!\"</i>\\nThese small cheers and calls then come together into a thunderous battle cry.\\n\\n<i>\"Always soaring! Forever triumphant!\"</i>\\nShe stands there, alone. A single figure, but imbued with the might of an entire army.",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "113011": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 43.2,
+                        "attackBase": 28.8,
+                        "defenceBase": 21
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 4.32,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110191": 4,
+                        "113011": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 95.04,
+                        "attackBase": 63.36,
+                        "defenceBase": 46.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 4.32,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110192": 4,
+                        "113012": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 164.16,
+                        "attackBase": 109.44,
+                        "defenceBase": 79.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 4.32,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110192": 8,
+                        "113012": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 233.28,
+                        "attackBase": 155.52,
+                        "defenceBase": 113.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 4.32,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110193": 5,
+                        "113013": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 302.4,
+                        "attackBase": 201.6,
+                        "defenceBase": 147
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 4.32,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110193": 10,
+                        "113013": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 371.52,
+                        "attackBase": 247.68,
+                        "defenceBase": 180.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 4.32,
+                        "defenceAdd": 3.15
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 440.64,
+                        "attackBase": 293.76,
+                        "defenceBase": 214.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 4.32,
+                        "defenceAdd": 3.15
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Intimidation",
+                "description": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>. When the wearer launches a follow-up attack, gains 1 stack of \"Luminflux,\" stacking up to <unbreak>#3[i]</unbreak> time(s). Each stack of \"Luminflux\" enables the Ultimate DMG dealt by the wearer to ignore <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the target's DEF. When the wearer's turn ends, removes 1 stack of \"Luminflux.\"",
+                "params": {
+                    "1": [
+                        0.15,
+                        0.175,
+                        0.2,
+                        0.225,
+                        0.25
+                    ],
+                    "2": [
+                        0.27,
+                        0.3,
+                        0.33,
+                        0.36,
+                        0.39
+                    ],
+                    "3": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110191": 2,
+                "110192": 3,
+                "110193": 4,
+                "113011": 2,
+                "113012": 3,
+                "113013": 4
+            }
+        }
+    },
+    "23032": {
+        "response": 200,
+        "data": {
+            "id": 23032,
+            "name": "Scent Alone Stays True",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Priest",
+                    "name": "Abundance"
+                }
+            },
+            "icon": "23032",
+            "isSellable": false,
+            "route": "Scent Alone Stays True",
+            "description": "<i>\"First, overhaul the department's work habits.\"</i>\\n<i>\"Then, strictly implement rewards and penalties.\"</i>\\n<i>\"Of course, the most important part is figuring out everyone's tangled web of personal interests as soon as possible...\"</i>\\nThough she was originally here to admire the scenery, her mind had unknowingly drifted toward work, with stress and trouble naturally following.\\n\\nShe hurriedly ignites the soothing incense she always carried with her.\\n<i>\"The world is so beautiful, yet I am so irritable... Best not to think of such miserable matters while on vacation...\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "113001": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 48,
+                        "attackBase": 24,
+                        "defenceBase": 24
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110241": 4,
+                        "113001": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 105.6,
+                        "attackBase": 52.8,
+                        "defenceBase": 52.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110242": 4,
+                        "113002": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 182.4,
+                        "attackBase": 91.2,
+                        "defenceBase": 91.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110242": 8,
+                        "113002": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 259.2,
+                        "attackBase": 129.6,
+                        "defenceBase": 129.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110243": 5,
+                        "113003": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 336,
+                        "attackBase": 168,
+                        "defenceBase": 168
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110243": 10,
+                        "113003": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 412.8,
+                        "attackBase": 206.4,
+                        "defenceBase": 206.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 489.6,
+                        "attackBase": 244.8,
+                        "defenceBase": 244.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 3.6
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Contentment",
+                "description": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Ultimate to attack enemy targets, inflicts the targets with the \"Woefree\" state, lasting for <unbreak>#5[i]</unbreak> turn(s). While in \"Woefree,\" enemy targets take <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> increased DMG. The effect of increasing DMG taken is additionally boosted by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> if the wearer's current Break Effect is <unbreak>#3[i]%</unbreak> or higher.",
+                "params": {
+                    "1": [
+                        0.6,
+                        0.7,
+                        0.8,
+                        0.9,
+                        1
+                    ],
+                    "2": [
+                        0.1,
+                        0.12,
+                        0.14,
+                        0.16,
+                        0.18
+                    ],
+                    "3": [
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5,
+                        1.5
+                    ],
+                    "4": [
+                        0.08,
+                        0.1,
+                        0.12,
+                        0.14,
+                        0.16
+                    ],
+                    "5": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110241": 2,
+                "110242": 3,
+                "110243": 4,
+                "113001": 2,
+                "113002": 3,
+                "113003": 4
+            }
+        }
     },
     "24000": {
         "response": 200,
@@ -19453,7 +20664,7 @@
             "icon": "24000",
             "isSellable": false,
             "route": "On the Fall of an Aeon",
-            "description": "It began with a flash of light.\\nOne by one, they fell as the threat of expiration loomed over them.\\nThey had to stop self-replicating and rushed to embrace each other,\\ntrying to offer the right to reproduce in exchange for a possibility of survival.\\nThey held hands in a show of unprecedented unity.\\n...But the Paths met an abrupt end,\\nand they were headed to a true death.",
+            "description": "It began with a flash of light.\\nOne by one, THEY fell as the threat of expiration loomed over THEM.\\nTHEY had to stop self-replicating and rushed to embrace each other,\\ntrying to offer the right to reproduce in exchange for a possibility of survival.\\nTHEY held hands in a show of unprecedented unity.\\n...But the Paths met an abrupt end,\\nand THEY were headed to a true death.",
             "upgrade": [
                 {
                     "level": 0,
@@ -19600,7 +20811,7 @@
             ],
             "skill": {
                 "name": "Moth to Flames",
-                "description": "Whenever the wearer attacks, their ATK is increased by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> in this battle. This effect can stack up to <unbreak>#2[i]</unbreak> time(s). After a character inflicts Weakness Break on an enemy, the wearer's DMG increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> for <unbreak>#4[i]</unbreak> turn(s).",
+                "description": "When the wearer attacks, increases their ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> in this battle. This effect can stack up to <unbreak>#2[i]</unbreak> time(s). After the wearer breaks an enemy's Weakness, increases DMG dealt by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>, lasting for <unbreak>#4[i]</unbreak> turn(s).",
                 "params": {
                     "1": [
                         0.08,
@@ -19658,7 +20869,7 @@
             "icon": "24001",
             "isSellable": false,
             "route": "Cruising in the Stellar Sea",
-            "description": "Coursing 'tween the sea of stars,\\nthey cruise with the speed of a rainbow's chromatic flash.\\nA journey of hunting undying abominations,\\ncollecting cures and miracles,\\nand seeking deliverance.\\nAkin to a vow unbroken, their voyage will be,\\nad infinitum.",
+            "description": "Coursing 'tween the sea of stars,\\nTHEY cruise with the speed of a rainbow's chromatic flash.\\nA journey of hunting undying abominations,\\ncollecting cures and miracles,\\nand seeking deliverance.\\nAkin to a vow unbroken, THEIR voyage will be,\\nad infinitum.",
             "upgrade": [
                 {
                     "level": 0,
@@ -19805,7 +21016,7 @@
             ],
             "skill": {
                 "name": "Chase",
-                "description": "Increases the wearer's CRIT rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, and increases their CRIT rate against enemies with HP less than or equal to <unbreak>#2[i]%</unbreak> by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. When the wearer defeats an enemy, their ATK is increased by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> for <unbreak>#5[i]</unbreak> turn(s).",
+                "description": "Increases the wearer's CRIT rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, and increases their CRIT rate against enemies with HP percentage less than or equal to <unbreak>#2[i]%</unbreak> by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. When the wearer defeats an enemy, their ATK is increased by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> for <unbreak>#5[i]</unbreak> turn(s).",
                 "params": {
                     "1": [
                         0.08,
@@ -20434,7 +21645,7 @@
             ],
             "skill": {
                 "name": "Boundless Thought",
-                "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After using an attack, for each enemy target hit, additionally increases ATK by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. This effect can stack 5 times and last until the next attack. If there are <unbreak>#3[i]</unbreak> or more enemy targets hit, this unit's SPD increases by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>, lasting for <unbreak>#5[i]</unbreak> turn(s).",
+                "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After using an attack, for each enemy target hit, additionally increases ATK by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. This effect can stack up to 5 times and last until the next attack. If there are <unbreak>#3[i]</unbreak> or more enemy targets hit, this unit's SPD increases by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>, lasting for <unbreak>#5[i]</unbreak> turn(s).",
                 "params": {
                     "1": [
                         0.08,

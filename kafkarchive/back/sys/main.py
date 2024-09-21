@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from typing import Annotated
 from annotated_types import Len
 from build_calculator import *
+from build_calculator.fetchdata import fetch
 
 #numbers for debugging
 
@@ -56,6 +57,8 @@ class Build_data(BaseModel):
     Traces_list: list[int] = []
     Relics: Relics
 
+class UserID(BaseModel):
+    UssrID: int
 
 app = FastAPI()
 
@@ -85,8 +88,42 @@ async def calc(number: number):
 @app.post("/build_calc")
 async def build_calc(builddata: Build_data):
     builddict = builddata.model_dump()
-    result = await build_calculation(builddict)
+    result = await build_calculation(builddict, "True")
     return result
+
+@app.post("/fetch_raw")
+async def fetch_raw(uid: UserID):
+    packed = {}
+    uiddict = uid.model_dump()
+    data = await fetch(uiddict["UssrID"])
+    for chars in data:
+        response = await build_calculation(data[str(chars)], "raw")
+        packed.update({chars : response})
+    
+    return packed
+
+@app.post("/fetch_numdata")
+async def fetch_numdata(uid: UserID):
+    packed = {}
+    uiddict = uid.model_dump()
+    data = await fetch(uiddict["UssrID"])
+    for chars in data:
+        response = await build_calculation(data[str(chars)], "numdata")
+        packed.update({chars : response})
+    
+    return packed
+
+@app.post("/fetch_cooked")
+async def fetch_cooked(uid: UserID):
+    packed = {}
+    uiddict = uid.model_dump()
+    data = await fetch(uiddict["UssrID"])
+    for chars in data:
+        response = await build_calculation(data[str(chars)], "True")
+        packed.update({chars : response})
+    
+    return packed
+    
 
 get_char_data_types = "datatypes : name, description, stats, icon, shortIcon, drawIcon, rarity, element, skills, promos, avatarType, promotion, treePromotion, maxPromo, exp, tree, ranks, statsArray, promoarrays, advancement, va, id"
 
@@ -116,7 +153,6 @@ async def get_char_img(id):
 async def get_char_img(id):
     return FileResponse(Rf"{img_path}\charbig\{id}.png")
 
-
 @app.get("/img/lightcones/{id}")
 async def get_char_img(id):
     return FileResponse(Rf"{img_path}\lightcones\{id}.png")
@@ -124,4 +160,3 @@ async def get_char_img(id):
 @app.get("/img/relics/{id}/{relictype}")
 async def get_char_img(id, relictype):
     return FileResponse(Rf"{img_path}\relics\IconRelic_{id}_{relictype}.png")
-

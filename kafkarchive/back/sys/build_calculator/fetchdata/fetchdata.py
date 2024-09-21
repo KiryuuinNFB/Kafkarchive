@@ -2,9 +2,9 @@ import enka
 
 retry = "y"
 
-async def fetch() -> None:
+async def fetch(userid) -> None:
     async with enka.HSRClient(headers=({"Kiryuuin":"school project website lmao"})) as client:
-        userid = input("Please enter your UID : ")
+        
 
         try:
             fetched = await client.fetch_showcase(userid)

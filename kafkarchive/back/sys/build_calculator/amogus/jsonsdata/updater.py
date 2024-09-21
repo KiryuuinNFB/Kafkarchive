@@ -2,7 +2,7 @@ import json
 import requests
 import asyncio
 
-yattaapi = "https://api.yatta.top/hsr/v2/en/"
+yattaapi = "https://sr.yatta.moe/api/v2/en/"
 hsrmapapi = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/en/"
 hsrmapapishort = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/"
 hsrimgapi = "https://raw.githubusercontent.com/FortOfFans/HSR/main"
@@ -188,16 +188,21 @@ get 1-4 or 5-6 from set id
 
 """
 
-async def main() -> None:
+async def alljson() -> None:
     await update_avatar()
     await update_light_cone()
+    await update_lcs()
     await update_chars()
     await update_relic_main()
     await update_relic_sub()
     await update_relics()
     await update_stats()
 
-asyncio.run(update_lcs())
+async def allimg() -> None:
+    await update_all_relic_icons()
+    await update_all_lc_icons()
+    await update_all_char_icons()
+asyncio.run(allimg())
 
 """
 this file updates the json files

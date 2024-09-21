@@ -8,7 +8,7 @@ import timeit
 
 retry = "y"
 
-async def build_calculation(builddata) -> None:
+async def build_calculation(builddata, cooked) -> None:
     start = timeit.default_timer()
     #allasjson = {}
     #print(json.dumps(builddata, indent=4, sort_keys=False))
@@ -90,7 +90,12 @@ async def build_calculation(builddata) -> None:
         print('Time elapsed ', round(stop - start,3), "seconds")
         
         #print(json.dumps(calculated, indent=4, sort_keys=False))
-        return final
+        if cooked == "True":
+            return final
+        elif cooked == "numdata":
+            return calculated
+        elif cooked == "raw":
+            return builddata
             #allasjson.update({chars:calculated})
 
     else:

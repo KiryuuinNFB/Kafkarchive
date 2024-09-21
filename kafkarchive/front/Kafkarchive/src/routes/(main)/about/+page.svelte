@@ -15,7 +15,7 @@
 				Kafkarchive is a Honkai: Star Rail database website where players can upload their character builds with tags that best describe them.
 				So that other players can look up builds that might fit their playstyles. It is also a site for calculating hypothetical builds. You can import your builds by putting in your UID, 
 				Or you can create your build manually.
-				This site was created for a school project, So don't expect super accurate information or optimized system. 
+				This site was originally created for a school project, So don't expect super accurate information or optimized system. 
 			</p>
 			<p>
 				This site is written in <a href="https://kit.svelte.dev/" class="walloftextlink" target="_blank">SvelteKit</a> and <a href="https://fastapi.tiangolo.com/" class="walloftextlink" target="_blank">FastAPI</a>.
