@@ -12,7 +12,7 @@
                 }
             },
             "icon": "20000",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Arrows",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"The hunter's eyes are the clearest when they pull back the bowstring with the arrow nocked.\"</i>",
             "upgrade": [
@@ -203,7 +203,7 @@
                 }
             },
             "icon": "20001",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Cornucopia",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"Life is the existence of order beyond a certain threshold. Its birth is the final answer to the silent universe, declaring the end to the era of old chaos.\"</i>",
             "upgrade": [
@@ -387,7 +387,7 @@
                 }
             },
             "icon": "20002",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Collapsing Sky",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"The death of all things is as natural as their birth. Time erodes everything, turning all tangible entities to dust.\"</i>",
             "upgrade": [
@@ -571,7 +571,7 @@
                 }
             },
             "icon": "20003",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Amber",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"Only those who aren't affected by time can survive in time.\"</i>",
             "upgrade": [
@@ -769,7 +769,7 @@
                 }
             },
             "icon": "20004",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Void",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"He stared into the void, hanging high like the dark sun at the end of all matter, or a mouth that answered all questions. It said: ███ █ ███ ██ The answer couldn't be expressed in any human language, but could be understood by all.\"</i>",
             "upgrade": [
@@ -960,7 +960,7 @@
                 }
             },
             "icon": "20005",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Chorus",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"Fingers clutch to make a fist, strength is built via numbers. I give myself for something higher — the concept of us.\"</i>",
             "upgrade": [
@@ -1144,7 +1144,7 @@
                 }
             },
             "icon": "20006",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Data Bank",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"Human extinction is inevitable, but the library will live on: Lonely, immobile, and hidden from the public. Its vast collection is useless, yet pure from corruption.\"</i>",
             "upgrade": [
@@ -1328,7 +1328,7 @@
                 }
             },
             "icon": "20007",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Darting Arrow",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"The battle has begun. Arrows are thirsty for blood.\"</i>",
             "upgrade": [
@@ -1519,7 +1519,7 @@
                 }
             },
             "icon": "20008",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Fine Fruit",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"Everything tastes sweet for those desperate for water.\"</i>",
             "upgrade": [
@@ -1703,7 +1703,7 @@
                 }
             },
             "icon": "20009",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Shattered Home",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"Absolute control comes from the ability to inflict total destruction.\"</i>",
             "upgrade": [
@@ -1894,7 +1894,7 @@
                 }
             },
             "icon": "20010",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Defense",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"If you ever doubt these walls will lead us to victory, just look at these brave souls standing atop them.\"</i>",
             "upgrade": [
@@ -2078,7 +2078,7 @@
                 }
             },
             "icon": "20011",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Loop",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"Those running away from the past think no one understands their despair. When they finally take a breather, they'll find their future selves staring right at them with bloodshot eyes.\"</i>",
             "upgrade": [
@@ -2262,7 +2262,7 @@
                 }
             },
             "icon": "20012",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Meshing Cogs",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"Harmony is achieved when everyone does their bit amidst the clunking of machines.\"</i>",
             "upgrade": [
@@ -2446,7 +2446,7 @@
                 }
             },
             "icon": "20013",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Passkey",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"Knowledge is locked behind a gate, the key to which is hidden from those seeking answers from others, while made obvious for those determined to find it on their own.\"</i>",
             "upgrade": [
@@ -2630,7 +2630,7 @@
                 }
             },
             "icon": "20014",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Adversarial",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"Freedom fighters will never die, as their stories will forever be told.\"</i>",
             "upgrade": [
@@ -2821,7 +2821,7 @@
                 }
             },
             "icon": "20015",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Multiplication",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"When life has lost its meaning, please continue to bestow life upon it.\"</i>",
             "upgrade": [
@@ -3005,7 +3005,7 @@
                 }
             },
             "icon": "20016",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Mutual Demise",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"How does one make perfect the past of a planet? Now — immediately — rend the planet asunder.\"</i>",
             "upgrade": [
@@ -3196,7 +3196,7 @@
                 }
             },
             "icon": "20017",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Pioneering",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.\\n\\n<i>\"We will no longer fight alone. The IPC will stand alongside everyone in assistance.\"</i>",
             "upgrade": [
@@ -3380,7 +3380,7 @@
                 }
             },
             "icon": "20018",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Hidden Shadow",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"The Nihility might find us, but there is a non-zero chance that they might not.\"</i>",
             "upgrade": [
@@ -3564,7 +3564,7 @@
                 }
             },
             "icon": "20019",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Mediation",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"What can be more joyous than purging disharmony?\"</i>",
             "upgrade": [
@@ -3755,7 +3755,7 @@
                 }
             },
             "icon": "20020",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Sagacity",
             "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. \\n\\n<i>\"Should Wise Ones be unable to abandon their identity as humans, they shall be abandoned by wisdom.\"</i>",
             "upgrade": [
@@ -3946,7 +3946,7 @@
                 }
             },
             "icon": "21000",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Post-Op Conversation",
             "description": "<i>\"You're awake... Thank you.\"\\n\"You... saved my life, Natasha. The one who should be saying thanks... is me.\"\\n\"No, I should be thanking you... for holding on until I finished the surgery.\"</i>\\n\\nThe doctor and patient smiled wearily at each other and said nothing more.",
             "upgrade": [
@@ -4137,7 +4137,7 @@
                 }
             },
             "icon": "21001",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Good Night and Sleep Well",
             "description": "The dim light outlines the dust tracks,\\nAs a young girl mumbles sweetly in her sleep.\\nA silent figure appears behind her.\\n<i>\"Well, well, well, you're cuter without those glasses — I knew it.\"</i>\\nThe guitarist stares at her sleeping face, muttering to herself:\\n<i>\"Good night, the genius girl that worries a lot.\"</i>",
             "upgrade": [
@@ -4328,7 +4328,7 @@
                 }
             },
             "icon": "21002",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Day One of My New Life",
             "description": "<i>\"So happy I got to see Pom-Pom in new clothes today! I like it~\"\\n\"Today's my birthday! I'm still as cute as ever.\"\\n\"Today, I finally finally finally have a junior! Isn't that right, {NICKNAME}?\"</i>\\n\\nWe click the shutter many times without thinking.\\nDo we do that to capture the happiness at that moment?\\nOr to capture ourselves at that moment?",
             "upgrade": [
@@ -4519,7 +4519,7 @@
                 }
             },
             "icon": "21003",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Only Silence Remains",
             "description": "<i>\"Shouldn't we get off? It's our stop.\"</i>\\nA chuckle came from above. His eyes moved, but he didn't look up.\\n\\n<i>\"To be clear, March always says you're expressionless, but I don't agree.\"\\n\"The train's data bank show traces of an update, but the results weren't saved.\"\\n\"So... which entry were you having trouble with?\"</i>\\n\\nHe grasped his pen tighter as he looked at the bloody scene drawn in the notebook from memory.\\n\\n<i>\"I see. It was the one about you...\"</i>",
             "upgrade": [
@@ -4710,7 +4710,7 @@
                 }
             },
             "icon": "21004",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Memories of the Past",
             "description": "An old photo lies on the far end of the table in the guardian's residence.\\nShe would always subconsciously move her eyes away whenever she happened to see it.\\nThe memories of the past had already become distant, but the dreams of today still linger.",
             "upgrade": [
@@ -4901,7 +4901,7 @@
                 }
             },
             "icon": "21005",
-            "isSellable": true,
+            "isSellable": false,
             "route": "The Moles Welcome You",
             "description": "<i>\"Moles, moles,\"\\n\"Leaving our holes,\"\\n\"Smart moles fear naught foes,\"\\n\"Moles, moles,\"\\n\"Bite your toes!\"</i>",
             "upgrade": [
@@ -5085,7 +5085,7 @@
                 }
             },
             "icon": "21006",
-            "isSellable": true,
+            "isSellable": false,
             "route": "The Birth of the Self",
             "description": "In the beginning, it had the exact same pose as the previous portrait.\\nLooking at the face identical to hers, she was convinced that this was not her.\\n\\n<i>\"Impossible. How can two portraits be exactly the same?\"</i>\\n\\nShe tweaked its joints, opened its eyes, and made its fingers softer.\\nShe looked happy when all the changes were done.\\n\\n<i>\"Completely different from yesterday. This is more like who I am today.\"</i>",
             "upgrade": [
@@ -5283,7 +5283,7 @@
                 }
             },
             "icon": "21007",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Shared Feeling",
             "description": "When the doctor found the wounded girl, she was clinging to a machine that had stopped working, with all sorts of parts filling her pocket.\\nShe took the girl back to her clinic and treated the wounds.\\nDrops of sweat slowly rolled down the girl's cheek, but she remained silent and her hands didn't stop fiddling the machine.\\nTo the doctor, the way the girl was attached to the machine was very much like how she was attached to her patients who needed help.\\nSo the doctor did not try to comfort the girl nor did she nag her about being more careful; but rather, she sat down with her to give her a moment of peace.",
             "upgrade": [
@@ -5474,7 +5474,7 @@
                 }
             },
             "icon": "21008",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Eyes of the Prey",
             "description": "In reality, most prey don't realize when danger is encroaching.\\nThis one's no exception.\\nThe sniper's scope slowly centers on a man throwing banknotes stack after stack, who seems completely oblivious to his impending demise.\\n<i>\"So that's what greed looks like. That amount is equal to several of my contracts already... No wonder someone wants him dead.\"</i>\\n\\nAs if these thoughts were broadcasted out loud, the man in the scope turns his head, looking straight into the eyes of the sniper. \\n<i>\"I've been waiting for you. Would this much be enough for you to hear me out?\"</i>",
             "upgrade": [
@@ -5665,7 +5665,7 @@
                 }
             },
             "icon": "21009",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Landau's Choice",
             "description": "<i>\"Did you not hear me? Don't go there ever again! What could you possibly be learning from those commoners!\"\\n\"But I've never heard any of the stories they tell about Belobog before...\"</i>\\n\\nShe pulled her brother behind her, denying him the chance to talk back.\\n<i>\"You are both Landaus! One day, you'll face hard choices. Especially you, Serval.\"</i>\\n\\nShe knew that her brother did nothing wrong, but she couldn't think of a rebuttal.\\nShe went to bed angry after the argument, vowing to herself:\\n<i>\"I will be a grown-up one day. And when that day comes, I will make choices...\"\\n\"My own choices...\"</i>",
             "upgrade": [
@@ -5856,7 +5856,7 @@
                 }
             },
             "icon": "21010",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Swordplay",
             "description": "Looking rather skeptical, the girl thrust the small sword at her imaginary enemy in an attempt to convince herself that this thing was useful.\\nHow can something so feeble compete with my two-handed sword? Do enemies even notice when they get stabbed?\\n\\nThe owner of the sword did not seem to care about its size.\\nAfter all, enemies are defeated by strategy, not swords.\\nIt doesn't matter whether the sword is heavy or light, as long as you use the pointy end.",
             "upgrade": [
@@ -6047,7 +6047,7 @@
                 }
             },
             "icon": "21011",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Planetary Rendezvous",
             "description": "She had no idea what to expect when she first started out on this journey.\\nAll she knew was that she could at long last be rid of the judgmental eyes and petty bickering of her family.\\nShe felt she finally understood what the poet was trying to say.\\n<i>\"One day, we would grow wings and forget what it was like to walk.\"</i>\\n\\nThe light in her eyes became the glittering stars.",
             "upgrade": [
@@ -6231,7 +6231,7 @@
                 }
             },
             "icon": "21012",
-            "isSellable": true,
+            "isSellable": false,
             "route": "A Secret Vow",
             "description": "The boy would always make sure that his gloves and elbow guards were in good shape before leaving.\\nHe treasured his gloves more than anything because they were tight enough to hide secrets.\\nWith this layer of protection, no one could see the bandages on his hand and the wound beneath them.\\nHe would be treated as if he was normal, and he would be greeted just like everyone else.\\n\\nThat was all he asked for.",
             "upgrade": [
@@ -6422,7 +6422,7 @@
                 }
             },
             "icon": "21013",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Make the World Clamor",
             "description": "She stood on the stage, waving at her audience, encouraging them to make their voice heard.\\nSongs, shouts, or laments — anything that makes a sound.\\nVoice your thoughts, so others can come to help.\\n\\n<i>\"Don't make your heart as cold as this concrete jungle.\"</i>\\n\\n— Make the world clamor.",
             "upgrade": [
@@ -6613,7 +6613,7 @@
                 }
             },
             "icon": "21014",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Perfect Timing",
             "description": "On a bustling street, he walks and walks. The sunlight closely follows his footsteps.\\nHe makes a stop and picks up an umbrella to shade himself from the sun\\n...and from that prying gaze.",
             "upgrade": [
@@ -6811,7 +6811,7 @@
                 }
             },
             "icon": "21015",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Resolution Shines As Pearls of Sweat",
             "description": "The limelight cast on the boxing ring is bright, but no brighter than all those beads of sweat running down his back.\\n\\nHe has long been determined to use his two fists to protect those he cherishes the most.\\nAfter all, they are the ones who ignited his determination in the first place.\\nThey are the ones who have always been there for him, be it inside or outside the boxing ring.",
             "upgrade": [
@@ -7009,7 +7009,7 @@
                 }
             },
             "icon": "21016",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Trend of the Universal Market",
             "description": "The planet is receiving a revaluation...\\n\\n<i>\"Will this project show that it's mutually beneficial to collect any outstanding debts?\"\\n\"But we only need to convey one message — our existence.\"</i>\\n\\n\"If it were to have a value of its own, then it must create value for the corporation.\"",
             "upgrade": [
@@ -7214,7 +7214,7 @@
                 }
             },
             "icon": "21017",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Subscribe for More!",
             "description": "<i>\"Yo, yo. What is up! Is everything coming through?\"</i>\\n\\nThe orange-haired girl slowly lifts a sledgehammer while shouting enthusiastically at the camera.\\n<i>\"Ever seen a pretty girl doing the cinder-block-smashed-on-chest stunt?\"</i>\\n\\n<i>\"I didn't sign up for this!\"</i>\\nThe brunette girl cried out loud, only to be met with a sly smile from the girl with the orange hair.\\n<i>\"Please. Just let me do this. This is what people would've wanted.\"</i>",
             "upgrade": [
@@ -7405,7 +7405,7 @@
                 }
             },
             "icon": "21018",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Dance! Dance! Dance!",
             "description": "<i>\"Why couldn't Hook do a spinning dance move, just like how Clara does?\"</i>\\nShe clenched her tiny fists and pouted her cute lips, her chubby little face looking redder than ever under her signature felt hat.\\n<i>\"Please, Mr. Svarog, can you please help Hook with this?\"</i>\\nWithout saying any words, Mr. Svarog began to hold out his robotic arm.\\n\\n<i>\"I'm g—gonna be sick!!! Put me down now! Please!\"</i>",
             "upgrade": [
@@ -7589,7 +7589,7 @@
                 }
             },
             "icon": "21019",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Under the Blue Sky",
             "description": "Under the blue sky, fields of wheat were dancing.\\nThe young girl was carefully weaving a flower wreath,\\nfor her most beloved little sister.\\n\\nThat was when they were still the same height.\\nThat was when they shared the same smile.",
             "upgrade": [
@@ -7787,7 +7787,7 @@
                 }
             },
             "icon": "21020",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Geniuses' Repose",
             "description": "She pointed at that green rice cake.\\n<i>\"The experiment has ended. Time to take a break. I just can't miss this freshly made dessert.\"</i>\\n\\nShe saw the puppet girl frowning in deep thought.\\n<i>\"Well, in your current body, you can only look but not eat. I'll make you a box of new ones when the time comes.\"</i>\\n\\nShe saw the mechanical aristocrat hesitating at his own cup.\\n<i>\"Don't worry. It's only machine oil. Perfectly safe for you to consume.\"</i>",
             "upgrade": [
@@ -7985,7 +7985,7 @@
                 }
             },
             "icon": "21021",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Quid Pro Quo",
             "description": "After enjoying an intense massage from the dragon girl,\\nthe Foxian girl held out her hand and playfully pinched the dragon girl's little chubby cheeks.\\nThe little girl then pouted her lips, clearly offended, only to elicit a gleeful giggle from the Foxian girl.\\n\\n<i>\"Now that's what I call a proper quid pro quo.\"</i>",
             "upgrade": [
@@ -8176,7 +8176,7 @@
                 }
             },
             "icon": "21022",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Fermata",
             "description": "The phonograph record is being played, spinning nonstop. Even the sounds of all those hoarse shrieks cannot escape the heatwave and are dampened by its tepidity.\\nShe seemed unprepared and utterly enthralled by the fascinating melodies:\\n\\nIt started with sincerity and anticipation...\\n...followed by a passionate catharsis...\\n...with one climax after another...\\n\\n...until the record's spinning came to a final stop and those hoarse shrieks were no longer audible.\\n<i>\"Mission accomplished.\"</i>",
             "upgrade": [
@@ -8367,7 +8367,7 @@
                 }
             },
             "icon": "21023",
-            "isSellable": true,
+            "isSellable": false,
             "route": "We Are Wildfire",
             "description": "She got used to people losing their homes.\\nAnd she got used to people losing their lives.\\nBut crying alone was useless.\\n\\n<i>\"Wear this red scarf, and then we shall share each other's pain.\"\\n\"We are family. We are Wildfire.\"</i>\\n\\nThe moment that pair of big hands held her head, she could no longer hold back her tears.",
             "upgrade": [
@@ -8565,7 +8565,7 @@
                 }
             },
             "icon": "21024",
-            "isSellable": true,
+            "isSellable": false,
             "route": "River Flows in Spring",
             "description": "The young boy took a short break from his sword practice.\\nThe sunlight was baking his already heated neck. He slowly got into the water, whose coldness touched his bare feet.\\nWhen the bell chimes and birds tweet, even the people far away would know that springtime had arrived.",
             "upgrade": [
@@ -8756,7 +8756,7 @@
                 }
             },
             "icon": "21025",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Past and Future",
             "description": "The wings of the paper kite in her hands were broken, brutally reminding her of her beloved's tragic passing.\\nShe kneeled next to the fire of war, eyes full of sorrow.\\n\\n<i>\"If you are the only one left to do this, then our sacrifice would...\"</i>\\n\\nGunfire raged on, painting the sky red without dampening its majesty.\\nShe looked up at the sky, eyes full of fury.",
             "upgrade": [
@@ -8947,7 +8947,7 @@
                 }
             },
             "icon": "21026",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Woof! Walk Time!",
             "description": "Pity that no one has seen it...\\nSeen it screw up its nose and sniff around and dive into an empty path.\\n\\nPity that no one has seen it...\\nSeen it retract its claws, enter the password, and leap into the embraces of freedom.\\n\\nHas nobody seen it still...?\\nA grown dog can now walk itself in space!",
             "upgrade": [
@@ -9138,7 +9138,7 @@
                 }
             },
             "icon": "21027",
-            "isSellable": true,
+            "isSellable": false,
             "route": "The Seriousness of Breakfast",
             "description": "Though the table is set...\\nSome people want a cup of tea first.\\nSome people want to take a picture first.\\nSome people want to read the newspaper first.\\nSome people want to write a page in their notebook first.\\nSome people want to play on their phone first.\\n\\n<i>\"All of you, eat while the food is hot!\"</i>",
             "upgrade": [
@@ -9336,7 +9336,7 @@
                 }
             },
             "icon": "21028",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Warmth Shortens Cold Nights",
             "description": "Lighting a light, she glanced at her friend beside her while holding a mug of warm chocolate.\\nWatching her read the books and notes she gifted her.\\nWatching her expressing a rare smile.\\n\\nIn cold nights like this, even the tiniest bit of bliss can chase away the chills.",
             "upgrade": [
@@ -9527,7 +9527,7 @@
                 }
             },
             "icon": "21029",
-            "isSellable": true,
+            "isSellable": false,
             "route": "We Will Meet Again",
             "description": "She had once thought it was some sort of program. How else would it never tire?\\nBut a program would never actively discard the optimal solution and bypass her trap.\\n\\n<i>\"Seems like we'll have a war of attrition.\"</i>\\nShe yawns.\\n\\n<i>\"Time to sleep. Organic lifeforms should treasure rest.\"</i>\\nThe surroundings dim.\\n\\nShe suddenly bolts awake, but the residues of data are swept away and destroyed. It all seems like a dream\\n— but the taste of defeat is very real.",
             "upgrade": [
@@ -9711,7 +9711,7 @@
                 }
             },
             "icon": "21030",
-            "isSellable": true,
+            "isSellable": false,
             "route": "This Is Me!",
             "description": "The girl could rock any outfit she chooses, but she was unsatisfied, judging by the dozen sets of clothing piled up behind her.\\n\\n<i>\"Will this be the last outfit for today?\"</i>\\n\\nShe thought silently to herself and looked at the girl in the mirror. She looked extra happy on this day.\\n\\n<i>\"Okay! This is me!\"</i>",
             "upgrade": [
@@ -9902,7 +9902,7 @@
                 }
             },
             "icon": "21031",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Return to Darkness",
             "description": "Even though her sister was close by her side, she could hear nothing.\\nThe only thing audible was the voice in the depths of her heart, which only grew louder by the minute.\\n\\n<i>\"Big sis's body is cold.\"\\n\"Big sis's body is not moving.\"</i>\\n\\nA violent surge of fury irrevocably overwhelmed her so much that she didn't even find the time to clear her mind, or to remember this crucial yet neglected fact...\\n\\n<i>\"Big sis's body has been cold like this for a very long time.\"</i>",
             "upgrade": [
@@ -10093,7 +10093,7 @@
                 }
             },
             "icon": "21032",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Carve the Moon, Weave the Clouds",
             "description": "He immediately falls in love with the golden vessel and is about to buy it,\\nbut the foxian girl drags him aside and whispers:\\n<i>\"Please return at night, Mr. Benefactor, and make up your mind then.\"</i>\\n\\nAs promised, he returns at night.\\nThe same foxian girl opens the door and smiles at him.\\n<i>\"Please follow me, Mr. Benefactor.\"</i>\\n\\nA ray of moonlight shines onto the base of the etched plate.\\nThe artisan had traced the petals with lines of various depths, and he would not be able to see such details without the moonlight.\\n\\nHe finally recalls why this item is called \"Carve the Moon, Weave the Clouds.\"",
             "upgrade": [
@@ -10291,7 +10291,7 @@
                 }
             },
             "icon": "21033",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Nowhere to Run",
             "description": "This isn't the first time he's seen this man.\\nThis man had become his own inseparable shadow.\\nNo matter how many times he runs this man through with his spear, the man always comes back.\\n\\nHe can neither lose to this man, nor truly win.\\nThough he wants to run away, there is nowhere to run.",
             "upgrade": [
@@ -10482,7 +10482,7 @@
                 }
             },
             "icon": "21034",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Today Is Another Peaceful Day",
             "description": "There is the new book borrowed for lunch and she just figured out a new way to play tiles.\\nIf she works slowly, the rest of her job should last exactly till the end of day.\\nShe ducks easily into a corner.\\n\\nNo one must disturb her in her wonderful off time\\n— not even diviner Fu.\\nJust on the off chance that she does show up...\\n\\n<i>\"Then I'll give this milk candy ball to Diviner Fu. She can't be angry after having sweets!\"</i>",
             "upgrade": [
@@ -10673,7 +10673,7 @@
                 }
             },
             "icon": "21035",
-            "isSellable": true,
+            "isSellable": false,
             "route": "What Is Real?",
             "description": "<i>\"If all the clocks are displaying the wrong time...\"</i>\\n<i>\"If those bound to promises fulfilled their vows through betrayal...\"</i>\\n<i>\"If those who sink into the realm of dreams never truly fell asleep...\"</i>\\n<i>\"If the dead return to life, only to discover their names have been stripped...\"</i>\\n\\n<i>\"If... if...\"</i>\\nHe blows out the flame, and in darkness, there is but the eternal ticking of the timepiece.",
             "upgrade": [
@@ -10871,7 +10871,7 @@
                 }
             },
             "icon": "21036",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Dreamville Adventure",
             "description": "<i>\"Hello, dear viewers! Clockie and his pals have come to see you all again!\"</i>\\n\\n<i>\"In the previous episode, Boss Stone discovered that Dreamville was sitting on a wealth of natural resources, and moved to seize control over the city. In response, Clockie joined forces with Brother Hanu and Origami Bird, and together, they sent Boss Stone and his goons running from Dreamville.\"</i>\\n\\n<i>\"But Boss Stone isn't going to be defeated that easily, and this time, he's gathered a legion of thugs to fulfill his oath of turning Dreamville into a crater. In this episode, Clockie might just be standing against the greatest threat he ever faced!\"</i>\\n\\n<i>\"What scheme will Clockie employ to escape from this crisis? And what new friends will join his party? Stay tuned for the latest episode of 'Dreamville Adventure'!\"</i>",
             "upgrade": [
@@ -11055,7 +11055,7 @@
                 }
             },
             "icon": "21037",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Final Victor",
             "description": "<i>\"You don't believe me?\"</i>\\nHe provocatively looks at the man before him, then draws out a revolver, empties its cylinder, and leaves a single shot in the chamber.\\n\\n<i>\"Seems like I'll need to get you up to speed on how I do things if our cooperation were to remain amicable.\"</i>\\nHe pushes the gun into his opponent's hand, spins the cylinder, and points the barrel to his own chest.\\n\\nHe pulls the trigger repeatedly, and the smile on his face remains the same after three empty clicks.\\n<i>\"Life is a grand gamble, and I'll always be the final victor.\"</i>",
             "upgrade": [
@@ -11253,7 +11253,7 @@
                 }
             },
             "icon": "21038",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Flames Afar",
             "description": "<i>\"Package secured. I'll leave covering our retreat to you.\"</i>\\nTheir comrade's voice comes through the communicator.\\n\\nThey glance around the surroundings, watching as the savaged remnants of their enemies continue to pass through the complex architecture inside the vast and abandoned structure. They are drawing ever closer.\\n<i>\"Please hold.\"</i>\\n\\nAfter a beat of quietude, a series of apocalyptic explosions rocket up into the sky. Waves of displaced air cast clouds of dust high across the battlefield, and smoke scatter in all directions, the blinding white cleaving light into the night.\\n<i>\"You know they purposely planted loads of gunpowder in there, right?\"</i>\\n\\nWith a rustle, they flung open the cape as if they just finished a leisurely stroll.\\n<i>\"Of course.\"</i>\\n<i>\"So, let's light it up. All I need to do is play the part of the match.\"</i>",
             "upgrade": [
@@ -11465,7 +11465,7 @@
                 }
             },
             "icon": "21039",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Destiny's Threads Forewoven",
             "description": "Destiny always tows the masses onward without reason, and she lurks within the darkness, waiting to inscribe the most crucial of instants.\\n\\nSorting, matching, shuffling, drawing... She simulates fate's hand in how it manipulates all variables for the masses, seeking the trajectory of truth beneath the visage of a disorderly exterior.\\n\\nFinally, when all the characters are in their place, she brushes over the card faces that are in stasis and assembles the unfathomable truth.\\n<i>\"Still missing a card... So, I'll add one in.\"</i>",
             "upgrade": [
@@ -11670,7 +11670,7 @@
                 }
             },
             "icon": "21040",
-            "isSellable": true,
+            "isSellable": false,
             "route": "The Day The Cosmos Fell",
             "description": "<i>\"Molten Cheese Tart! You are in charge of disarming the planet's lookouts with your charm!\"</i>\\n<i>\"Gray Bean Paste! You will be in charge of breaching the planet's line of defense!\"</i>\\n<i>\"Salty Rimeplume! Bring us the head of the planet's leader!\"</i>\\n<i>\"My lord, what are you going to do!\"</i>\\n<i>\"I shall pretend to be an adorable kitten to befuddle these stupid humans!\"</i>\\n\\nThat day, the Cosmos remembered... the terror of being ruled by them.",
             "upgrade": [
@@ -11868,7 +11868,7 @@
                 }
             },
             "icon": "21041",
-            "isSellable": true,
+            "isSellable": false,
             "route": "It's Showtime",
             "description": "—Who witnessed his death?\\n—Me! I spied it with my little eyes!\\n—Who took his blood?\\n—Me! I seized it with my little saucer!\\n—Who dug his grave?\\n—Me! I did it with my chisel and shovel!\\n\\nThe sage schemes exhaustedly, the king lusts insatiably, the hero prides falsely — only the Fool laughs perpetually\\n<i>\"Now, let us welcome Ms. Sparkle to bring us the performance of the year — Penacony's Night of Fright!\"</i>",
             "upgrade": [
@@ -12080,7 +12080,7 @@
                 }
             },
             "icon": "21042",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Indelible Promise",
             "description": "A weathered past. A sworn duty to defend home. A dream to blaze a trail across the world—\\nThese were entrusted to the unworldly youth by a pair of rough, calloused hands.\\n\\n<i>\"Soon, we'll be able to go to a larger world.\" </i>\\nThe boy happily accepted his inheritance. Guarded by youth, he could not yet feel the weight born by the object's significance.\\n\\n<i>\"Of course. Before that time comes, however, guard this place well, Misha.\" </i>\\n\\nHe thus engraved that promise deep inside his heart, holding to it forever and always.",
             "upgrade": [
@@ -12278,7 +12278,7 @@
                 }
             },
             "icon": "21043",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Concert for Two",
             "description": "<i>\"Big brother, what's this...\"</i>\\n<i>\"It's been so long since you sang with joy... I've built a stage for you, though it's... a bit rudimentary.\"</i>\\n<i>\"But the teacher thinks I'm not cut out for this...\"</i>\\n<i>\"Nonsense, I think you sound amazing! And your dreams will definitely come true. You deserve to sing on a bigger stage...\"</i>\\n...\\n\\nMany years later, she stood on a dazzling stage, looking at the surging fans below, but lost herself for a moment...\\nOn the long journey of chasing dreams, she would always remember that trusting gaze and her first \"concert.\"\\nNo glamorous lights, no elaborate makeup, just a child building a stage to encourage another child to pursue their dreams.\\n\\n<i>\"Now, our dreams have come true. But... are they still 'our' dreams?\"</i>\\nShe tightened her grip on the microphone. Before the next song began, she didn't even have time to feel sad.",
             "upgrade": [
@@ -12469,7 +12469,7 @@
                 }
             },
             "icon": "21044",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Boundless Choreo",
             "description": "Their dance glides gracefully, shadows and light silently exchanging places. She takes the other person's hand, her smile beaming into those indifferent eyes.\\n<i>\"Beautiful Ranger... Welcome to the stage of the Remembrance. At this proximity... you are far more enchanting than one might perceive.\"</i>\\n\\nThe surroundings darken, a beam of light cascading from the dome above, tracing their evolving steps.\\n<i>\"However, some were meant to dance with us but have yet to arrive...\"</i>\\n\\nIn a spinning moment, she draws closer to that expressionless face, grips that cold hand, and softly inquires—\\n<i>\"Tell me. What have you done?\"</i>\\n\\nAs their dance steps grow hurried more and more, fragmented snippets of the past rush into her mind through their joined fingertips.\\nIn a past that stretches back further and further, she hears the sound of rain and the lamentations just before life's extinguish. Then, she sees her dance partner holding a blood-red paper umbrella in the drizzling rain. Finally, as far as her eyes can see—\\n\\nA field of drowned corpses bobbing in the deluge.\\n\\nPanic-stricken, she tries to withdraw her hand, falling backward.\\nThe surroundings brighten again, the banquet's clamor resurfacing. Her dance partner gently supports her waist, as if oblivious to the ordeal that just unfolded.\\n<i>\"What a lovely dance that was, Memokeeper. Shall we have another go?\"</i>",
             "upgrade": [
@@ -12660,7 +12660,7 @@
                 }
             },
             "icon": "21045",
-            "isSellable": true,
+            "isSellable": false,
             "route": "After the Charmony Fall",
             "description": "The eternal dream he longed for vanished in an instant. As he plummeted towards the earth, he felt no sadness, only a desire to close his eyes.\\n\\nThe old path treaded upon has now crumbled, yet the journey ahead remains shrouded in mist.\\n<i>\"After the awakening, the world continues its cycle of suffering, with no escape, the same as always...\"</i>\\nHe carries the past, turns his back on his homeland, and continues towards a paradise that does not yet exist.\\n\\nSo, why do people slumber? And why do they wake?\\n— As planets streak past outside the window, this answer now demands a new meaning to be given.\\n<i>\"Maybe... just maybe I still can...\"</i>",
             "upgrade": [
@@ -12858,7 +12858,7 @@
                 }
             },
             "icon": "21046",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Poised to Bloom",
             "description": "Dawn's first light whispers. In the stillness of the flower grove, a shifting form dances, startling birds into flight one after another.\\n\\nSilently reciting sword techniques, she moves with the flow, her once-clumsy moves now gaining finesse. Where the sword's cuts rend the air, petals fall like rain, swirling chaotically as they fall. Unbeknownst to her, the cool mist has dampened her hair.\\n\\n<i> \"Nice swordplay!\" </i>\\nStartled, she instinctively turns her sword—\\nBehind her, a young {F#woman}{M#man} with gray hair lowers the camera in hand.\\n<i> \"Beautiful memories won't just fade away with the wind.\"</i>",
             "upgrade": [
@@ -13049,7 +13049,7 @@
                 }
             },
             "icon": "21047",
-            "isSellable": true,
+            "isSellable": false,
             "route": "Shadowed by Night",
             "description": "<i>\"Footprints.\"</i>\\n<i>\"Scratches.\"</i>\\n<i>\"Scents.\"</i>\\n\\nAfter everything has been appropriately handled, he picks up a crow feather and gracefully leaps onto the roof.\\nIn the vast city, a pitch-black shadow shuttles through the corners unseen.\\n\\n<i>\"I shall merge into shadows and keep vigil over you all.\"</i>",
             "upgrade": [
@@ -13231,6 +13231,204 @@
                 "113011": 2,
                 "113012": 3,
                 "113013": 4
+            }
+        }
+    },
+    "21048": {
+        "response": 200,
+        "data": {
+            "id": 21048,
+            "name": "Dream's Montage",
+            "rank": 4,
+            "types": {
+                "pathType": {
+                    "id": "Priest",
+                    "name": "Abundance"
+                }
+            },
+            "icon": "21048",
+            "isSellable": false,
+            "route": "Dream's Montage",
+            "description": "<i>\"The City of Dreams, the Breeding Ground of Sin, or the Promised Land...\"</i>\\n\\nExtracting the memories of many, he scrutinizes the spectacular moments, disrupting, reorganizing, and splicing them together.\\n<i>\"Most people's memories are but a collection of trivial and monotonous fragments, where only a handful of precious moments stand out, while the existences of the rest are utterly unnecessary.\"</i>\\n\\nFrame by frame, the images flow through his grasp, gradually woven into a tapestry of brilliance.\\n<i>\"We don't transport memories. We only create the past.\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 4000,
+                        "114001": 5
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 43.2,
+                        "attackBase": 19.2,
+                        "defenceBase": 18
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 8000,
+                        "110241": 3,
+                        "114001": 10
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 95.04,
+                        "attackBase": 42.24,
+                        "defenceBase": 39.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 16000,
+                        "110242": 3,
+                        "114002": 6
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 164.16,
+                        "attackBase": 72.96,
+                        "defenceBase": 68.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 40000,
+                        "110242": 6,
+                        "114002": 9
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 233.28,
+                        "attackBase": 103.68,
+                        "defenceBase": 97.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 80000,
+                        "110243": 4,
+                        "114003": 5
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 302.4,
+                        "attackBase": 134.4,
+                        "defenceBase": 126
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 160000,
+                        "110243": 8,
+                        "114003": 7
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 371.52,
+                        "attackBase": 165.12,
+                        "defenceBase": 154.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 440.64,
+                        "attackBase": 195.84,
+                        "defenceBase": 183.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 2.88,
+                        "defenceAdd": 2.7
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Academy-Style Edit",
+                "description": "Increases the wearer's SPD by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After attacking enemy targets that are Weakness Broken, regenerates <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> Energy. This effect can trigger up to <unbreak>#3[i]</unbreak> time(s) per turn.",
+                "params": {
+                    "1": [
+                        0.08,
+                        0.09,
+                        0.1,
+                        0.11,
+                        0.12
+                    ],
+                    "2": [
+                        3,
+                        3.5,
+                        4,
+                        4.5,
+                        5
+                    ],
+                    "3": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110241": 2,
+                "110242": 3,
+                "110243": 4,
+                "114001": 2,
+                "114002": 3,
+                "114003": 4
             }
         }
     },
@@ -13818,6 +14016,204 @@
                 "114001": 2,
                 "114002": 3,
                 "114003": 4
+            }
+        }
+    },
+    "22003": {
+        "response": 200,
+        "data": {
+            "id": 22003,
+            "name": "Ninja Record: Sound Hunt",
+            "rank": 4,
+            "types": {
+                "pathType": {
+                    "id": "Warrior",
+                    "name": "Destruction"
+                }
+            },
+            "icon": "22003",
+            "isSellable": false,
+            "route": "Ninja Record: Sound Hunt",
+            "description": "In the realm of Cosmic Ninjutsu, ever-changing grace,\\n\\nHear the echoes of my hunting chase!\\nFeel the beat, my rhythm's call,\\nGuitar strums, the atmospheres enthrall.\\nBass notes with a tender hue,\\nElectro-acoustic kindles anew.\\nSweat's testament, truth untold,\\nEvery twist and turn, melodies unfold.\\nMy sound ascends, reaching high,\\nThrough bruises and battles, I never shy.\\n<i>The Dazzling!</i> <i>The Dazzling!</i> A chant so bold.\\n<i>The Dazzling!</i> <i>The Dazzling!</i> In tales untold,\\n<i>The Dazzling!</i> <i>The Dazzling!</i> An epic foretold!\\nYo. Yo. In this wild world. Let the hearts go ablaze.\\nSing out loud, chant your soul, and let's embrace the utter craze!",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 4000,
+                        "114011": 5
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 48,
+                        "attackBase": 21.6,
+                        "defenceBase": 12
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 1.8
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 8000,
+                        "110181": 3,
+                        "114011": 10
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 105.6,
+                        "attackBase": 47.52,
+                        "defenceBase": 26.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 1.8
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 16000,
+                        "110182": 3,
+                        "114012": 6
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 182.4,
+                        "attackBase": 82.08,
+                        "defenceBase": 45.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 1.8
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 40000,
+                        "110182": 6,
+                        "114012": 9
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 259.2,
+                        "attackBase": 116.64,
+                        "defenceBase": 64.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 1.8
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 80000,
+                        "110183": 4,
+                        "114013": 5
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 336,
+                        "attackBase": 151.2,
+                        "defenceBase": 84
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 1.8
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 160000,
+                        "110183": 8,
+                        "114013": 7
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 412.8,
+                        "attackBase": 185.76,
+                        "defenceBase": 103.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 1.8
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 489.6,
+                        "attackBase": 220.32,
+                        "defenceBase": 122.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.2,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 1.8
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Curtains Up!",
+                "description": "Increases the wearer's Max HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When losing or restoring this unit's HP, increases CRIT DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). This effect can only trigger once per turn.",
+                "params": {
+                    "1": [
+                        0.12,
+                        0.15,
+                        0.18,
+                        0.21,
+                        0.24
+                    ],
+                    "2": [
+                        0.18,
+                        0.225,
+                        0.27,
+                        0.315,
+                        0.36
+                    ],
+                    "3": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110181": 2,
+                "110182": 3,
+                "110183": 4,
+                "114011": 2,
+                "114012": 3,
+                "114013": 4
             }
         }
     },
@@ -16825,7 +17221,7 @@
             ],
             "skill": {
                 "name": "With This Evening Jade",
-                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of <unbreak>#2[i]</unbreak> stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>. When <unbreak>#2[i]</unbreak> stack(s) are reached, additionally enables that attack to ignore <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of the enemy's DEF. This effect will be removed after the wearer uses an attack.",
+                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When a teammate gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of <unbreak>#2[i]</unbreak> stack(s). Each stack of Eclipse increases the DMG of the wearer's next attack by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>. When <unbreak>#2[i]</unbreak> stack(s) are reached, additionally enables that attack to ignore <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of the enemy's DEF. This effect will be removed after the wearer uses an attack.",
                 "params": {
                     "1": [
                         0.2,
@@ -18288,7 +18684,7 @@
             ],
             "skill": {
                 "name": "Capriciousness",
-                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. At the start of the battle, the wearer gains Mask, lasting for <unbreak>#6[i]</unbreak> turn(s). While the wearer has Mask, the wearer's allies have their CRIT Rate increased by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> and their CRIT DMG increased by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has <unbreak>#4[i]</unbreak> stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+                "description": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. At the start of the battle, the wearer gains Mask, lasting for <unbreak>#6[i]</unbreak> turn(s). While the wearer has Mask, the wearer's teammates have their CRIT Rate increased by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> and their CRIT DMG increased by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has <unbreak>#4[i]</unbreak> stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for <unbreak>#3[i]</unbreak> turn(s).",
                 "params": {
                     "1": [
                         0.32,
@@ -20643,6 +21039,628 @@
                 "110241": 2,
                 "110242": 3,
                 "110243": 4,
+                "113001": 2,
+                "113002": 3,
+                "113003": 4
+            }
+        }
+    },
+    "23033": {
+        "response": 200,
+        "data": {
+            "id": 23033,
+            "name": "Ninjutsu Inscription: Dazzling Evilbreaker",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Mage",
+                    "name": "Erudition"
+                }
+            },
+            "icon": "23033",
+            "isSellable": false,
+            "route": "Ninjutsu Inscription: Dazzling Evilbreaker",
+            "description": "Somewhere in the Ninja Realm, a shroud of dreary gray veils the city.\\n\\n<i>\"Hiyaaa!\"</i>\\nA young lady darts through the monsters, her vibrant silhouette cutting through the darkness like a stroke of paint against a moonless earth.\\n\\nIn the midst of smoke, the Evil Ninjas wince in both agony and disbelief.\\n<i>\"Who...are you...?\"</i>\\n<i>\"I'm Ninja Rappa! A beacon of determination, eradicating evil and upholding justice.\"</i>\\nThe Evil Ninjas exchange hesitant glances, eyes wide as they attempt to flee.\\n<i>\"Are you prepared to recite your final rhymes?\"</i>\\nHer shuriken dances through the air, a flurry of light and steel, overwhelming her adversaries with its blinding swiftness.\\n<i>\"Secret Technique: Dazzling Obliteration!\"</i>\\n\\nThe explosion behind her shatters the night, unveiling the city's wounds.\\nWith a breath drawn deep, she launches herself into the neon-lit distance, where the vibrant lights scream like a heavy metal chorus.\\n<i>\"Such loathsome evil spirits. The Dazzling Ninja's ultimate hunt shall continue...\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "114001": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 43.2,
+                        "attackBase": 26.4,
+                        "defenceBase": 24
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110201": 4,
+                        "114001": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 95.04,
+                        "attackBase": 58.08,
+                        "defenceBase": 52.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110202": 4,
+                        "114002": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 164.16,
+                        "attackBase": 100.32,
+                        "defenceBase": 91.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110202": 8,
+                        "114002": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 233.28,
+                        "attackBase": 142.56,
+                        "defenceBase": 129.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110203": 5,
+                        "114003": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 302.4,
+                        "attackBase": 184.8,
+                        "defenceBase": 168
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110203": 10,
+                        "114003": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 371.52,
+                        "attackBase": 227.04,
+                        "defenceBase": 206.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 440.64,
+                        "attackBase": 269.28,
+                        "defenceBase": 244.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Exorcism",
+                "description": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When entering battle, immediately regenerates <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> Energy. After the wearer uses Ultimate, obtains \"Raiton.\" After using 2 Basic ATKs, advances the wearer's action by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> and removes \"Raiton.\" After the wearer uses Ultimate, resets \"Raiton.\"",
+                "params": {
+                    "1": [
+                        0.6,
+                        0.7,
+                        0.8,
+                        0.9,
+                        1
+                    ],
+                    "2": [
+                        30,
+                        32.5,
+                        35,
+                        37.5,
+                        40
+                    ],
+                    "3": [
+                        0.5,
+                        0.55,
+                        0.6,
+                        0.65,
+                        0.7
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110201": 2,
+                "110202": 3,
+                "110203": 4,
+                "114001": 2,
+                "114002": 3,
+                "114003": 4
+            }
+        }
+    },
+    "23034": {
+        "response": 200,
+        "data": {
+            "id": 23034,
+            "name": "A Grounded Ascent",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Shaman",
+                    "name": "Harmony"
+                }
+            },
+            "icon": "23034",
+            "isSellable": false,
+            "route": "A Grounded Ascent",
+            "description": "Those delusions and fallacies have been shattered. He wanted to be the sun of the whole world, yet he fell from the sky.\\n\\n<i>\"Now, do you feel what pain is?\"</i>\\nAnother voice in his heart spoke thus.\\n<i>\"Yes. And that is what I deserve to feel.\"</i>\\nHe fell into dust and answered himself with his heavy footsteps.\\n\\nHe walked on the earth and once again beheld the agony that covers the mortal realm like a never-ending font.\\nHe stepped over the thorns that blocked the road and listened to the calls of humanity. He experienced anguish, through which he obtained tranquility.\\n\\n<i>\"Falling was originally just another name for flying.\"</i>\\nAnd on this eighth day, he granted himself \"departure.\"",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "114011": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 52.8,
+                        "attackBase": 21.6,
+                        "defenceBase": 24
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110231": 4,
+                        "114011": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 116.16,
+                        "attackBase": 47.52,
+                        "defenceBase": 52.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110232": 4,
+                        "114012": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 200.64,
+                        "attackBase": 82.08,
+                        "defenceBase": 91.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110232": 8,
+                        "114012": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 285.12,
+                        "attackBase": 116.64,
+                        "defenceBase": 129.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110233": 5,
+                        "114013": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 369.6,
+                        "attackBase": 151.2,
+                        "defenceBase": 168
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110233": 10,
+                        "114013": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 454.08,
+                        "attackBase": 185.76,
+                        "defenceBase": 206.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 538.56,
+                        "attackBase": 220.32,
+                        "defenceBase": 244.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Departing Anew",
+                "description": "After the wearer uses Skill or Ultimate on one ally character, the wearer regenerates <color=#f29e38ff><unbreak>#1[f1]</unbreak></color> Energy and the ability's target receives 1 stack of \"Hymn\" for <unbreak>#4[i]</unbreak> turn(s), stacking up to <unbreak>#3[i]</unbreak> time(s). Each stack of \"Hymn\" increases its holder's DMG dealt by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After every <unbreak>#5[i]</unbreak> instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.",
+                "params": {
+                    "1": [
+                        6,
+                        6.5,
+                        7,
+                        7.5,
+                        8
+                    ],
+                    "2": [
+                        0.15,
+                        0.1725,
+                        0.195,
+                        0.2175,
+                        0.24
+                    ],
+                    "3": [
+                        3,
+                        3,
+                        3,
+                        3,
+                        3
+                    ],
+                    "4": [
+                        3,
+                        3,
+                        3,
+                        3,
+                        3
+                    ],
+                    "5": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110231": 2,
+                "110232": 3,
+                "110233": 4,
+                "114011": 2,
+                "114012": 3,
+                "114013": 4
+            }
+        }
+    },
+    "23035": {
+        "response": 200,
+        "data": {
+            "id": 23035,
+            "name": "Long Road Leads Home",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Warlock",
+                    "name": "Nihility"
+                }
+            },
+            "icon": "23035",
+            "isSellable": false,
+            "route": "Long Road Leads Home",
+            "description": "<i>\"Who... Is she?\"</i> The girl caresses the unfamiliar self.\\n\\nShe recalls how the fire that day had swallowed her whole, and how her bejeweled fan turned into ash.\\n\\nShe had once walked on a never-ending road, looking for the light ahead.\\nThe sounds outside were calling for her, leading her forward, guiding her through the layers of night.\\nThe sounds within reminded her of those unfulfilled promises, unexecuted plans, and unrealized wishes... They were all still waiting for her.\\n\\nThey never dissipated in the fire, but instead, glowed ever brighter in the flames.\\n\\n<i>\"That is me...\"</i>\\nShe stands at the end of the road and no longer looks back in reminiscence —\\n<i>\"It's the original me, and also the brand-new me.\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "113001": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 43.2,
+                        "attackBase": 21.6,
+                        "defenceBase": 30
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 4.5
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110221": 4,
+                        "113001": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 95.04,
+                        "attackBase": 47.52,
+                        "defenceBase": 66
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 4.5
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110222": 4,
+                        "113002": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 164.16,
+                        "attackBase": 82.08,
+                        "defenceBase": 114
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 4.5
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110222": 8,
+                        "113002": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 233.28,
+                        "attackBase": 116.64,
+                        "defenceBase": 162
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 4.5
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110223": 5,
+                        "113003": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 302.4,
+                        "attackBase": 151.2,
+                        "defenceBase": 210
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 4.5
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110223": 10,
+                        "113003": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 371.52,
+                        "attackBase": 185.76,
+                        "defenceBase": 258
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 4.5
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 440.64,
+                        "attackBase": 220.32,
+                        "defenceBase": 306
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 4.5
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Rebirth",
+                "description": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When an enemy target's Weakness gets broken, there is a <unbreak>#2[i]%</unbreak> base chance to inflict the \"Charring\" state on it, which increases its Break DMG taken by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>, lasting for <unbreak>#4[i]</unbreak> turn(s). This effect can stack <unbreak>#5[i]</unbreak> time(s).",
+                "params": {
+                    "1": [
+                        0.6,
+                        0.7,
+                        0.8,
+                        0.9,
+                        1
+                    ],
+                    "2": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "3": [
+                        0.18,
+                        0.21,
+                        0.24,
+                        0.27,
+                        0.3
+                    ],
+                    "4": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "5": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110221": 2,
+                "110222": 3,
+                "110223": 4,
                 "113001": 2,
                 "113002": 3,
                 "113003": 4

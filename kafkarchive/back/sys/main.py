@@ -88,7 +88,7 @@ async def calc(number: number):
 @app.post("/build_calc")
 async def build_calc(builddata: Build_data):
     builddict = builddata.model_dump()
-    result = await build_calculation(builddict, "True")
+    result = await build_calculation(builddict, "True") # type: ignore
     return result
 
 @app.post("/fetch_raw")

@@ -221,9 +221,7 @@ async def allimg() -> None:
     print("Loading...")
     time.sleep(60)
     await update_all_char_icons()
-    print("Loading...")
-    time.sleep(60)
-asyncio.run(alljson())
+asyncio.run(allimg())
 
 """
 this file updates the json files
