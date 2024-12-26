@@ -33,7 +33,7 @@
 		
 		<h2 class="subtopic">Special thanks to</h2>
 
-		<p><a href="https://github.com/Algoinde" class="walloftextlink">Algoinde</a> | For making Enka.Network <br>
+		<p><a href="https://github.com/Algoinde" class="walloftextlink">Algoinde</a> | For making Enka.Network and helping me sometimes <br>
 		
 		<a href="https://github.com/seriaati" class="walloftextlink">seriaati</a> | For making the Enka API Python Wrapper</p>
 	</div>

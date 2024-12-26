@@ -1,4 +1,5 @@
 import json
+import time
 import requests
 import asyncio
 
@@ -190,19 +191,39 @@ get 1-4 or 5-6 from set id
 
 async def alljson() -> None:
     await update_avatar()
+    print("Loading...")
+    time.sleep(10)
     await update_light_cone()
+    print("Loading...")
+    time.sleep(10)
     await update_lcs()
+    print("Loading...")
+    time.sleep(10)
     await update_chars()
+    print("Loading...")
+    time.sleep(10)
     await update_relic_main()
+    print("Loading...")
+    time.sleep(10)
     await update_relic_sub()
+    print("Loading...")
+    time.sleep(10)
     await update_relics()
+    print("Loading...")
+    time.sleep(10)
     await update_stats()
 
 async def allimg() -> None:
     await update_all_relic_icons()
+    print("Loading...")
+    time.sleep(60)
     await update_all_lc_icons()
+    print("Loading...")
+    time.sleep(60)
     await update_all_char_icons()
-asyncio.run(allimg())
+    print("Loading...")
+    time.sleep(60)
+asyncio.run(alljson())
 
 """
 this file updates the json files

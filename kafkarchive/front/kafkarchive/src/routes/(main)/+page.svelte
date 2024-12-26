@@ -7,7 +7,7 @@
 
 <body>
 	<div class="content">
-		<h1 class="topic">This is the index page lol</h1>
+		<h1 class="topic">Honkai: Star Rail build calculator and database</h1>
 
 	</div>
 </body>
