@@ -1,5 +1,5 @@
 <script>
-	let sitetitle = "Builds | kafkarchive";
+	let sitetitle = "Builds | Kafkarchive";
 	import Heading from "../../head.svelte"
 </script>
 

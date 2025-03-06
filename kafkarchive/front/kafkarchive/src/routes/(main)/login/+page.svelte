@@ -1,8 +1,7 @@
 <script>
 	import Heading from "../../head.svelte"
 	
-	let sitetitle = "Login or sign up | Kafkarchive";
-	let username = "";
+	let sitetitle = "Login | Kafkarchive";
 	let email = "";
 	let password = "";
 

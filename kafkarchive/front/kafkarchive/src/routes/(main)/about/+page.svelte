@@ -25,18 +25,16 @@
 		</div>
 		<h2 class="subtopic">About the developers</h2>
     <div class="walloftext">
-        <p><a href="https://github.com/KiryuuinNFB" class="walloftextlink">Kiryuuin</a> | The only active developer. Did frontend and backend. And is the guy writing all of this.<br>
+        <p><a href="https://github.com/KiryuuinNFB" class="walloftextlink">Kiryuuin</a> | The only developer as of now. Did frontend and backend. And is the guy writing all of this.<br>
 			</p>
 			
-		<p>Beta testers <br>
-			Phot007, Zkung, Hydragear.K, BaNinena</p>
 		
 		<h2 class="subtopic">Special thanks to</h2>
 
 		<p>
 		<a href="https://github.com/Ranviee0" class="walloftextlink">Ranvie</a> | Programming tech support. Without him, I wouldn't be able to do programming at all. <br>
 
-		<a href="https://github.com/ModelZ" class="walloftextlink">ModelZ</a> | insert text here later please dont forget <br>
+		<a href="https://github.com/ModelZ" class="walloftextlink">ModelZ</a> | Backend tech support and motivation. Literally made me get back into programmming again. <br>
 		
 		<a href="https://github.com/Algoinde" class="walloftextlink">Algoinde</a> | For making Enka.Network and helping me sometimes <br>
 		
@@ -57,7 +55,7 @@
 		</div>		
 
 		<p class="walloftext">What I meant by that was. I know it's pointless but shut up. This is my website and I get to do anything I want on my website. 
-			Also I don't hate you guys, I just really like that song lol.</p>
+			Also I don't mean to be rude, I just really want to reference that song lol.</p>
 
 		<h3>Q | How can I support the development of this website?</h3>
 		<p class="walloftext">A | You can support me by visiting my <a class="walloftextlink" target="_blank" href="https://www.youtube.com/@KiryuuinNFB/featured">Youtube channel</a>
