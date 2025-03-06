@@ -1,6 +1,6 @@
 <script>
     import '../global.css';
-    import sitelogo from '$lib/assets/logo2.png'
+    import sitelogo from '$lib/assets/logo2.png';
 
     export let searchcontent = "";
 </script>
@@ -14,7 +14,7 @@
     </form>
     
     <div class="buttons">
-        <a class="top-button" href="https://www.lipsum.com/feed/html">Builds</a>
+        <a class="top-button" href="/builds">Builds</a>
         <a class="top-button" href="/calculator">Calculator</a>
         <a class="top-button" href="/about">About</a>
         <a class="top-button" href="https://www.youtube.com/watch?v=GtL1huin9EE">Post</a>
@@ -41,6 +41,8 @@
 </footer>
 
 <style>
+
+
     .logo {
         margin-left: 10px;
     }

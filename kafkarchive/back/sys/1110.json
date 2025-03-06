@@ -1,0 +1,206 @@
+{
+    "Character": {
+        "id": 1110,
+        "name": "Lynx",
+        "level": 80,
+        "ascension": 6
+    },
+    "Light_cone": {
+        "id": 21000,
+        "name": "Post-Op Conversation",
+        "level": 61,
+        "ascension": 5,
+        "equipped": true
+    },
+    "Traces_list": [
+        1110201
+    ],
+    "Relics": {
+        "Head": {
+            "setid": 113,
+            "setname": "Longevous Disciple",
+            "level": 15,
+            "type": "51",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "1",
+            "substats": [
+                {
+                    "id": 2,
+                    "cnt": 2,
+                    "step": 3
+                },
+                {
+                    "id": 3,
+                    "cnt": 1,
+                    "step": 1
+                },
+                {
+                    "id": 4,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 5,
+                    "cnt": 3,
+                    "step": 5
+                }
+            ]
+        },
+        "Hands": {
+            "setid": 113,
+            "setname": "Longevous Disciple",
+            "level": 15,
+            "type": "52",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "2",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 3,
+                    "step": 3
+                },
+                {
+                    "id": 6,
+                    "cnt": 2,
+                    "step": 4
+                },
+                {
+                    "id": 10,
+                    "cnt": 2,
+                    "step": 3
+                },
+                {
+                    "id": 12,
+                    "cnt": 2,
+                    "step": 4
+                }
+            ]
+        },
+        "Body": {
+            "setid": 103,
+            "setname": "Knight of Purity Palace",
+            "level": 15,
+            "type": "53",
+            "rarity": "5",
+            "mainstat": 3,
+            "actualtype": "3",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 1,
+                    "step": 1
+                },
+                {
+                    "id": 2,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 5,
+                    "cnt": 3,
+                    "step": 2
+                },
+                {
+                    "id": 12,
+                    "cnt": 2,
+                    "step": 3
+                }
+            ]
+        },
+        "Feet": {
+            "setid": 112,
+            "setname": "Wastelander of Banditry Desert",
+            "level": 15,
+            "type": "54",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "4",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 2,
+                    "cnt": 2,
+                    "step": 4
+                },
+                {
+                    "id": 5,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 6,
+                    "cnt": 4,
+                    "step": 3
+                }
+            ]
+        },
+        "Planar_Sphere": {
+            "setid": 302,
+            "setname": "Fleet of the Ageless",
+            "level": 15,
+            "type": "55",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "5",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 3,
+                    "step": 1
+                },
+                {
+                    "id": 2,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 3,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 8,
+                    "cnt": 2,
+                    "step": 3
+                }
+            ]
+        },
+        "Link_Rope": {
+            "setid": 302,
+            "setname": "Fleet of the Ageless",
+            "level": 15,
+            "type": "56",
+            "rarity": "5",
+            "mainstat": 3,
+            "actualtype": "6",
+            "substats": [
+                {
+                    "id": 6,
+                    "cnt": 2,
+                    "step": 1
+                },
+                {
+                    "id": 8,
+                    "cnt": 2,
+                    "step": 1
+                },
+                {
+                    "id": 11,
+                    "cnt": 2,
+                    "step": 3
+                },
+                {
+                    "id": 12,
+                    "cnt": 2,
+                    "step": 3
+                }
+            ]
+        }
+    }
+}

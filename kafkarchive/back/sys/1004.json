@@ -1,0 +1,212 @@
+{
+    "Character": {
+        "id": 1004,
+        "name": "Welt",
+        "level": 80,
+        "ascension": 6
+    },
+    "Light_cone": {
+        "id": 23004,
+        "name": "In the Name of the World",
+        "level": 79,
+        "ascension": 6,
+        "equipped": true
+    },
+    "Traces_list": [
+        1004201,
+        1004202,
+        1004203,
+        1004204,
+        1004205,
+        1004206,
+        1004207
+    ],
+    "Relics": {
+        "Head": {
+            "setid": 112,
+            "setname": "Wastelander of Banditry Desert",
+            "level": 15,
+            "type": "51",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "1",
+            "substats": [
+                {
+                    "id": 4,
+                    "cnt": 3,
+                    "step": 5
+                },
+                {
+                    "id": 8,
+                    "cnt": 2,
+                    "step": null
+                },
+                {
+                    "id": 9,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 10,
+                    "cnt": 2,
+                    "step": 2
+                }
+            ]
+        },
+        "Hands": {
+            "setid": 112,
+            "setname": "Wastelander of Banditry Desert",
+            "level": 15,
+            "type": "52",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "2",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 1,
+                    "step": 1
+                },
+                {
+                    "id": 3,
+                    "cnt": 3,
+                    "step": 1
+                },
+                {
+                    "id": 6,
+                    "cnt": 2,
+                    "step": 1
+                },
+                {
+                    "id": 10,
+                    "cnt": 2,
+                    "step": 4
+                }
+            ]
+        },
+        "Body": {
+            "setid": 112,
+            "setname": "Wastelander of Banditry Desert",
+            "level": 13,
+            "type": "53",
+            "rarity": "5",
+            "mainstat": 7,
+            "actualtype": "3",
+            "substats": [
+                {
+                    "id": 3,
+                    "cnt": 3,
+                    "step": 1
+                },
+                {
+                    "id": 4,
+                    "cnt": 1,
+                    "step": 1
+                },
+                {
+                    "id": 5,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 6,
+                    "cnt": 2,
+                    "step": 1
+                }
+            ]
+        },
+        "Feet": {
+            "setid": 112,
+            "setname": "Wastelander of Banditry Desert",
+            "level": 15,
+            "type": "54",
+            "rarity": "5",
+            "mainstat": 4,
+            "actualtype": "4",
+            "substats": [
+                {
+                    "id": 2,
+                    "cnt": 2,
+                    "step": 3
+                },
+                {
+                    "id": 10,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 11,
+                    "cnt": 3,
+                    "step": 5
+                },
+                {
+                    "id": 12,
+                    "cnt": 2,
+                    "step": 2
+                }
+            ]
+        },
+        "Planar_Sphere": {
+            "setid": 309,
+            "setname": "Rutilant Arena",
+            "level": 15,
+            "type": "55",
+            "rarity": "5",
+            "mainstat": 2,
+            "actualtype": "5",
+            "substats": [
+                {
+                    "id": 2,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 6,
+                    "cnt": 2,
+                    "step": null
+                },
+                {
+                    "id": 11,
+                    "cnt": 2,
+                    "step": null
+                },
+                {
+                    "id": 12,
+                    "cnt": 2,
+                    "step": 2
+                }
+            ]
+        },
+        "Link_Rope": {
+            "setid": 309,
+            "setname": "Rutilant Arena",
+            "level": 15,
+            "type": "56",
+            "rarity": "5",
+            "mainstat": 2,
+            "actualtype": "6",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 3,
+                    "step": 5
+                },
+                {
+                    "id": 2,
+                    "cnt": 1,
+                    "step": 1
+                },
+                {
+                    "id": 8,
+                    "cnt": 3,
+                    "step": 3
+                },
+                {
+                    "id": 12,
+                    "cnt": 1,
+                    "step": 1
+                }
+            ]
+        }
+    }
+}

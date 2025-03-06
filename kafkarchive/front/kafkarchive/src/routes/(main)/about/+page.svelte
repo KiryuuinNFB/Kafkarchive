@@ -19,21 +19,26 @@
 			</p>
 			<p>
 				This site is written in <a href="https://kit.svelte.dev/" class="walloftextlink" target="_blank">SvelteKit</a> and <a href="https://fastapi.tiangolo.com/" class="walloftextlink" target="_blank">FastAPI</a>.
-				And uses <a href="https://enka.network/?hsr" class="walloftextlink">Enka.Network</a> for importing builds. Game datas are from <a href="https://github.com/FortOfFans/HSRMaps" class="walloftextlink">FortOfFans's HSRMaps</a>
+				And uses <a href="https://enka.network/?hsr" class="walloftextlink">Enka.Network</a> for importing builds. Game datas are from <a href="https://github.com/FortOfFans/HSRMaps" class="walloftextlinkstrikethrough">FortOfFans's HSRMaps</a>
 				and <a href="https://yatta.top/en" class="walloftextlink">Project Yatta's API</a>.
 			</p>
 		</div>
 		<h2 class="subtopic">About the developers</h2>
     <div class="walloftext">
         <p><a href="https://github.com/KiryuuinNFB" class="walloftextlink">Kiryuuin</a> | The only active developer. Did frontend and backend. And is the guy writing all of this.<br>
-			<a href="https://github.com/Ranviee0" class="walloftextlink">Ranvie</a> | Programming tech support. Without him, I wouldn't be able to do programming at all.</p>
+			</p>
 			
 		<p>Beta testers <br>
 			Phot007, Zkung, Hydragear.K, BaNinena</p>
 		
 		<h2 class="subtopic">Special thanks to</h2>
 
-		<p><a href="https://github.com/Algoinde" class="walloftextlink">Algoinde</a> | For making Enka.Network and helping me sometimes <br>
+		<p>
+		<a href="https://github.com/Ranviee0" class="walloftextlink">Ranvie</a> | Programming tech support. Without him, I wouldn't be able to do programming at all. <br>
+
+		<a href="https://github.com/ModelZ" class="walloftextlink">ModelZ</a> | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, velit! <br>
+		
+		<a href="https://github.com/Algoinde" class="walloftextlink">Algoinde</a> | For making Enka.Network and helping me sometimes <br>
 		
 		<a href="https://github.com/seriaati" class="walloftextlink">seriaati</a> | For making the Enka API Python Wrapper</p>
 	</div>
@@ -68,8 +73,3 @@
 	</div>
 	<div class="emptyspace"></div>
 </body>
-
-<style>
-	
-
-</style>

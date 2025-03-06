@@ -1,3 +1,6 @@
+
+
+
 :global(body) {
     margin: 0;
     padding: 0;
@@ -78,6 +81,21 @@ body {
     line-height: 1.8;
 }
 
+.walloftextlinkstrikethrough {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-decoration: line-through;
+    font-family: Sarabun, Arial;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.walloftextlinkstrikethrough:hover {
+    color: #d4a028;;
+    font-size: 16px;
+    line-height: 1.8;
+}
 
 .emptyspace {
     background-color: #170a10;
@@ -97,4 +115,93 @@ body {
     font-size: 16px;
     font-style: italic;
     line-height: 1.8;
+}
+
+.centeradiv {
+    display: flex;
+      justify-content: center;
+      text-align: center;
+      min-height: 10vh;
+    font-family: Sarabun, Arial;
+    color: #ffffff;
+
+}
+
+.loginbox {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #411c2d;
+    width: 400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.logintopic {
+    margin: 10%;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.loginformlists {
+    
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.loginform {
+    margin: 20px;
+    width: 70%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #2e1a23;
+    font-family: Sarabun, Arial;
+    border-radius: 10px;
+    outline: none;
+    padding: 15px;
+    border: 4px solid #1f0e16;
+    color: white;
+}
+
+.loginform:focus {
+    border: 4px solid #d4a028;
+}
+
+.loginsubmit {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #1f0e16;
+    border-radius: 10px;
+    font-family: Sarabun, Arial;
+    outline: none;
+    width: 80px;
+    padding: 5px 5px;
+    border: 4px solid #1f0e16;
+    color: white;
+}
+
+.loginsubmit:hover {
+    background-color: #d4a028;
+    border: 4px solid #d4a028;
+    color: #1f0e16;
+}
+
+.register {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 4px solid #411c2d;
+    background-color: #411c2d;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.register:hover {
+    color: #d4a028;
 }

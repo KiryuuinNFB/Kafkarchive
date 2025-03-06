@@ -1,0 +1,212 @@
+{
+    "Character": {
+        "id": 8002,
+        "name": "Trailblazer",
+        "level": 80,
+        "ascension": 6
+    },
+    "Light_cone": {
+        "id": 24000,
+        "name": "On the Fall of an Aeon",
+        "level": 70,
+        "ascension": 5,
+        "equipped": true
+    },
+    "Traces_list": [
+        8002201,
+        8002202,
+        8002203,
+        8002204,
+        8002205,
+        8002206,
+        8002207
+    ],
+    "Relics": {
+        "Head": {
+            "setid": 105,
+            "setname": "Champion of Streetwise Boxing",
+            "level": 15,
+            "type": "51",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "1",
+            "substats": [
+                {
+                    "id": 4,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 5,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 9,
+                    "cnt": 1,
+                    "step": null
+                },
+                {
+                    "id": 11,
+                    "cnt": 3,
+                    "step": 2
+                }
+            ]
+        },
+        "Hands": {
+            "setid": 105,
+            "setname": "Champion of Streetwise Boxing",
+            "level": 15,
+            "type": "52",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "2",
+            "substats": [
+                {
+                    "id": 6,
+                    "cnt": 1,
+                    "step": 1
+                },
+                {
+                    "id": 9,
+                    "cnt": 2,
+                    "step": 1
+                },
+                {
+                    "id": 10,
+                    "cnt": 4,
+                    "step": 3
+                },
+                {
+                    "id": 12,
+                    "cnt": 1,
+                    "step": null
+                }
+            ]
+        },
+        "Body": {
+            "setid": 105,
+            "setname": "Champion of Streetwise Boxing",
+            "level": 15,
+            "type": "53",
+            "rarity": "5",
+            "mainstat": 4,
+            "actualtype": "3",
+            "substats": [
+                {
+                    "id": 4,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 6,
+                    "cnt": 3,
+                    "step": 2
+                },
+                {
+                    "id": 7,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 9,
+                    "cnt": 2,
+                    "step": 2
+                }
+            ]
+        },
+        "Feet": {
+            "setid": 105,
+            "setname": "Champion of Streetwise Boxing",
+            "level": 15,
+            "type": "54",
+            "rarity": "5",
+            "mainstat": 2,
+            "actualtype": "4",
+            "substats": [
+                {
+                    "id": 4,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 6,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 9,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 12,
+                    "cnt": 3,
+                    "step": 5
+                }
+            ]
+        },
+        "Planar_Sphere": {
+            "setid": 311,
+            "setname": "Firmament Frontline: Glamoth",
+            "level": 15,
+            "type": "55",
+            "rarity": "5",
+            "mainstat": 2,
+            "actualtype": "5",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 2,
+                    "cnt": 1,
+                    "step": null
+                },
+                {
+                    "id": 6,
+                    "cnt": 1,
+                    "step": null
+                },
+                {
+                    "id": 11,
+                    "cnt": 4,
+                    "step": 4
+                }
+            ]
+        },
+        "Link_Rope": {
+            "setid": 311,
+            "setname": "Firmament Frontline: Glamoth",
+            "level": 15,
+            "type": "56",
+            "rarity": "5",
+            "mainstat": 4,
+            "actualtype": "6",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 3,
+                    "step": 1
+                },
+                {
+                    "id": 4,
+                    "cnt": 2,
+                    "step": 3
+                },
+                {
+                    "id": 9,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 11,
+                    "cnt": 2,
+                    "step": 1
+                }
+            ]
+        }
+    }
+}
