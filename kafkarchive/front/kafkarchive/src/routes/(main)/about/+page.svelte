@@ -36,7 +36,7 @@
 		<p>
 		<a href="https://github.com/Ranviee0" class="walloftextlink">Ranvie</a> | Programming tech support. Without him, I wouldn't be able to do programming at all. <br>
 
-		<a href="https://github.com/ModelZ" class="walloftextlink">ModelZ</a> | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, velit! <br>
+		<a href="https://github.com/ModelZ" class="walloftextlink">ModelZ</a> | insert text here later please dont forget <br>
 		
 		<a href="https://github.com/Algoinde" class="walloftextlink">Algoinde</a> | For making Enka.Network and helping me sometimes <br>
 		
