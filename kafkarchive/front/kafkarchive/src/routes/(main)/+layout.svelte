@@ -1,23 +1,12 @@
 <script>
-
     
     import sitelogo from '$lib/assets/logo2.png';
-
+    
     export let searchcontent = "";
-    export let sitetheme = "dark";
+    
 
     
 </script>
-
-<svelte:head>
-    {#if sitetheme == "dark"}
-        <link rel="stylesheet" href="/themes/dark.css">
-    {:else if sitetheme == "light"}
-        <link rel="stylesheet" href="/themes/light.css">
-    {:else}
-        <link rel="stylesheet" href="/themes/dark.css">
-    {/if}
-</svelte:head>
 
 
 <header class="top">
@@ -44,6 +33,7 @@
         <p class="bottomtext">Copyright © 2025 Kafkarchive | <a href="https://www.youtube.com/@KiryuuinNFB/featured" target="_blank" class="bottomtextlink">NFB Production</a></p>
         <a class="bottomtextlink" href="/privacy">Privacy Policy</a>
         <p class="bottomtext">Powered by <a href="https://enka.network/?hsr" target="_blank" class="bottomtextlink">Enka.Network</a></p>
+        <a class="bottomtextlink" href="/settings">Settings</a>
         <p class="bottomtext">kafka please hug me</p>
     </div>
     <div class="bottominfo1">

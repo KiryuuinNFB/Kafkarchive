@@ -23,7 +23,7 @@
             <div class="loginformlists">
                 <input bind:value={username} placeholder="Username" class="loginform">
                 <input bind:value={email} placeholder="Email" class="loginform">
-                <input bind:value={password} placeholder="Password" class="loginform">
+                <input bind:value={password} placeholder="Password" type="password" class="loginform">
             </div>
             <button on:click={login} class="loginsubmit">Sign up</button>
             <a href="/login" class="register">I already have an account</a>
