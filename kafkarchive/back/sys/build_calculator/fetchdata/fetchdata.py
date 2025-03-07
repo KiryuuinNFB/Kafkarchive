@@ -3,8 +3,7 @@ import enka
 retry = "y"
 
 async def fetch(userid) -> None:
-    async with enka.HSRClient(headers=({"Kiryuuin":"school project website lmao"})) as client:
-        
+    async with enka.HSRClient(headers=({"Kiryuuin":"kafkarchive"})) as client:
 
         try:
             fetched = await client.fetch_showcase(userid)

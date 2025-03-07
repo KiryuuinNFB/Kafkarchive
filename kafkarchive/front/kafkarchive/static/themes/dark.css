@@ -47,7 +47,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #672e49;
     padding: 5px;
 }
 
@@ -348,4 +347,118 @@ body {
 
 .register:hover {
     color: #d4a028;
+}
+
+.settingsbox {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #411c2d;
+    width: 400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.settingsselect {
+    margin: 20px;
+    width: 50%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #2e1a23;
+    font-family: Sarabun, Arial;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    border: 4px solid #1f0e16;
+    color: white;
+}
+
+.settingsselect:focus {
+    border: 4px solid #d4a028;
+}
+
+.settingsmenu {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.calculatorbox {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.resultbox {
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    transition: 0.3s;
+    background-color: #672e49;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.charbig {
+    width: 30vw;
+}
+
+.charsmol {
+    width: 5vw;
+}
+
+.calcselect {
+    margin: 10px;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #2e1a23;
+    font-family: Sarabun, Arial;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    border: 4px solid #1f0e16;
+    color: white;
+}
+
+.calcselect:focus {
+    border: 4px solid #d4a028;
+}
+
+.calcblock {
+    border-radius: 10px;
+    background-color: #672e49;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultblock {
+    border-radius: 10px;
+    background-color: #672e49;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagewindow {
+    margin: 5px;
+    width: 100%;
+    height: 100% ;
 }

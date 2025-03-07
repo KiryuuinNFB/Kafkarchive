@@ -349,3 +349,39 @@ body {
 .register:hover {
     color: #fbea7f;
 }
+
+.settingsbox {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #b3a2bb;
+    width: 400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.settingsselect {
+    margin: 20px;
+    width: 50%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #d9cad7;
+    font-family: Sarabun, Arial;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    border: 4px solid #655673;
+    color: #3e2e43;
+}
+
+.settingsselect:focus {
+    border: 4px solid #fbea7f;
+}
+
+.settingsmenu {
+    display: flex;
+    display: inline;
+}
