@@ -29,9 +29,9 @@
         
 		<h1 class="topic">{res}</h1>
         <p class="walloftext">{numb1}</p>
-        <form>
-            <input bind:value={numb1} placeholder="num1">
-            <input bind:value={numb2} placeholder="num2">
+        <form class="content">
+            <input class="calcselect" bind:value={numb1} placeholder="num1">
+            <input class="calcselect" bind:value={numb2} placeholder="num2">
             <button on:click={postnum}>submit</button>
         </form>
 	</div>

@@ -405,7 +405,6 @@ body {
     flex-direction: row;
     border-radius: 20px;
     transition: 0.3s;
-    background-color: #672e49;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 2%;
@@ -413,7 +412,7 @@ body {
 }
 
 .charbig {
-    width: 30vw;
+    width: 25vw;
 }
 
 .charsmol {
@@ -439,6 +438,7 @@ body {
 }
 
 .calcblock {
+    line-height: 10%;
     border-radius: 10px;
     background-color: #672e49;
     padding: 20px;
@@ -450,6 +450,9 @@ body {
 }
 
 .resultblock {
+    line-height: 60%;
+    padding: 20px;
+    margin: 10px;
     border-radius: 10px;
     background-color: #672e49;
     display: flex;

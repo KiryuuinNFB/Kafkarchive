@@ -18,7 +18,7 @@
     
     <div class="buttons">
         <a class="top-button" href="/builds">Builds</a>
-        <a class="top-button" href="/calculator">Calculator</a>
+        <a class="top-button" href="/calculatormockup">Calculator</a>
         <a class="top-button" href="/about">About</a>
         <a class="top-button" href="https://www.youtube.com/watch?v=GtL1huin9EE">Post</a>
         <a class="top-button" href="/login">Login</a>
