@@ -1,4 +1,4 @@
-from build_calculator.amogusMK2.amogusMK2 import *
+from amogus import *
 import json
 import asyncio
 

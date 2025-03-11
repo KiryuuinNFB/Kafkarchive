@@ -1,5 +1,5 @@
 
-from .amogus import *
+from .amogusMK2 import *
 from .ligma import *
 
 import asyncio

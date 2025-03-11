@@ -1,6 +1,6 @@
 import json
 
-directory = R"build_calculator\amogus\jsonsdata"
+directory = R"build_calculator\amogusMK2\jsonsdata"
     
 #pulling data
 
