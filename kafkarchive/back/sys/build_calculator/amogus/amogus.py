@@ -51,6 +51,12 @@ async def amogus_relic_database():
     relicset = response
     return relicset
 
+async def amogus_hakushin_chars_database(id):
+    with open(Rf"{directory}\avatarhk.json", 'r', encoding="utf8") as f:
+        response = json.load(f)
+    avtrdict = response[str(id)]
+    return avtrdict
+
 async def amogus_hsrmap_chars_database(id):
     with open(Rf"{directory}\chars.json", 'r', encoding="utf8") as f:
         response = json.load(f)
@@ -173,15 +179,26 @@ async def amogus_get_relic_sub_from_subaffix(rarity, id, cnt, step):
 
 async def amogus_get_trace_val_from_id(traceid):
     charid = str(traceid)[0:4]
+    chardict1 = await amogus_chars_database(charid)
+    chardict2 = await amogus_hakushin_chars_database(charid)
 
-    chardict = await amogus_hsrmap_chars_database(charid)
+    trace_anchor_point = chardict1["data"]["traces"]["subSkills"][str(traceid)]["pointPosition"]
+    status_add = chardict2["SkillTrees"][trace_anchor_point]["1"]["StatusAddList"][0]
+    indivi_trace = dict(TYPE = status_add["PropertyType"],
+                        VALUE = status_add["Value"])
+    
+    return indivi_trace
+
+    #chardict = await amogus_hsrmap_chars_database(charid)
     #print(json.dumps(chardict, indent=4, sort_keys=False))
-    for traces in chardict["tree"]:
+    """
+    for traces in chardict["traces"]:
         if traces["id"] == str(traceid):
             indivi_trace = dict(TYPE = traces["status"][0]["PropertyType"],
                                 VALUE = traces["status"][0]["Value"])
 
     return indivi_trace
+    """
 
 async def amogus_get_relic_bonus_from_id_and_count(relicid, count):
     relic = await amogus_relic_database()

@@ -18,6 +18,11 @@ directory = R"img"
 simple updaters
 """
 
+async def simple_pull():
+    response = requests.get(f"{hakushinapi}/en/character/1005.json")
+    with open("1005.json", 'w', encoding='utf-8') as f:
+        json.dump(response.json(), f, ensure_ascii=False, indent=4)
+
 async def update_stats():
     print("updating stats.json")
     response = requests.get(f"{hsrmapapi}stats.json")
@@ -60,13 +65,20 @@ async def get_avatar_info(id):
     response = requests.get(f"{yattaapi}avatar/{id}")
     return response.json()
 
+async def get_hakushin_avatar_info(id):
+    response = requests.get(f"{hakushinapi}/en/character/{id}.json")
+    return response.json()
+
 async def update_avatar():
-    print("updating avatar.json")
+    print("updating avatar.json and avatarhk.json")
     avtr_dict = dict()
+    avtr_hk_dict = dict()
     id_lists = await get_all_avtr_id()
     for ids in id_lists:
         avtrinfo = await get_avatar_info(ids)
+        avtrhkinfo = await get_hakushin_avatar_info(ids)
         avtr_dict.update({ids : avtrinfo})
+        avtr_hk_dict.update({ids : avtrhkinfo})
         if avtrinfo.get("response") == None:
             print(f"character with id {ids} not found")
         else:
@@ -74,6 +86,9 @@ async def update_avatar():
     with open("avatar.json", 'w', encoding='utf-8') as f:
         json.dump(avtr_dict, f, ensure_ascii=False, indent=4)
         print("Successfully updated avatar.json")
+    with open("avatarhk.json", 'w', encoding='utf-8') as f:
+        json.dump(avtr_hk_dict, f, ensure_ascii=False, indent=4)
+        print("Successfully updated avatarhk.json")
 
 """
 chars hsrmap updater
@@ -247,12 +262,12 @@ async def hakushin_get_all_avtr_id():
 
 async def update_all_data() -> None:
     await update_avatar()
-    await update_light_cone()
-    await update_all_char_icons()
-    await update_all_lc_icons()
-    await update_all_relic_icons()
+    ##await update_all_char_icons()
+    #await update_all_lc_icons()
+    #await update_all_relic_icons()
 
-asyncio.run(update_all_data()) 
+asyncio.run(update_all_data())
+#asyncio.run(simple_pull()) 
 """
 this file updates the json files
 """
