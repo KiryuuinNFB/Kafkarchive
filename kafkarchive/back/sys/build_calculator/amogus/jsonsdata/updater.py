@@ -4,6 +4,10 @@ import requests
 import asyncio
 
 yattaapi = "https://sr.yatta.moe/api/v2/en/"
+yattaimgapi = "https://sr.yatta.moe/hsr/assets/UI/"
+hakushinapi = "https://api.hakush.in/hsr/data/"
+
+
 hsrmapapi = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/en/"
 hsrmapapishort = "https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/"
 hsrimgapi = "https://raw.githubusercontent.com/FortOfFans/HSR/main"
@@ -46,14 +50,10 @@ chars updater
 """
 
 async def get_all_avtr_id():
-    response = requests.get(f"{hsrmapapi}avatar.json")
+    response = requests.get(f"{hakushinapi}character.json")
     id_lists = list(())
     for ids in response.json():
-        
-        if ids != "maxLevels":
-            id_lists.append(ids)
-        else:
-            pass
+        id_lists.append(ids)
     return id_lists
 
 async def get_avatar_info(id):
@@ -90,10 +90,10 @@ light cone updater
 """
 
 async def get_all_lc_id():
-    response = requests.get(f"{hsrmapapi}weapons.json")
+    response = requests.get(f"{hakushinapi}lightcone.json")
     id_lists = list(())
     for ids in response.json():
-            id_lists.append(ids)
+        id_lists.append(ids)
     return id_lists
 
 async def get_lc_info(id):
@@ -121,17 +121,19 @@ async def update_lcs():
         json.dump(response.json(), f, ensure_ascii=False, indent=4)
         print("Successfully updated weapons.json")
 
+        
+
 """
 image stuff
 """
 
 async def char_icon(id):
-    response = requests.get(f"{hsrimgapi}/spriteoutput/avatarroundicon/avatar/{id}.png")
+    response = requests.get(f"{yattaimgapi}/avatar/{id}.png")
     with open(Rf"{directory}\chars\{id}.png", 'wb') as f:
         f.write(response.content)
 
 async def char_big(id):
-    response = requests.get(f"{hsrimgapi}/spriteoutput/avatardrawcard/{id}.png")
+    response = requests.get(f"{yattaimgapi}/avatar/large/{id}.png")
     with open(Rf"{directory}\charbig\{id}.png", 'wb') as f:
         f.write(response.content)
 
@@ -144,8 +146,13 @@ async def update_all_char_icons():
     print("Successfully updated character images")
 
 async def lc_icon(id):
-    response = requests.get(f"{hsrimgapi}/spriteoutput/lightconemediumicon/{id}.png")
+    response = requests.get(f"{yattaimgapi}/equipment/medium/{id}.png")
     with open(Rf"{directory}\lightcones\{id}.png", 'wb') as f:
+        f.write(response.content)
+
+async def lc_bg(id):
+    response = requests.get(f"{yattaimgapi}/equipment/large/{id}.png")
+    with open(Rf"{directory}\lightconebg\{id}.png", 'wb') as f:
         f.write(response.content)
 
 async def update_all_lc_icons():
@@ -153,26 +160,30 @@ async def update_all_lc_icons():
     for ids in id_lists:
         print(f"updating {ids}.png")
         await lc_icon(ids)
+        await lc_bg(ids)
     print("Successfully updated light cone images")
 
 async def get_all_relic_setid():
-    with open(Rf"relicsets.json", 'r', encoding="utf8") as f:
-        response = json.load(f)
+    response = requests.get(f"{hakushinapi}relicset.json")
     id_lists = list(())
-    for ids in response:
+    for ids in response.json():
         id_lists.append(ids)
     return id_lists
 
 async def relic_icon(ids,relictype):
-    response = requests.get(f"{hsrimgapi}/spriteoutput/relicfigures/IconRelic_{ids}_{relictype}.png")
+    response = requests.get(f"{yattaimgapi}/relic/IconRelic_{ids}_{relictype}.png")
     with open(Rf"{directory}\relics\IconRelic_{ids}_{relictype}.png", 'wb') as f:
         f.write(response.content)
 
+async def check_if_relic_is_planar(id):
+    response = requests.get(f"{yattaapi}relic")
+    data = response.json()
+    return data["data"]["items"][str(id)]["isPlanarSuit"]
+
 async def update_all_relic_icons():
-    with open(Rf"relicsets.json", 'r', encoding="utf8") as f:
-        response = json.load(f)
+    response = await get_all_relic_setid()
     for relics in response:
-        if response[relics]["planarSet"] == False:
+        if await check_if_relic_is_planar(relics) == False:
             for relictype in range(1,5):
                 await relic_icon(relics, relictype)
                 print(f"updating IconRelic_{relics}_{relictype}.png")
@@ -188,7 +199,7 @@ please fix
 get 1-4 or 5-6 from set id
 
 """
-
+"""
 async def alljson() -> None:
     await update_avatar()
     print("Loading...")
@@ -221,8 +232,27 @@ async def allimg() -> None:
     print("Loading...")
     time.sleep(60)
     await update_all_char_icons()
-asyncio.run(allimg())
 
+async def hakushin_get_all_avtr_id():
+    response = requests.get(f"{hakushinapi}character.json")
+    id_lists = list(())
+    for ids in response.json():
+        id_lists.append(ids)
+    print(id_lists)
+
+"""
+
+#asyncio.run(check_if_relic_is_planar(101))
+#asyncio.run(allimg())
+
+async def update_all_data() -> None:
+    await update_avatar()
+    await update_light_cone()
+    await update_all_char_icons()
+    await update_all_lc_icons()
+    await update_all_relic_icons()
+
+asyncio.run(update_all_data()) 
 """
 this file updates the json files
 """
