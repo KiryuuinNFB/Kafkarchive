@@ -21,8 +21,8 @@ async def fetch(userid) -> None:
             chardict = dict(id = char.id,
                             name = char.name,
                             level = char.level,
-                            ascension = char.ascension
-                            )
+                            ascension = char.ascension)
+            
             important_char_info.update({"Character": chardict})
 
             lc = char.light_cone

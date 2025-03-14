@@ -143,7 +143,7 @@ get_lightcone_data_types = "datatypes : name, icon, shortIcon, rarity, weaponTyp
 async def get_lightcone_data(datatype: str):
     return await forward_amogus_get_lc_data(datatype)
 
-img_path = R"build_calculator\amogus\jsonsdata\img"
+img_path = R"build_calculator\amogusMK2\jsonsdata\img"
 
 @app.get("/img/char/{id}")
 async def get_char_img(id):
