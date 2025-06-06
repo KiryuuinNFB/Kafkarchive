@@ -214,7 +214,7 @@ please fix
 get 1-4 or 5-6 from set id
 
 """
-"""
+
 async def alljson() -> None:
     await update_avatar()
     print("Loading...")
@@ -255,13 +255,13 @@ async def hakushin_get_all_avtr_id():
         id_lists.append(ids)
     print(id_lists)
 
-"""
+
 
 #asyncio.run(check_if_relic_is_planar(101))
 #asyncio.run(allimg())
 
 async def update_all_data() -> None:
-    await update_avatar()
+    await alljson()
     ##await update_all_char_icons()
     #await update_all_lc_icons()
     #await update_all_relic_icons()

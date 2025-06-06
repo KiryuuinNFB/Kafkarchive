@@ -14401,6 +14401,42 @@
             }
         }
     },
+    "21053": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
+    "21054": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
+    "21055": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
+    "21056": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
+    "21057": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
+    "21058": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
+    "21060": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
+    "21061": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
+    "21062": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
     "22000": {
         "response": 200,
         "data": {
@@ -15187,8 +15223,195 @@
         }
     },
     "22004": {
-        "code": 404,
-        "data": "Data Not Found!"
+        "response": 200,
+        "data": {
+            "id": 22004,
+            "name": "The Great Cosmic Enterprise",
+            "rank": 4,
+            "types": {
+                "pathType": {
+                    "id": "Mage",
+                    "name": "Erudition"
+                }
+            },
+            "icon": "22004",
+            "isSellable": false,
+            "route": "The Great Cosmic Enterprise",
+            "description": "In a virtual exhibition hall sculpted from data, the exhibition representatives exchanged opinions.\\nTwo figures moved between the booths, delivering everything needed by each party.\\n\\n<i>\"Hmm, are you...?\"</i>\\n<i>\"I've seen you on TV.\"</i>\\nThey talked about games, food, each other's morphologies, and all the beautiful things in the universe.\\nThough their meetings were few and far between, they were as close as old friends—\\n\\n<i>\"By the way, have you thought about my proposal...\"</i>\\n<i>\"The Express is not for sale!\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 4000,
+                        "115001": 5
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 43.2,
+                        "attackBase": 21.6,
+                        "defenceBase": 15
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.25
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 8000,
+                        "110201": 3,
+                        "115001": 10
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 95.04,
+                        "attackBase": 47.52,
+                        "defenceBase": 33
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.25
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 16000,
+                        "110202": 3,
+                        "115002": 6
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 164.16,
+                        "attackBase": 82.08,
+                        "defenceBase": 57
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.25
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 40000,
+                        "110202": 6,
+                        "115002": 9
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 233.28,
+                        "attackBase": 116.64,
+                        "defenceBase": 81
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.25
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 80000,
+                        "110203": 4,
+                        "115003": 5
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 302.4,
+                        "attackBase": 151.2,
+                        "defenceBase": 105
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.25
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 160000,
+                        "110203": 8,
+                        "115003": 7
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 371.52,
+                        "attackBase": 185.76,
+                        "defenceBase": 129
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.25
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 440.64,
+                        "attackBase": 220.32,
+                        "defenceBase": 153
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 2.25
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Mutual Benefit",
+                "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. For every 1 different Weakness Type an enemy target has, increases the DMG dealt to it by the wearer by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Up to a max of 7 Weakness Types can be taken into account for this effect.",
+                "params": {
+                    "1": [
+                        0.08,
+                        0.1,
+                        0.12,
+                        0.14,
+                        0.16
+                    ],
+                    "2": [
+                        0.04,
+                        0.05,
+                        0.06,
+                        0.07,
+                        0.08
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110201": 2,
+                "110202": 3,
+                "110203": 4,
+                "115001": 2,
+                "115002": 3,
+                "115003": 4
+            }
+        }
     },
     "23000": {
         "response": 200,
@@ -23072,7 +23295,7 @@
             "icon": "23038",
             "isSellable": false,
             "route": "If Time Were a Flower",
-            "description": "<i>\"Mama, I want to hear another story!\"\\n\\n\"My sweet girl, how about we talk about time today?\"\\n\\n\"Time... what is it?\"\\n\\n\"Time, my dear, is like a flower.\"\\n\\n\"Like the dandelions blooming in the fields?\"\\n\\n\"Yes, just like dandelions. Time grows, blossoms, and bears fruit. We call its petals 'moments.'\"\\n\\n\"And then what happens?\"\\n\\n\"Then, it withers into a thousand pieces, leaving seeds that drift everywhere...\"\\n\\n\"Mama, does that mean it becomes the 'future'?\"\\n\\n\"Guess what it turns into after that?\"\\n\\n\"It turns into so many flowers, blooming into a vibrant sea of blossoms, right?\"</i>\\n\\nThe mother didn't have time to answer as the sunlight from the window warmed the girl's face. That gentle figure vanished once more into her dream.\\nShe opened her eyes—\\n<i>\"If time were a flower...\"</i> she murmured.\\n<i>\"It would surely become a sea of flowers,\"</i> said the serene girl.\\n<i>\"Of course it would!\"</i> Exclaimed the playful girl, cheering at her masterpiece.",
+            "description": "<i>\"Mama, I want to hear another story!\"\\n\\n\"My sweet girl, how about a story about time?\"\\n\\n\"Time... what is it?\"\\n\\n\"Time, my dear, is like a flower.\"\\n\\n\"Like the dandelions blooming in the fields?\"\\n\\n\"Yes, just like dandelions. Time grows, blossoms, and bears fruit. We call its petals 'moments.'\"\\n\\n\"And then what happens?\"\\n\\n\"Then, it withers into a thousand pieces, leaving seeds that drift everywhere...\"\\n\\n\"Mama, does that mean it becomes the 'future'?\"\\n\\n\"Guess what it turns into after that?\"\\n\\n\"It turns into so many flowers, blooming into a vibrant sea of blossoms, right?\"</i>\\n\\nThe mother didn't have time to answer as the sunlight from the window warmed the girl's face. That gentle figure vanished once more into her dream.\\nShe opened her eyes—\\n<i>\"If time were a flower...\"</i> she murmured.\\n<i>\"It would surely become a sea of flowers,\"</i> said the serene girl.\\n<i>\"Of course it would!\"</i> Exclaimed the playful girl, cheering at her masterpiece.",
             "upgrade": [
                 {
                     "level": 0,
@@ -23496,10 +23719,876 @@
         }
     },
     "23040": {
+        "response": 200,
+        "data": {
+            "id": 23040,
+            "name": "Make Farewells More Beautiful",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Memory",
+                    "name": "Remembrance"
+                }
+            },
+            "icon": "23040",
+            "isSellable": false,
+            "route": "Make Farewells More Beautiful",
+            "description": "Another farewell ceremony was underway.\\nA young girl, stepping on broken moonlight, wove a garland of parting by the riverbank.\\n\\nAncient laments crystallized in the cold air, while the quiet river flowed into a distant land of blossoms.\\nBlood-stained scrolls, rusted long swords, handkerchiefs embroidered with poetry... She accepted their remains, along with the tales of their lives.\\n\\n<i>\"My eyes are like lenses, forever longing for the starry sky.\"</i>\\n—An epitaph dedicated to the departed scholar.\\n<i>\"For life and for death, the knight grants only a cold glance.\"</i>\\n—The maxim that the nameless warrior upheld all his life.\\n<i>\"Life is nothing but death, aglow with shimmering light.\"</i>\\n—The final verse penned by the eternal-seeking poet with his life.\\n...\\n\\n<i>\"Every flower once bloomed with pride...\"</i>\\nAccompanied by the river's soft lament, she offered the departed poems, garlands, and remembrances—\\n<i>\"If withering is inevitable, at least let our farewell be... a little more beautiful.\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "115011": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 57.6,
+                        "attackBase": 24,
+                        "defenceBase": 18
+                    },
+                    "skillAdd": {
+                        "hPAdd": 8.64,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110251": 4,
+                        "115011": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 126.72,
+                        "attackBase": 52.8,
+                        "defenceBase": 39.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 8.64,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110252": 4,
+                        "115012": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 218.88,
+                        "attackBase": 91.2,
+                        "defenceBase": 68.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 8.64,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110252": 8,
+                        "115012": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 311.04,
+                        "attackBase": 129.6,
+                        "defenceBase": 97.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 8.64,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110253": 5,
+                        "115013": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 403.2,
+                        "attackBase": 168,
+                        "defenceBase": 126
+                    },
+                    "skillAdd": {
+                        "hPAdd": 8.64,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110253": 10,
+                        "115013": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 495.36,
+                        "attackBase": 206.4,
+                        "defenceBase": 154.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 8.64,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 2.7
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 587.52,
+                        "attackBase": 244.8,
+                        "defenceBase": 183.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 8.64,
+                        "attackAdd": 3.6,
+                        "defenceAdd": 2.7
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Engrave",
+                "description": "Increases the wearer's Max HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer or their memosprite loses HP during their own turn, the wearer gains \"Death Flower.\" \"Death Flower\" allows the wearer and their memosprite to ignore <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the target's DEF when dealing DMG, lasting for <unbreak>#3[i]</unbreak> turn(s).\\nWhen the wearer's memosprite disappears, advances the wearer's action by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. This effect can only trigger up to 1 time, and the trigger count resets every time the wearer uses Ultimate.",
+                "params": {
+                    "1": [
+                        0.3,
+                        0.375,
+                        0.45,
+                        0.525,
+                        0.6
+                    ],
+                    "2": [
+                        0.3,
+                        0.35,
+                        0.4,
+                        0.45,
+                        0.5
+                    ],
+                    "3": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "4": [
+                        0.12,
+                        0.15,
+                        0.18,
+                        0.21,
+                        0.24
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110251": 2,
+                "110252": 3,
+                "110253": 4,
+                "115011": 2,
+                "115012": 3,
+                "115013": 4
+            }
+        }
+    },
+    "23041": {
+        "response": 200,
+        "data": {
+            "id": 23041,
+            "name": "Life Should Be Cast to Flames",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Mage",
+                    "name": "Erudition"
+                }
+            },
+            "icon": "23041",
+            "isSellable": false,
+            "route": "Life Should Be Cast to Flames",
+            "description": "In that hidden experiment, various illusions constantly surged forward, pulling at his steps.\\n\\nThe seductive whispers beckoned him to give up on that treacherous topic, for what reason was there to gamble his life?\\nThe cold, threatening voice declared that those who walk the edge of life and death will ultimately burn their lives away.\\nThen there were the angry accusations, shouting to cast the blasphemer — the one who had desecrated the gods — into an execution grounds most cruel.\\n\\n<i>\"The performance of life, too, must eventually reach the curtain call.\"</i>\\n\\nHe closed his eyes, grasped the divine flame, and let the pain drown his fading soul.\\nFirst, his resolute gaze. Then, his beating heart. The complete soul... He threw himself willingly into that most pure and intense flame to be used for the smelting—\\n\\nThe voices bubbled and then became silent.\\nIn the darkness, the brilliant truth began to take shape in his hands.",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "115011": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 43.2,
+                        "attackBase": 26.4,
+                        "defenceBase": 24
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110201": 4,
+                        "115011": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 95.04,
+                        "attackBase": 58.08,
+                        "defenceBase": 52.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110202": 4,
+                        "115012": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 164.16,
+                        "attackBase": 100.32,
+                        "defenceBase": 91.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110202": 8,
+                        "115012": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 233.28,
+                        "attackBase": 142.56,
+                        "defenceBase": 129.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110203": 5,
+                        "115013": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 302.4,
+                        "attackBase": 184.8,
+                        "defenceBase": 168
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110203": 10,
+                        "115013": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 371.52,
+                        "attackBase": 227.04,
+                        "defenceBase": 206.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 440.64,
+                        "attackBase": 269.28,
+                        "defenceBase": 244.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Smelt",
+                "description": "When the wearer's turn starts, regenerates <unbreak>#5[i]</unbreak> Energy. If the enemy target has a Weakness implanted by the wearer, increases the wearer's DMG dealt to it by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.\\nWhen an enemy target gets attacked by the wearer, the wearer decreases the target's DEF by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#4[i]</unbreak> turn(s). The same types of effects cannot stack.",
+                "params": {
+                    "1": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "2": [
+                        0.12,
+                        0.15,
+                        0.18,
+                        0.21,
+                        0.24
+                    ],
+                    "3": [
+                        0.6,
+                        0.7,
+                        0.8,
+                        0.9,
+                        1
+                    ],
+                    "4": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "5": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110201": 2,
+                "110202": 3,
+                "110203": 4,
+                "115011": 2,
+                "115012": 3,
+                "115013": 4
+            }
+        }
+    },
+    "23042": {
+        "response": 200,
+        "data": {
+            "id": 23042,
+            "name": "Long May Rainbows Adorn the Sky",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Memory",
+                    "name": "Remembrance"
+                }
+            },
+            "icon": "23042",
+            "isSellable": false,
+            "route": "Long May Rainbows Adorn the Sky",
+            "description": "<i>\"Emotions are like clouds, and we are the sky that carries them. If the sky is overcast, then our emotions will fluctuate all over.\"</i>\\nThe physician listens with care to the visitor's sorrows, offering words of gentle solace.\\n<i>\"Please close your eyes and breathe slowly... Imagine yourself in a warm and soft place...\"</i>\\n\\nAs if infused with magic, a seven-colored rainbow radiance spills from beneath the wings of the winged beast.\\n<i>\"A breeze would drift across the plains, carrying the fragrance of wildflowers. Moist clouds would pass by, laden with sunlight...\"</i>\\nThe visitor gradually sinks into a peaceful dream, responding only with the quiet rhythm of steady breaths.\\n\\nAfter seeing the last patient, the physician gently closes the door of the ward.\\n\\nIn the distance, the boundless evernight still surges, with many ruins standing like the scars of the earth.\\n\\n<i>\"In the next life, may dawn shine upon all...\"</i>\\nBefore departing, she makes a wish to the sky —\\n<i>\"May the rainbow-colored light remains in the sky forever.\"</i>",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "115001": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 52.8,
+                        "attackBase": 21.6,
+                        "defenceBase": 24
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110251": 4,
+                        "115001": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 116.16,
+                        "attackBase": 47.52,
+                        "defenceBase": 52.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110252": 4,
+                        "115002": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 200.64,
+                        "attackBase": 82.08,
+                        "defenceBase": 91.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110252": 8,
+                        "115002": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 285.12,
+                        "attackBase": 116.64,
+                        "defenceBase": 129.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110253": 5,
+                        "115003": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 369.6,
+                        "attackBase": 151.2,
+                        "defenceBase": 168
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110253": 10,
+                        "115003": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 454.08,
+                        "attackBase": 185.76,
+                        "defenceBase": 206.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 538.56,
+                        "attackBase": 220.32,
+                        "defenceBase": 244.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 7.92,
+                        "attackAdd": 3.24,
+                        "defenceAdd": 3.6
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Tolerant",
+                "description": "Increases the wearer's SPD by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies' HP equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of their current HP and additionally deals 1 instance of Additional DMG of the wearer's memosprite Type equal to <color=#f29e38ff><unbreak>#6[f1]%</unbreak></color> of the total consumed HP to the attacked target after the next attack launched by the wearer's memosprite. The total HP consumed is then reset. When the wearer's memosprite uses Memosprite Skill, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> for <unbreak>#5[i]</unbreak> turn(s). The same types of effects cannot stack.",
+                "params": {
+                    "1": [
+                        0.18,
+                        0.21,
+                        0.24,
+                        0.27,
+                        0.3
+                    ],
+                    "2": [
+                        0.01,
+                        0.0125,
+                        0.015,
+                        0.0175,
+                        0.02
+                    ],
+                    "3": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "4": [
+                        0.18,
+                        0.225,
+                        0.27,
+                        0.315,
+                        0.36
+                    ],
+                    "5": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "6": [
+                        2.5,
+                        3.125,
+                        3.75,
+                        4.375,
+                        5
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110251": 2,
+                "110252": 3,
+                "110253": 4,
+                "115001": 2,
+                "115002": 3,
+                "115003": 4
+            }
+        }
+    },
+    "23043": {
+        "response": 200,
+        "data": {
+            "id": 23043,
+            "name": "Lies Dance on the Breeze",
+            "rank": 5,
+            "types": {
+                "pathType": {
+                    "id": "Warlock",
+                    "name": "Nihility"
+                }
+            },
+            "icon": "23043",
+            "isSellable": false,
+            "route": "Lies Dance on the Breeze",
+            "description": "The cat-eared girl stretches her limbs atop the rooftop, slinking into the night.\\nIn the treasure vault that had slumbered for a thousand years, she glides effortlessly, gathering precious treasures into her embrace before vanishing without a sound.\\n<i>\"Foolish fate could never catch me!\"</i>\\n\\nThe wind through the ruins carries the scent of the wild, rustling her hood.\\nResting her head against the cold stone, she swallows a bite of rough, dry rations, idly tossing a gold coin between her fingers.\\n\\nA faint sound from afar reaches her ears. In that holy city bathed in dawn's light, the bustling crowds still revel in warmth and celebration.\\n<i>\"How much longer... a year, or ten thousand?\"</i>\\n\\nShe stretches with a lazy yawn, casting her restless thoughts aside.\\n<i>\"Hah, Cifera always has the last laugh!\"</i>\\n\\nA golden streak of lightning cuts across the sky, and her proclamation lingers in the wind—\\nJust as it had a thousand years ago.",
+            "upgrade": [
+                {
+                    "level": 0,
+                    "costItems": {
+                        "2": 5000,
+                        "115011": 8
+                    },
+                    "maxLevel": 20,
+                    "playerLevelRequire": 15,
+                    "worldLevelRequire": null,
+                    "skillBase": {
+                        "hPBase": 43.2,
+                        "attackBase": 26.4,
+                        "defenceBase": 24
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 1,
+                    "costItems": {
+                        "2": 10000,
+                        "110221": 4,
+                        "115011": 12
+                    },
+                    "maxLevel": 30,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 1,
+                    "skillBase": {
+                        "hPBase": 95.04,
+                        "attackBase": 58.08,
+                        "defenceBase": 52.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 2,
+                    "costItems": {
+                        "2": 20000,
+                        "110222": 4,
+                        "115012": 8
+                    },
+                    "maxLevel": 40,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 2,
+                    "skillBase": {
+                        "hPBase": 164.16,
+                        "attackBase": 100.32,
+                        "defenceBase": 91.2
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 3,
+                    "costItems": {
+                        "2": 50000,
+                        "110222": 8,
+                        "115012": 12
+                    },
+                    "maxLevel": 50,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 3,
+                    "skillBase": {
+                        "hPBase": 233.28,
+                        "attackBase": 142.56,
+                        "defenceBase": 129.6
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 4,
+                    "costItems": {
+                        "2": 100000,
+                        "110223": 5,
+                        "115013": 6
+                    },
+                    "maxLevel": 60,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 4,
+                    "skillBase": {
+                        "hPBase": 302.4,
+                        "attackBase": 184.8,
+                        "defenceBase": 168
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 5,
+                    "costItems": {
+                        "2": 200000,
+                        "110223": 10,
+                        "115013": 8
+                    },
+                    "maxLevel": 70,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 371.52,
+                        "attackBase": 227.04,
+                        "defenceBase": 206.4
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                },
+                {
+                    "level": 6,
+                    "costItems": null,
+                    "maxLevel": 80,
+                    "playerLevelRequire": null,
+                    "worldLevelRequire": 5,
+                    "skillBase": {
+                        "hPBase": 440.64,
+                        "attackBase": 269.28,
+                        "defenceBase": 244.8
+                    },
+                    "skillAdd": {
+                        "hPAdd": 6.48,
+                        "attackAdd": 3.96,
+                        "defenceAdd": 3.6
+                    }
+                }
+            ],
+            "skill": {
+                "name": "Deceit",
+                "description": "Increases the wearer's SPD by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses an attack, there is a <unbreak>#2[i]%</unbreak> base chance to inflict the \"Bamboozle\" state on every enemy target. While under the \"Bamboozle\" state, enemy target's DEF decreases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> for <unbreak>#4[i]</unbreak> turn(s). If the wearer's SPD is higher than or equal to <unbreak>#7[i]</unbreak>, there is a <unbreak>#5[i]%</unbreak> base chance to inflict the \"Theft\" state on every enemy target. While under the \"Theft\" state, enemy target's DEF decreases by <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> for <unbreak>#4[i]</unbreak> turn(s). When \"Bamboozle\" or \"Theft\" is inflicted repeatedly, only the latest effect inflicted can be active.",
+                "params": {
+                    "1": [
+                        0.18,
+                        0.21,
+                        0.24,
+                        0.27,
+                        0.3
+                    ],
+                    "2": [
+                        1.2,
+                        1.2,
+                        1.2,
+                        1.2,
+                        1.2
+                    ],
+                    "3": [
+                        0.16,
+                        0.18,
+                        0.2,
+                        0.22,
+                        0.24
+                    ],
+                    "4": [
+                        2,
+                        2,
+                        2,
+                        2,
+                        2
+                    ],
+                    "5": [
+                        1.2,
+                        1.2,
+                        1.2,
+                        1.2,
+                        1.2
+                    ],
+                    "6": [
+                        0.08,
+                        0.09,
+                        0.1,
+                        0.11,
+                        0.12
+                    ],
+                    "7": [
+                        170,
+                        170,
+                        170,
+                        170,
+                        170
+                    ]
+                }
+            },
+            "ascension": {
+                "2": 3,
+                "110221": 2,
+                "110222": 3,
+                "110223": 4,
+                "115011": 2,
+                "115012": 3,
+                "115013": 4
+            }
+        }
+    },
+    "23044": {
         "code": 404,
         "data": "Data Not Found!"
     },
-    "23041": {
+    "23045": {
+        "code": 404,
+        "data": "Data Not Found!"
+    },
+    "23046": {
         "code": 404,
         "data": "Data Not Found!"
     },

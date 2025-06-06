@@ -160,6 +160,7 @@ async def amogus_get_relic_main_from_type(type, id, lvl):
     relicmain = await amogus_relicmain_database()
 
     relicmaindict = relicmain[str(type)][id-1]
+    print(relicmaindict)
     reliccalculated = relicmaindict["base"] + (relicmaindict["step"]*lvl)
     relicsummary = dict(TYPE = relicmaindict["property"],
                         VALUE = reliccalculated)

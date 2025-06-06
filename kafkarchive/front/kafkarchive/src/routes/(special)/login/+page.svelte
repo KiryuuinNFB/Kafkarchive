@@ -25,7 +25,6 @@
 				</div>
 				<button on:click={login} class="loginsubmit">Login</button>
 				<a href="/signup" class="register">Create an account</a>
-				
 		</div>
 	</div>
 </body>

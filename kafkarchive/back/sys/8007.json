@@ -1,0 +1,214 @@
+{
+    "Character": {
+        "id": 8007,
+        "name": "Caelus",
+        "level": 80,
+        "ascension": 6
+    },
+    "Light_cone": {
+        "id": 21050,
+        "name": "Victory In a Blink",
+        "level": 80,
+        "ascension": 6,
+        "equipped": true
+    },
+    "Traces_list": [
+        8007201,
+        8007202,
+        8007203,
+        8007205,
+        8007206,
+        8007207,
+        8007208,
+        8007209,
+        8007210
+    ],
+    "Relics": {
+        "Head": {
+            "setid": 121,
+            "setname": "Sacerdos' Relived Ordeal",
+            "level": 15,
+            "type": "51",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "1",
+            "substats": [
+                {
+                    "id": 5,
+                    "cnt": 2,
+                    "step": null
+                },
+                {
+                    "id": 7,
+                    "cnt": 4,
+                    "step": 7
+                },
+                {
+                    "id": 10,
+                    "cnt": 1,
+                    "step": null
+                },
+                {
+                    "id": 12,
+                    "cnt": 1,
+                    "step": null
+                }
+            ]
+        },
+        "Hands": {
+            "setid": 114,
+            "setname": "Messenger Traversing Hackerspace",
+            "level": 15,
+            "type": "52",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "2",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 1,
+                    "step": 1
+                },
+                {
+                    "id": 4,
+                    "cnt": 1,
+                    "step": null
+                },
+                {
+                    "id": 5,
+                    "cnt": 3,
+                    "step": 2
+                },
+                {
+                    "id": 7,
+                    "cnt": 3,
+                    "step": 5
+                }
+            ]
+        },
+        "Body": {
+            "setid": 121,
+            "setname": "Sacerdos' Relived Ordeal",
+            "level": 15,
+            "type": "53",
+            "rarity": "5",
+            "mainstat": 5,
+            "actualtype": "3",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 1,
+                    "step": null
+                },
+                {
+                    "id": 7,
+                    "cnt": 2,
+                    "step": 2
+                },
+                {
+                    "id": 11,
+                    "cnt": 2,
+                    "step": 1
+                },
+                {
+                    "id": 12,
+                    "cnt": 3,
+                    "step": 4
+                }
+            ]
+        },
+        "Feet": {
+            "setid": 114,
+            "setname": "Messenger Traversing Hackerspace",
+            "level": 15,
+            "type": "54",
+            "rarity": "5",
+            "mainstat": 4,
+            "actualtype": "4",
+            "substats": [
+                {
+                    "id": 1,
+                    "cnt": 2,
+                    "step": 1
+                },
+                {
+                    "id": 2,
+                    "cnt": 1,
+                    "step": null
+                },
+                {
+                    "id": 4,
+                    "cnt": 4,
+                    "step": 1
+                },
+                {
+                    "id": 9,
+                    "cnt": 1,
+                    "step": 1
+                }
+            ]
+        },
+        "Planar_Sphere": {
+            "setid": 317,
+            "setname": "Lushaka, the Sunken Seas",
+            "level": 15,
+            "type": "55",
+            "rarity": "5",
+            "mainstat": 1,
+            "actualtype": "5",
+            "substats": [
+                {
+                    "id": 3,
+                    "cnt": 2,
+                    "step": 1
+                },
+                {
+                    "id": 5,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 8,
+                    "cnt": 3,
+                    "step": 2
+                },
+                {
+                    "id": 9,
+                    "cnt": 2,
+                    "step": 2
+                }
+            ]
+        },
+        "Link_Rope": {
+            "setid": 317,
+            "setname": "Lushaka, the Sunken Seas",
+            "level": 15,
+            "type": "56",
+            "rarity": "5",
+            "mainstat": 2,
+            "actualtype": "6",
+            "substats": [
+                {
+                    "id": 3,
+                    "cnt": 2,
+                    "step": 1
+                },
+                {
+                    "id": 4,
+                    "cnt": 1,
+                    "step": 2
+                },
+                {
+                    "id": 6,
+                    "cnt": 3,
+                    "step": 4
+                },
+                {
+                    "id": 9,
+                    "cnt": 3,
+                    "step": 5
+                }
+            ]
+        }
+    }
+}

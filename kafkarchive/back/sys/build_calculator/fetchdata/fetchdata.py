@@ -4,7 +4,7 @@ retry = "y"
 
 async def fetch(userid) -> None:
     async with enka.HSRClient(headers=({"Kiryuuin":"kafkarchive"})) as client:
-
+        #await client.update_assets()
         try:
             fetched = await client.fetch_showcase(userid)
         except enka.errors.PlayerDoesNotExistError:
